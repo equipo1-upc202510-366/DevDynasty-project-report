@@ -765,4 +765,1189 @@ En esta sección se analizan las características comunes identificadas en las e
 - **Objetiva:** Todos los distribuidores utilizan WhatsApp y redes sociales para comunicarse con sus clientes.
 - **Subjetiva:** Hay un sentimiento de que la comunicación actual es insuficiente para gestionar pedidos de gran volumen, lo que indica la necesidad de mejores herramientas de coordinación.
 
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.3. Needfinding
+### 2.3.1. User Personas
+En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
+
+**Segmento Productor Agricola:**  
+
+Las User Personas desarrolladas para AgroControl representan los perfiles más relevantes de los usuarios identificados a partir de un exhaustivo análisis de entrevistas y estudios de la competencia. Estas personas capturan las motivaciones, desafíos, y comportamientos de los productores agrícolas y distribuidores, quienes son los usuarios principales de la plataforma.
+
+<img src="./assets/Chapter-2/UserPerson1.png" alt="Segmento 1 user persona">
+
+**Segmento Distribuidor:**  
+
+El perfil de María Rodríguez, una distribuidora, resalta la necesidad de mejorar la gestión de inventarios y la planificación de entregas, motivada por el deseo de incrementar ventas y optimizar su negocio. Por otro lado, Juan Pérez, un productor agrícola, refleja las preocupaciones de los agricultores en la automatización de procesos como riego y fumigación, buscando reducir costos y mejorar la eficiencia operativa. Ambos perfiles fueron construidos para guiar el diseño del sistema, asegurando que la plataforma AgroControl responda adecuadamente a sus necesidades específicas y se alinee con las mejores prácticas del mercado.
+
+<img src="./assets/Chapter-2/UserPerson2.png" alt="Segmento 2 user persona">
+
+
+### 2.3.2. User Task Matrix
+
+En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Personas realizan para cumplir sus objetivos. Se consideran dos segmentos: productores agrícolas y distribuidores. Las tareas identificadas son realizadas independientemente de la existencia de soluciones de software.
+
+| **Task**                                  | **Productor Agrícola** | 	              | **Distribuidor** |                |
+|-------------------------------------------|------------------------|----------------|------------------|----------------|
+|                                           | **Frequency**          | **Importance** | **Frequency**    | **Importance** |
+| Monitorear el clima                       | High                   | High        	  | Medium           | High           |
+| Comunicar con compradores                 | Medium                 | Medium      	  | Medium           | Medium         |
+| Controlar inventario                      | Low                    | High        	  | High             | High           |
+| Planificar la siembra                     | Medium                 | High        	  | Low              | Medium         |
+| Supervisar el crecimiento de los cultivos | High                   | High        	  | Low              | Medium         |
+| Realizar pedidos a proveedores            | -                      | -           	  | Medium           | High           |
+| Registrar gastos e ingresos               | Medium                 | High        	  | High             | High           |
+| Evaluar el rendimiento de los productos   | Medium                 | Medium      	  | Medium           | Medium         |
+| Gestionar relaciones con proveedores      | Low                    | Medium      	  | High             | High           |
+| Analizar tendencias de ventas             | Low                    | Medium      	  | High             | High           |
+
+### Explicación
+
+Al analizar las tareas identificadas en el User Task Matrix, se pueden resaltar varias observaciones significativas sobre los segmentos de productores agrícolas y distribuidores.
+
+#### Tareas con Mayor Frecuencia e Importancia
+
+1. **Controlar inventario**: Esta tarea es crucial para ambos segmentos, ya que los productores deben asegurarse de tener los insumos necesarios, mientras que los distribuidores necesitan mantener un balance adecuado entre oferta y demanda. La alta importancia en ambas partes resalta la necesidad de una gestión eficiente de los recursos.
+
+2. **Registrar gastos e ingresos**: La contabilidad es vital para evaluar la rentabilidad. Ambos segmentos deben llevar un control riguroso de sus finanzas, lo que subraya la necesidad de herramientas que faciliten este proceso.
+
+3. **Monitorear el clima**: Aunque su frecuencia es alta para los productores y media para los distribuidores, ambos segmentos reconocen que el clima afecta directamente sus operaciones. Esto crea una interconexión en la toma de decisiones que influye en la producción y en la logística de distribución.
+
+#### Principales Diferencias
+
+- **Planificar la siembra**: Esta tarea es de alta importancia para los productores, ya que impacta directamente en la cosecha. En contraste, los distribuidores la consideran menos relevante, pues su enfoque se centra en la comercialización de los productos una vez cosechados.
+
+- **Realizar pedidos a proveedores**: Esta actividad es esencial para los distribuidores, pero no se aplica directamente a los productores, quienes se concentran en el manejo de sus cultivos y la relación con los proveedores de insumos.
+
+#### Coincidencias
+
+Ambos segmentos comparten una necesidad de **gestionar relaciones con proveedores** y **evaluar el rendimiento de los productos**. La gestión eficaz de estas relaciones no solo asegura la calidad de los insumos para los productores, sino que también permite a los distribuidores ofrecer productos competitivos en el mercado. Además, tanto productores como distribuidores muestran interés en **analizar tendencias de ventas**, lo que refleja una orientación hacia la adaptación y la mejora continua en sus respectivas estrategias.
+
+Estas coincidencias y diferencias subrayan la interdependencia entre la producción y la distribución en el sector agrícola, destacando la importancia de desarrollar soluciones que aborden las necesidades específicas de cada segmento, al tiempo que facilitan una colaboración efectiva entre ellos.
+
+### 2.3.3. User Journey Mapping
+
+La sección de User Journey Maps muestra el recorrido completo de los usuarios de AgroControl, abarcando desde el primer contacto con la app hasta su abandono. Este mapeo destaca las acciones, metas, emociones, y problemas experimentados por los productores agrícolas y distribuidores, así como oportunidades para mejorar su experiencia.
+
+
+Para los **Productores Agrícolas**, el journey empieza con el descubrimiento de la app a través de marketing o recomendaciones y avanza hasta su uso para gestionar cultivos. Las emociones varían desde la ansiedad inicial hasta la alegría por mejorar su productividad. Los problemas incluyen dudas sobre los costos y dificultades en la personalización de funciones, lo que sugiere oportunidades como ofrecer pruebas gratuitas y mejorar la capacitación.
+
+**Segmento Productor Agricola:**
+
+<img src="https://github.com/W3bW0rks/project-report/blob/55a0dcd17cfdfe2869f23aa351a051a8642b6550/assets/chapter-2-images/JourneyMapUserPersona1.png?raw=true" alt="Segmento Productor Agricola">
+
+
+El journey de los **Distribuidores** inicia al conocer la app en ferias o a través de socios comerciales. Pasan de la aceptación inicial a la satisfacción al mejorar la gestión de inventarios y entregas, pero pueden experimentar frustración por la falta de funciones avanzadas o personalización. Las oportunidades identificadas incluyen asistentes de configuración y características adaptadas a diferentes tamaños de negocios.
+
+
+**Segmento Distribuidor:**
+
+<img src="https://github.com/W3bW0rks/project-report/blob/55a0dcd17cfdfe2869f23aa351a051a8642b6550/assets/chapter-2-images/JourneyMapUserPersona2.png?raw=true" alt="Segmento Distribuidor">
+
+### 2.3.4. Empathy Mapping
+
+En esta sección se presentan los Empathy Maps para cada User Persona, que ayudan a entender sus experiencias y emociones. Se colocó al User Persona en el centro y se recolectaron observaciones del equipo sobre lo que necesita hacer, dice y siente. También se identificaron sus preocupaciones y cómo nuestra solución puede ayudar. A continuación, se incluyen las capturas de los Empathy Maps realizados.
+
+#### **Segmento Productor Agricola:**  
+Juan Pérez es un productor agrícola que ha trabajado en la agricultura toda su vida, heredando el negocio familiar. Aunque cuenta con experiencia en producción, su conocimiento en tecnología es limitado. Sus objetivos incluyen optimizar procesos agrícolas, mantener un registro detallado de costos y aprovechar la tecnología para supervisar actividades de forma remota. Juan busca mejorar la eficiencia de sus cultivos, reducir costos operativos y contar con informes detallados. Se enfrenta a frustraciones como la falta de información actualizada y problemas de planificación.  
+
+<img src="https://github.com/W3bW0rks/project-report/blob/b19d7523cc2561ed74134142440c2b8ca12f87f1/assets/chapter-2-images/EmpathyMapUserPersona1.png?raw=true" alt="Segmento Productor Agricola">
+    
+#### **Segmento Distribuidor:**  
+María Rodríguez es propietaria de una tienda de insumos agrícolas con experiencia en ventas y distribución. Con estudios en administración, su enfoque es utilizar la tecnología para mejorar la eficiencia de su negocio. Sus metas son automatizar la gestión de inventarios, obtener datos para ajustar estrategias y mantener una comunicación eficaz con proveedores. María está motivada por incrementar ventas, mejorar la satisfacción del cliente y expandir su negocio. Enfrenta retos como la pérdida de ventas por errores en inventario y la falta de visibilidad en tiempo real del mercado.  
+
+<img src="https://github.com/W3bW0rks/project-report/blob/b19d7523cc2561ed74134142440c2b8ca12f87f1/assets/chapter-2-images/EmpathyMapUserPersona2.png?raw=true" alt="Segmento Distribuidor"><br/>  
+
+#### **Proceso de Elaboración:**
+
+1. **Preparación y Enfoque en el User Persona**: Cada mapa comenzó con la identificación del User Persona en el centro:
+- **Juan Pérez**: Productor agrícola en Lima, enfocado en mejorar la gestión de su campo y la adopción de nuevas tecnologías.
+- **Carlos Ramírez**: Distribuidor de insumos agrícolas que busca optimizar la logística de su negocio y satisfacer mejor a sus clientes.  
+
+2. **Captura de Observaciones**:  
+   Para cada User Persona, se recopilaron observaciones del equipo en las secciones del Empathy Map:
+
+    - **¿Con quién estamos empatizando?**:  
+      Juan es un agricultor con desafíos en la gestión eficiente del campo, mientras que Carlos se enfoca en la distribución efectiva de productos agrícolas.
+
+    - **¿Qué necesitan hacer?**:
+        - **Juan**: Gestionar eficientemente el campo, controlar los costos y acceder a herramientas para monitorear los cultivos.
+        - **Carlos**: Mantener el control del inventario, coordinar con clientes y programar entregas de manera eficiente.
+
+    - **¿Qué están viendo?**:
+        - **Juan**: Observa un clima impredecible y una competencia que utiliza tecnología avanzada.
+        - **Carlos**: Percibe una creciente demanda de productos y competencia que optimiza la logística.
+
+    - **¿Qué están escuchando?**:
+        - **Juan**: Escucha consejos de otros productores y preocupaciones sobre la planificación de recursos.
+        - **Carlos**: Recibe comentarios de clientes sobre la rapidez de las entregas y sugerencias de su equipo.
+
+    - **¿Qué están diciendo?**:
+        - **Juan**: Expresa dificultades para obtener datos que guíen sus decisiones agrícolas.
+        - **Carlos**: Habla sobre la necesidad de mejorar el control del inventario y la organización de las entregas.
+
+    - **¿Qué están haciendo?**:
+        - **Juan**: Supervisa el campo y busca formas de reducir costos.
+        - **Carlos**: Supervisa la entrada y salida de productos, negociando y ajustando rutas de entrega.
+
+    - **¿Cómo se sienten y qué piensan?**:
+        - **Juan**: Siente la necesidad de innovar para reducir costos, pero enfrenta ansiedad por la adopción de nuevas tecnologías.
+        - **Carlos**: Siente presión por mejorar la eficiencia y teme perder clientes por problemas logísticos.
+
+3. **Identificación de Pains y Gains**:
+    - **Pains**:
+        - **Juan**: Tiempo limitado y dificultad para centralizar información y optimizar procesos.
+        - **Carlos**: Problemas para mantener un control preciso del inventario y gestionar múltiples pedidos.
+
+    - **Gains**:
+        - **Juan**: Incremento de la productividad y mejora en el uso de los recursos.
+        - **Carlos**: Mejor control del inventario y reducción del estrés operativo.
+
+Estos Empathy Maps proporcionan una guía visual y detallada sobre las necesidades y desafíos de los usuarios, ayudando a AgroControl a desarrollar soluciones más alineadas con sus expectativas y mejorar la experiencia del usuario en la plataforma.
+
+
+### 2.3.5. As-is Scenario Mapping
+
+En esta sección se presentan los As-Is Scenario Maps para cada User Persona, que muestran cómo interactúan actualmente con sus procesos. El equipo siguió un proceso que incluyó preparación, lluvia de ideas individual y revisión. Se identificaron las fases del proceso y se etiquetaron áreas donde se necesita aprender más. A continuación, se incluyen las capturas de los As-Is Scenario Maps elaborados.
+
+### **Segmento Productor Agricola:**  
+El productor agrícola realiza la siembra, riego y fumigación con métodos básicos, reflexionando sobre las condiciones del suelo y el clima. Su principal preocupación es lograr una buena cosecha y distribución, enfrentando frustraciones y estrés por la eficiencia y los costos.  
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-2-images/AsIsScenarioMappingUserPersona1.jpg?raw=true" alt="Segmento 1 user persona">
+
+### **Segmento Distribuidor:**  
+El distribuidor gestiona inventarios y ventas de manera manual, centrando sus esfuerzos en mejorar la eficiencia y satisfacción del cliente. Se enfrenta a desafíos como la rotación de inventario y ajustes en las estrategias de ventas, sintiendo estrés y frustración por la rentabilidad.   
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-2-images/AsIsScenarioMappingUserPersona2.jpg?raw=true" alt="Segmento 2 user persona">
+
+### 2.4. Ubiquitous Language.
+
+En esta sección se presenta un glosario de términos utilizados en el dominio agrícola, con definiciones claras y sin ambigüedades. Este glosario facilita la comunicación entre los miembros del equipo y los stakeholders, asegurando un entendimiento común de los conceptos relevantes al problema y la solución.
+
+| **Term (English)**        | **Término (Español)**        | **Definition (Definición en Español)**                                                                  |
+|---------------------------|------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Crop Management**       | **Gestión de Cultivos**      | Conjunto de prácticas para optimizar el crecimiento, riego, y protección de los cultivos.               |
+| **Inventory Control**     | **Control de Inventario**    | Proceso de monitoreo y regulación de los insumos y productos almacenados para la distribución.          |
+| **Supply Chain**          | **Cadena de Suministro**     | Serie de procesos involucrados en la producción y distribución de productos agrícolas.                  |
+| **Yield Analysis**        | **Análisis de Rendimiento**  | Evaluación de la producción obtenida de los cultivos para optimizar las futuras cosechas.               |
+| **Soil Analysis**         | **Análisis de Suelo**        | Estudio de las propiedades del suelo para determinar su fertilidad y necesidad de insumos.              |
+| **Logistics Management**  | **Gestión Logística**        | Organización y control de las rutas de entrega y transporte de productos agrícolas.                     |
+| **Sustainability**        | **Sostenibilidad**           | Prácticas agrícolas enfocadas en minimizar el impacto ambiental y asegurar la viabilidad a largo plazo. |
+| **Resource Optimization** | **Optimización de Recursos** | Uso eficiente de agua, fertilizantes y mano de obra para maximizar la producción agrícola.              |
+| **Pest Control**          | **Control de Plagas**        | Métodos para prevenir o eliminar plagas que afectan los cultivos, garantizando la salud de las plantas. |
+| **Market Trends**         | **Tendencias del Mercado**   | Análisis de los cambios y patrones de demanda en el sector agrícola para ajustar la producción.         |
+
+
+# Capítulo III: Requirements Specification
+Esta sección está diseñada para permitir al equipo formalizar los requisitos de los productos digitales basándose en el análisis de la información recopilada durante las investigaciones previas. Comienza con una introducción general que contextualiza el proceso de especificación y se divide en To-Be Scenario Mapping, User Stories, Impact Map y Product Backlog.
+Cada una de estas subsecciones contribuye a definir los requisitos de manera clara y estructurada, facilitando el desarrollo del producto conforme a las expectativas y objetivos del proyecto.
+## 3.1. To-Be Scenario Mapping.
+En esta sección se presentan los To-Be Scenario Mapping para cada segmento objetivo donde se reflejarán, a partir de los As-is Scenario Mapping, la experiencia de usuario ideal si se resuelven los puntos de dolor y necesidades. La herramienta empleada para su desarrollo ha sido Miro.
+
+### Segmento 1: Productor agricola  
+El uso de registros detallados en cada fase de producción, desde la siembra hasta la distribución, permite planificar con eficiencia y optimizar el uso de recursos como agua y fertilizantes. Esto no solo mejora la productividad y el control operativo, sino que también reduce el estrés y genera satisfacción al ofrecer una mejor organización y resultados visibles.  
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/Chapter%203/To-Be%20Scenario%20Mapping%20Productores%20Agricola.jpg?raw=true"/>  
+
+### Segmento 2: Distribuidor  
+La plataforma facilita una gestión eficiente del inventario, controlando el stock en tiempo real y mejorando las ventas a través de herramientas de promoción efectivas. Además, el análisis detallado de ventas permite tomar decisiones informadas, superando las expectativas y aumentando la rentabilidad, lo que motiva un uso continuado del sistema.  
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/Chapter%203/To-Be%20Scenario%20Mapping%20Distribuidor.jpg?raw=true"/>
+
+## 3.2. User Stories.
+Redactamos historias de usuarios que nos ayuden a generar funciones del software que estamos desarrollando para los usuarios finales. Las épicas identificadas son: Landing page, Autenticación y perfil de usuario, Funcionalidades del productor agricola, Funcionalidades del distribuidor, Preferencias de la aplicación y Backend API
+
+|Epic / Story ID|Título|Descripción|Criterio de aceptación|Relacionado con (Epic ID)|
+| :- | :- | :- | :- | :- |
+|**Epic 1: Landing page**<br>**Como** visitante<br>**Quiero** visualizar una página<br>**Para** saber acerca de la aplicación e ingresar a la aplicación|||||
+|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |<p>**Escenario 1: Acceso a la sección inicio del producto**</p><p>**Dado que** el visitante está en el landing page</p><p>**Y** utiliza la barra de navegación</p><p>**Cuando**selecciona “Inicio”</p><p>**Entonces** accede a la sección hero del producto.</p><p>**Escenario 2: Acceso a la sección de características del producto**</p><p>**Dado que** el visitante está en el landing page</p><p>**Y** utiliza la barra de navegación</p><p>**Cuando**selecciona “Características”</p><p>**Entonces** accede a la sección que muestra las características del producto.</p><p>**Escenario 3: Acceso a la sección de beneficios del producto**</p><p>**Dado que** el visitante está en el landing page</p><p>**Y** utiliza la barra de navegación</p><p>**Cuando**selecciona “Beneficios”</p><p>**Entonces** accede a la sección que muestra los beneficios del producto.</p><p>**Escenario 4: Acceso a la sección de planes del producto**</p><p>**Dado que** el visitante está en el landing page</p><p>**Y** utiliza la barra de navegación</p><p>**Cuando**selecciona “Planes”</p><p>**Entonces** accede a la sección de planes del producto.</p><p>**Escenario 5: Acceso a la sección de testimonios**</p>**Dado que** el visitante está en el landing page</p><p>**Y** utiliza la barra de navegación</p><p>**Cuando** selecciona "Testimonios"</p><p>**Entonces** accede a la sección que muestra los testimonios de los usuarios.</p><p>**Escenario 6: Acceso a la sección de contacto**</p>**Dado que** el visitante está en el landing page</p><p>**Y** utiliza la barra de navegación</p><p>**Cuando** selecciona "Contacto"</p><p>**Entonces** accede a la sección de contacto del producto.</p>|1|
+|E1-US102|Sección hero de landing page	|**Como** visitante **quiero** visualizar una sección hero en el landing page **para** tener una idea sobre lo que ofrece la aplicación|<p>**Escenario 1: Visualización de la presentación de la aplicación**</p><p>**Dado que** el visitante está en el landing page</p><p>**Cuando** se encuentra en la sección de hero</p><p>**Entonces** observa una presentación clara de la aplicación.</p>|1|
+|E1-US103|Sección de caracteristicas del producto de landing page|**Como** visitante **quiero** visualizar características de la aplicación en el landing page **para** saber sobre las características que ofrece la aplicación</p><p></p>|<p>**Escenario 1: Visualización de características del producto**</p><p>**Dado que** el visitante está en el landing page</p><p>**Cuando** se encuentra en la sección de características del producto</p><p>**Entonces** observa la información detallada de las características de la aplicación.</p>|1|
+|E1-US104|Sección de testimonios en landing page|**Como** visitante **quiero** visualizar testimonios de usuarios que utilizaron la aplicación **para** saber sobre experiencias reales de usuarios</p><p></p>|<p>**Escenario 1: Visualización de testimonios**</p><p>**Dado que** el visitante está en el landing page</p><p>**Cuando** se encuentra en la sección de testimonios</p><p>**Entonces** observa experiencias compartidas por otros usuarios.</p>|1|
+|E1-US105|Sección de planes en landing page|**Como** visitante **quiero** visualizar los planes que ofrece la aplicación **para** considerar adquirir la membresía</p>|<p>**Escenario 1: Visualización de los planes disponibles**</p><p>**Dado que** el visitante está en el landing page</p><p>**Cuando** se encuentra en la sección de planes</p><p>**Entonces** observa las opciones y detalles de los planes ofrecidos por la aplicación.</p>|1|
+|E1-US106|Sección de footer a la aplicación en landing page|**Como** visitante **quiero** visualizar la sección de footer **para** acceder a links de la página</p>|<p>**Escenario 1: Visualización de enlaces en el footer**</p><p>**Dado que** el visitante está en el landing page</p><p>**Cuando** se encuentra en la sección de footer</p><p>**Entonces** observa los enlaces de navegación disponibles.</p>|1|
+|E1-US107|Sección para conocer al equipo de trabajo|**Como** visitante **quiero** conocer más sobre el equipo que desarrolla la aplicación **para** adquirir confianza de dicho equipo de trabajo.|<p>**Escenario 1: Acceso a la información del equipo de trabajo**</p><p>**Dado que** el visitante está en el landing page</p><p>**Cuando** selecciona "Sobre Nosotros" en el footer</p><p>**Entonces** observa información detallada sobre el equipo de trabajo.</p>|1|
+|**Epic 2: Autenticación y perfil del usuario**<br>**Como** productor agricola o distribuidor<br>**Quiero** autenticar y configurar mi perfil del usuario<br>**Para** ingresar a la aplicación|||||
+|E2-US101|Registro e inicio de sesión|**Como** usuario **quiero** tener en la app un apartado de inicio de sesión **para** que se guarde mi información|<p>**Escenario 1: Usuario ingresa a la aplicación, y se encuentra con el inicio de sesión**</p><p>**Dado que** el usuario ya está en el inicio de sesión </p><p>**Cuando** el usuario haga click en registrarse </p><p>**Entonces** el sistema le mostrará un apartado donde podrá llenar su información</p><p>**Escenario 2: Usuario se registra** </p><p>**Dado que** el usuario ya se encuentra en el apartado de registro </p><p>**Cuando** el usuario complete todo el formulario de registro</p><p>**Entonces** el sistema guardará todos sus datos</p>|2|
+|E2-US102|Formulario de login|**Como** usuario de la página web **quiero** ingresar con mi cuenta con la cual me registre **para** usar las herramientas a mi disposición.|<p>**Escenario 1: Iniciar sesión**</p><p>**Dado que** el usuario se encuentra en el formulario “Login”</p><p>**Cuando** ingrese el correo electrónico y contraseña</p><p>**Entonces** puede ingresar a la app de manera exitosa</p>|2|
+|E2-US103|Recuperación de contraseñas |**Como** usuario **quiero** que la aplicación tenga un apartado que me permita recuperar mi contraseña en caso me olvide **para** ingresar a mi cuenta de usuario|<p>**Escenario 1: Usuario recupera su contraseña** </p><p>**Dado que** el usuario está en la parte de inicio en el log in </p><p>**Cuando** coloque una contraseña errónea más de 4 veces </p><p>**Entonces** la aplicación mostrará un aviso de recuperación de contraseña con el correo brindado anteriormente </p><p>**Escenario 2: Usuario olvidó su contraseña y no puede entrar a su cuenta**</p><p>**Dado que** el usuario olvida su contraseña y no puede entrar a su cuenta</p><p>**Cuando** el usuario entre a su correo y no logre cambiar su contraseña </p><p>**Entonces** la aplicación mostrará un mensaje para que se contacte con soporte técnico  </p>|2|
+|**Epic 3: Funcionalidades del productor agricola**<br>**Como** productor agricola <br>**Quiero** funcionalidades de apoyo en la gestión del ciclo agrícola<br>**Para** mejorar el rendimiento de los cultivos       |||||
+|E3-US101|Crear campos de cultivo|**Como** productor agricola **quiero** crear campos de cultivo **para** poder monitorear facilmente el proceso agricola del campo|<p>**Escenario 1: Creación de un nuevo campo de cultivo**</p><p>**Dado que**el productor agrícola inicia sesión en la aplicación</p><p>**Cuando** selecciona la opción para agregar un nuevo campo<p>**Entonces** registra información como nombre del campo, tamaño de area, y ubicacion del campo, y puede visualizar el campo creado.</p><p>**Escenario 2: Edición del campo de cultivo**</p><p>**Dado que** el productor agrícola inicia sesión en la aplicación</p><p>**Cuando** accede a un campo previamente creado y selecciona la opción de edición</p><p>**Entonces** actualiza la información del campo con nuevos datos y los cambios son reflejados.</p><p>**Escenario 3: Eliminación de un campo de cultivo**</p><p>**Dado que** el productor agrícola inicia sesión en la aplicación</p><p>**Cuando** accede a un campo previamente creado y accede a la opción para eliminarlo</p><p>**Entonces** el campo es removido del sistema y ya no está disponible en la lista de campos.</p>|3|
+|E3-US102|Barra de navegación del productor agricola |**Como** productor agricola **quiero** una barra de navegación **para** poder tener acceso directos a la informacion de la web app|<p>**Escenario 1: Acceso a la sección de actividades agricolas**</p><p>**Dado que** el productor agrícola ingresa a la aplicación **Y** se dirige a la barra de navegación</p><p>**Cuando** selecciona "Inicio"</p><p>**Entonces** accede a la seccion de actividades agricolas</p><p>**Escenario 2: Acceso a la tienda de productos agrícolas**</p>**Dado que** el productor agrícola ingresa a la aplicación **Y** se dirige a la barra de navegación</p><p>**Cuando** selecciona "Tienda"</p><p>**Entonces** accede a la sección de la tienda.</p><p>**Escenario 3: Gestión del sistema de riego**</p><p>**Dado que** el productor agrícola ingresa a la aplicación **Y** se dirige en la barra de navegación</p><p>**Cuando** selecciona "Riego"</p><p>**Entonces** accede a la sección de riego.</p><p>**Escenario 4: Gestión de tratamientos**</p><p>**Dado que** el productor agrícola ingresa a la aplicación **Y** se dirige en la barra de navegación</p><p>**Cuando** selecciona "Tratamiento"</p><p>**Entonces** accede a la sección de tratamientos.</p><p>**Escenario 5: Gestión de la cosecha**</p><p>**Dado que** el productor agrícola ingresa a la aplicación **Y** se dirige en la barra de navegación</p><p>**Cuando** selecciona "Cosecha"</p><p>**Entonces** accede a la sección de cosecha.</p><p>**Escenario 6: Gestión financiera**</p><p>**Dado que** el productor agrícola ingresa a la aplicación **Y** se dirige en la barra de navegación</p><p>**Cuando** selecciona "Finanzas"</p><p>**Entonces** accede a la sección de finanzas.</p><p>**Escenario 7: Salida de la aplicación**</p><p>**Dado que** el productor agrícola ingresa a la aplicación **Y** se dirige en la barra de navegación</p><p>**Cuando** selecciona "Cerrar sesion"</p><p>**Entonces** cierra su sesión en la aplicación.</p>|3|
+|E3-US103|Pantalla de inicio del proceso agricola |**Como** productor agricola  **quiero** visualizar todos los registros de los cultivos que he creado **para** poder ver fácilmente el progreso de los mismos|<p>**Escenario 1: Creación de la semilla**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando** accede a la pantalla de inicio por primera vez y registra información como el nombre de la semilla, la cantidad sembrada y la fecha de siembra</p><p>**Entonces** puede visualizar los detalles de la semilla registrada.</p><p>**Escenario 2: Visualización de las actividades agricolas creadas**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando** accede a la pantalla de inicio</p><p>**Entonces** observa una lista con las actividades agrícolas previamente registradas.</p>|3|
+|E3-US104|Programacion de fecha de riego de cultivos|**Como** productor agricola **quiero** funcionalidades de apoyo en el riego de cultivos **para** mejorar el cuidado de los cultivos|</p><p>**Escenario 1: Creación de fechas de riego de cultivo**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando** accede a la sección de riego y registra información como fecha de riego y horas de riego</p><p>**Entonces** observa la nueva programación en una lista.</p>|3|
+|E3-US105|Compra de productos para cultivos|**Como** productor agricola **quiero** realizar compras de manera online **para** usarlos en mis cultivos|</p><p>**Escenario 1: Compra exitosa**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando**accede a la tienda y tiene suficiente saldo para realizar una compra</p><p>**Entonces** la compra se completa y el producto se añade a su inventario.</p><p>**Escenario 2: Compra no exitosa del producto**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando** intenta realizar una compra sin saldo suficiente</p></p><p>**Entonces** recibe una notificación de que la compra no puede completarse.</p>|3|
+|E3-US106|Programacion de fechas de tratamiento|**Como** productor agricola **quiero** funcionalidades de apoyo en el proceso de tratamiento **para** mejorar el cuidado de los cultivos|<p>**Escenario 1: Creación de fechas de fumigación**</p><p>**Dado que** el productor agrícola inicia sesión en la aplicación</p><p>**Cuando** accede a la sección de Tratamiento y registra información como fecha de fumigación y tipo de tratamiento</p><p>**Entonces** observa el registro reflejado en la lista de tratamientos.</p><p>**Escenario 2: Creación de fechas de fertilización**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando** accede a la sección de Tratamiento y registra información como fecha de fertilización y tipo de tratamiento</p><p>**Entonces** observa el registro reflejado en la lista de tratamientos.</p>|3|
+|E3-US107|Proceso de recolección de la cosecha|**Como** productor agricola  **quiero** funcionalidades de apoyo en la recolección de la cosecha **para** ver la productividad del trabajo elaborado|<p>**Escenario 1: Registro de recolección de cosecha**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando** accede a la sección de Cosecha y registra información como fecha de recolección, peso de la caja y precio por kg</p><p>**Entonces** observa estos datos reflejados en una lista.</p>|3|
+|E3-US108|Proceso de análisis financiero de los cultivos|**Como** productor agricola **quiero** un análisis financiero **para** visualizar la utilidad del trabajo elaborado|<p>**Escenario 1: Visualización de ganancias de un producto**</p><p>**Dado que** el productor agricola inicia sesion en la aplicación</p><p>**Cuando** acceda a la sección de “Finanzas”</p><p>**Entonces** observa un cálculo de la utilidad obtenida.</p>|3|
+|**Epic 4: Funcionalidades del distribuidor**<br>**Como** distribuidor<br>**Quiero** funcionalidades que me ayuden a gestionar mi tienda<br>**Para** mejorar las ventas de los productos de mi tienda|||||
+|E4-US101|Pantalla de inicio del distribuidor|**Como** distribuidor **quiero** gestionar mi tienda virtual **para** administrar de manera eficiente el inventario y los precios.|<p>**Escenario 1: Visualización de los productos de la tienda**</p><p>**Dado que** el distribuidor inicia sesion en la aplicación</p><p>**Cuando** esta en la pantalla de inicio</p><p>**Entonces** puede revisar una lista con todos los productos registrados en la tienda.</p>|4|
+|E4-US102|Crear productos en la tienda|**Como** distribuidor **quiero** crear productos en la tienda virtual **para** poder venderlos|<p>**Escenario 1: Creación de productos en la tienda**</p><p>**Dado que** el distribuidor inicia sesion en la aplicación</p><p>**Cuando** registra información como nombre del producto, cantidad por unidad, costo por unidad, cantidad total y imagen del producto</p><p>**Entonces** el nuevo producto queda disponible en el inventario de la tienda.</p><p>**Escenario 2: Edición de los productos**</p><p>**Dado que** el distribuidor inicia sesion en la aplicación</p><p>**Cuando** actualiza la información de un producto existente</p><p>**Entonces** los cambios quedan reflejados en el inventario.</p>|4|
+|E4-US103|Análisis de producto de la tienda|**Como** distribuidor **quiero** analizar los productos de mi tienda y su disponibilidad **para** optimizar mis decisiones de compra y maximizar mis ventas|<p>**Escenario 1: Visualización de los productos más vendidos**</p><p>**Dado que** el distribuidor inicia sesion en la aplicación</p><p>**Cuando** acceda a la opción “Productos más vendidos”</p><p>**Entonces** puede revisar el orden de productos desde el más vendido al menos vendido.</p><p>**Escenario 2: Visualización de disponibilidad del producto**</p><p>**Dado que** el distribuidor inicia sesion en la aplicación</p><p>**Cuando** acceda a la opción “Baja disponibilidad”</p><p>**Entonces** observa los productos ordenados por menor cantidad a mayor cantidad.</p>|4|
+|E4-US104|Proceso de análisis financiero de la tienda|**Como** distribuidor **quiero** un análisis financiero **para** visualizar la utilidad de mi tienda|<p>**Escenario 1: Visualización de la utilidad**</p><p>**Dado que** el distribuidor inicia sesion en la aplicación</p><p>**Cuando** acceda a la sección “Análisis financiero”</p><p>**Entonces** puede revisar la utilidad generada en la tienda</p>|4|
+|E4-US105|Ofertas de la tienda de distribuidores|**Como** distribuidor **quiero** crear ofertas **para** captar el interés de mi público|<p>**Escenario 1: Creación de oferta**</p><p>**Dado que** el distribuidor inicia sesion en la aplicación</p><p>**Cuando** acceda a la opción “Crear ofertas” y registra información como productos incluidos, cantidad disponible y el nuevo precio</p><p>**Entonces** la oferta queda disponible en la tienda.</p><p>**Escenario 2: Análisis de ofertas**</p><p>**Dado que** el distribuidor inicia sesión en la aplicación</p><p>**Cuando** accede a la opción “Análisis de ofertas”</p><p>**Entonces** puede revisar cuáles han generado más ventas y cuántas unidades se han vendido.</p>|4|
+|**Epic 5: Preferencias en la aplicación**<br>**Como** usuario<br>**Quiero** configurar preferencias en la aplicación<br>**Para** tener una mejor experiencia en la aplicación según mis preferencias|||||
+|E5-US101|Preferencia de idioma|**Como** usuario **quiero** configurar preferencias de idioma **para** utilizar la aplicación según mi preferencia de idioma|<p>**Escenario 1: Modo predeterminado de preferencia de idioma**</p><p>**Dado que** el usuario no haya realizado cambios de preferencias de idioma a la aplicación</p><p>**Cuando** ingrese a la aplicación </p><p>**Entonces** el idioma predeterminado es inglés</p><p>**Escenario 2: Cambio de preferencias de idioma en la aplicación**</p><p>**Dado que** el usuario se encuentra en la sección de configuraciones de idioma</p><p>**Cuando** selecciona un idioma</p><p>**Entonces** la idioma de la aplicación se cambia al idioma seleccionado.</p>|5|
+|E5-US102|Página no encontrada|**Como** usuario **quiero** ser informado de una página no encontrada en la aplicación **para** darme cuenta que estoy en una pagina errónea y volver al inicio. |<p>**Escenario 1: Error 404**</p><p>**Dado que** el usuario se encuentre en la aplicación</p><p>**Cuando** ingrese a una ruta que no existe</p><p>**Entonces** aparece una página que informa al usuario que la página no ha sido encontrada</p><p>**Y** aparece una opción para ser redirigido a la página principal.</p>|5|
+|**Epic 6: Backend API**<br>**Como** desarrollador<br>**Quiero** utilizar un backend api<br>**Para** que los usuarios puedan interactuar con la aplicación |||||
+|E6-TS101|Crear API Fake|**Como** desarrollador **quiero** crear una API fake **para** poder avanzar el desarrollo de la web app|<p>**Escenario 1: Creación de la API Fake**</p><p>**Dado que** desarrollador crea una API Fake</p><p>**Cuando** realice el consumo del API Fake</p><p>**Entonces** recibe datos simulados correctamente desde la API Fake y puede usarlos para desarrollar la web app </p>|6|
+|E6-TS102|Registrar usuario atraves de la APIRESTful|**Como** desarrollador **quiero** registrar al usuario atraves de la API **para** persistir su informacion en la base de datos|<p>**Escenario 1: Registrar Productor Agricola**</p><p>**Dado que** el endpoint "/api/v1/sing-up/agricultural-producer esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes datos:nombre completo, correo, contraseña, ciudad, pais, numero celular, rol y dni </p><p>**Entonces** recibe una respuesta con estado 201 con el mensaje "El productor agricola ha sido registrado exitosamente"</p><p>**Escenario 2: Registrar Distribuidor**</p><p>**Dado que** el endpoint "/api/v1/sing-up/distributor esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes datos:nombre completo, correo, contraseña, ciudad, pais, numero celular, rol, nombre de la compañia y numero RUC </p><p>**Entonces** recibe una respuesta con estado 201 con el mensaje "El distribuidor ha sido registrado exitosamente"</p>|6|
+|E6-TS103|Iniciar sesion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** logear al usuario atraves de la API **para** brindarle acceso a la aplicación|<p>**Escenario 1: Logear Usuario**</p><p>**Dado que** el endpoint "api/v1/sign-in esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes datos: correo y contraseña</p><p>**Entonces** recibe una respuesta con estado 201 y recibe un recurso con los sigueintes datos: id, correo, rol y json web token </p>|6|
+|E6-TS104|Obtener informacion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** obtener informacion del usuario atraves de la API **para** mostrar los datos en la aplicación|<p>**Escenario 1: Obtener informacion del Productor agricola**</p><p>**Dado que** el endpoint "api/v1/profile/agricultural-producer/{userId} esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes datos: userId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso productor agricola con los sigueintes datos: nombre completo, correo, ciudad, pais, numero celular y dni</p><p>**Escenario 1: Obtener informacion del Distribuidor**</p><p>**Dado que** el endpoint "api/v1/profile/distributor/{userId} esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes datos: userId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso distribuidor con los sigueintes datos: nombre completo, ciudad, pais, numero celular, nombre de la compañia y numero RUC</p>|6|
+|E6-TS105|Crear campo atraves de la APIRESTful|**Como** desarrollador **quiero** crear campo atraves de la API **para** registrarlo en la base de datos |<p>**Escenario 1: Crear Campo**</p><p>**Dado que** el endpoint "api/v1/field" esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes atributos: producerId, fieldName, location, size</p><p>**Entonces** recibe una respuesta con estado 201 y recibe un recurso field con los siguientes atributos: producerId, fieldName, location, size </p>|6|
+|E6-TS106|Obtener informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del campo atraves de la API **para** mostrar los datos en la aplicación |<p>**Escenario 1: Obtener Lista de campos**</p><p>**Dado que** el endpoint "api/v1/field/{producerId}" esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes parametros: producerId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso field con los siguientes atributos: producerId, fieldName, location, size </p>|6|
+|E6-TS107|Eliminar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar la informacion del campo atraves de la API **para** eliminar los datos en la aplicación |<p>**Escenario 1: Obtener Lista de campos**</p><p>**Dado que** el endpoint "api/v1/field/{producerId}" esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes parametros: producerId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso field con los siguientes atributos: producerId, fieldName, location, size </p>|6|
+|E6-TS108|Editar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del campo atraves de la API **para** editar los datos en la aplicación |<p>**Escenario 1: Editar campos**</p><p>**Dado que** el endpoint "api/v1/field/{id}" esta disponible</p><p>**Cuando** envia la solicitud PUT con los siguientes parametros: id</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso field con los siguientes atributos: id, producerId, fieldName, location, size </p>|6|
+|E6-TS109|Crear proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** crear el proceso agricola atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Crear Proceso Agricola**</p><p>**Dado que** el endpoint "api/v1/agricultural-processes" esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes atributos: fieldId</p><p>**Entonces** recibe una respuesta con estado 201 y recibe un recurso agricultural activity </p>|6|
+|E6-TS110|Crear actividad en el proceso agricola|**Como** desarrollador **quiero** crear actividades agricolas atraves de las API **para** registrarlo en la base de datos|<p>**Escenario 1: Agregar actividad de  Irrigation**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/add-activty" esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes parametros: agriculturalProcessId, date, hoursIrrigated</p><p>**Entonces** recibe una respuesta con estado 201 y devuelve un recurso agricultural activty</p><p>**Escenario 2: Agregar actividad de seeding**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/add-activty" esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes parametros: agriculturalProcessId, date, plantType</p><p>**Entonces** recibe una respuesta con estado 201 y devuelve un recurso agricultural activity</p><p>**Escenario 3: Agregar actividad de Crop Treatment**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/add-activty" esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes parametros: agriculturalProcessId, date, treatmentType</p><p>**Entonces** recibe una respuesta con estado 201 y devuelve un recurso agricultural activity</p><p>**Escenario 4: Agregar actividad de Harvest**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/add-activty" esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes parametros: agriculturalProcessId, date, quantityInKg, pricePerKg</p><p>**Entonces** recibe una respuesta con estado 201 y devuelve un recurso agricultural activity</p>|6|
+|E6-TS111|Crear recurso en la actividad atraves de la APIRESTful|**Como** desarrollador **quiero** crear recurso en la actividad atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Agregar recurso a la actividad**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/activty/add-resource" esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes atributos: resourceId, cost, quantity, activityId, agriculturalProcessId</p><p>**Entonces** recibe una respuesta con estado 201 y devuelve un recurso agricultural activty</p>|6|
+|E6-TS112|Obtener informacion del proceso agricola por campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por campo atraves de la API **para** mostrar los datos en la aplicación |<p>**Escenario 1: Obtener informacion la actividad agricola por campo**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/field/{fieldId}" esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes parametros:fieldId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso agricultural activity</p>|6|
+|E6-TS113|Obtener informacion del proceso agricola por identificador del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por identificador del proceso agricola atraves de la API **para** mostrar los datos en la aplicación |<p>**Escenario 1: Obtener informacion la actividad agricola por identificador del proceso agricola**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/{agriculturalProcessId}" esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes parametros: agriculturalProcessId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso agricultural activity</p>|6|
+|E6-TS114|Obtener informacion de la actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la actividad agricola atraves de la API **para** mostrar los datos en la aplicación |<p>**Escenario 1: Obtener informacion la actividad agricola**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/{agriculturalProcessId}/activities/{activityType}" esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes parametros: activityType y agriculturalProcessId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso agricultural activity</p>|6|
+|E6-TS115|Obtener informacion de la ultima actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la ultima actividad agricola atraves de la API **para** mostrar los datos en la aplicación |<p>**Escenario 1: Obtener informacion de la utlima actividad agricola**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/{agriculturalProcessId}/last-activity/{activityType}" esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes parametros:activityType, agriculturalProcessId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso agricultural activity</p>|6|
+|E6-TS116|Terminar la plantación atraves de la APIRESTful|**Como** desarrollador **quiero** terminar la plantacion atraves de la API **para** mostrar los datos en la aplicación |<p>**Escenario 1: Terminiar Plantación**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/finish" esta disponible</p><p>**Cuando** envia la solicitud PUT con los siguientes datos: seedingId, finishDate</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso seeding con los sigueintes datos: seedingId, finishDate</p>|6|
+|E6-TS117|Editar la informacion de la actividad del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion de la actividad atraves de la API **para** mostrar los datos en la aplicación |<p>**Escenario 1: Editar informacion de la actividad del proceso agricola**</p><p>**Dado que** el endpoint "api/v1/agricultural-process/activity/{activityId}/execute" esta disponible</p><p>**Cuando** envia la solicitud PUT con los siguientes atributos: agriculturalProcessId, activityId, action</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso agricultural activity</p>|6|
+|E6-TS118|Agregar trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** agregar trabajador atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Agregar Trabajadores**</p><p>**Dado que** el endpoint "api/v1/workers esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes datos: producerId, fullName, documentNumber</p><p>**Entonces** recibe una respuesta con estado 201 y recibe un recurso worker con los siguientes datos: producerId, fullName, documentNumber</p>|6|
+|E6-TS119|Obtener trabajadores atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los trabajadores atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Obtener Lista de informacion de los trabajadores**</p><p>**Dado que** el endpoint "api/v1/workers/{producerId} esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes datos: producerId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso worker con los siguientes datos: producerId, fullName, documentNumber</p>|6|
+|E6-TS120|Eliminar Trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar trabajador atraves de la API **para** eliminar los datos en la aplicación|<p>**Escenario 1: Eliminar trabajador**</p><p>**Dado que** el endpoint "api/v1/workers/{id} esta disponible</p><p>**Cuando** envia la solicitud DELETE con los siguientes datos: id, producerId</p><p>**Entonces** recibe una respuesta con estado 200 y recibi el recurso worker con los siguientes datos: producerId, fullName, documentNumber </p>|6|
+|E6-TS121|Agregar payment atraves de la APIRESTful|**Como** desarrollador **quiero** agregar payment atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Agregar Trabajadores**</p><p>**Dado que** el endpoint "api/v1/payments esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes datos: subscriptionId, date, state, cardHolderName, cardNumber, ExpireDate, cvv</p><p>**Entonces** recibe una respuesta con estado 201 y recibe un recurso payment con los siguientes datos: subscriptionId, date, state, cardHolderName, cardNumber, ExpireDate, cvv</p>|6|
+|E6-TS122|Obtener payment atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los payment atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Obtener informacion del payment por id**</p><p>**Dado que** el endpoint "api/v1/payemnts/{id} esta disponible</p><p>**Cuando** envia la solicitud GET con el siguiente parametro: id</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso payment con los siguientes datos: id,subscriptionId, date, state, cardHolderName, cardNumber, ExpireDate, cvv</p><p>**Escenario 2: Obtener informacion del payment por suscriptionId**</p><p>**Dado que** el endpoint "api/v1/payments/subscription/{subscriptionId} esta disponible</p><p>**Cuando** envia la solicitud GET con el siguiente parametro: subscriptionId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso payment con los siguientes datos: id, subscriptionId, date, state, cardHolderName, cardNumber, ExpireDate, cvv</p>|6|
+|E6-TS123|Crear financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** crear dato de financiamiento atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Crear dato de financiamiento**</p><p>**Dado que** el endpoint "api/v1/finances esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes datos: userId, type, value</p><p>**Entonces** recibe una respuesta con estado 201 y recibi un recurso finance con los siguientes datos: id, userId, date, type, value</p>|6|
+|E6-TS124|Obtener datos de financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** obtener datos de financiamiento atraves de la API **para** mostrar los datos en la aplicación|<p>**Escenario 1: Obtener lista de informacion de financiamiento**</p><p>**Dado que** el endpoint "api/v1/finances/{userId} esta disponible</p><p>**Cuando** envia la solicitud GET con los siguientes datos: userId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso finance con los siguientes datos: id, userId, date, type, value</p>|6|
+|E6-TS125|Crear producto atraves de la APIRESTful|**Como** desarrollador **quiero** crear productos atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Crear productos**</p><p>**Dado que** el endpoint "api/v1/products esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes atributos: userId, name, quantityPerUnit, unitPrice, quantity, photoUrl</p><p>**Entonces** recibe una respuesta con estado 201 con el mensaje "La fecha de financiamiento ha sido creada exitosamente"</p>|6|
+|E6-TS126|Obtener productos atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos atraves de la API **para** mostrar los datos en la aplicación|<p>**Escenario 1: Obtener informacion de los productos**</p><p>**Dado que** el endpoint "api/v1/products/user/{userId}" esta disponible</p><p>**Cuando** envia la solicitud GET con el siguiente parametro: userId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso product con los siguientes datos: id,userId, name, quantityPerUni, unitPrice, quantity, photoUrl </p>|6|
+|E6-TS127|Obtener producto por nombre atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos por nombre atraves de la API **para** mostrar los datos en la aplicación|<p>**Escenario 1: Obtener informacion del producto por nombre**</p><p>**Dado que** el endpoint "api/v1/products/name/{name}" esta disponible</p><p>**Cuando** envia la solicitud GET con el siguiente parametro: name</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso product con los siguientes datos: id,userId, name, quantityPerUni, unitPrice, quantity, photoUrl </p>|6|
+|E6-TS128|Editar producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|<p>**Escenario 1: Editar informacion del producto**</p><p>**Dado que** el endpoint "api/v1/products/{id}" esta disponible</p><p>**Cuando** envia la solicitud PUT con los siguientes atributos: id, userId, name, quantityPerUni, unitPrice, quantity, photoUrl</p><p>**Entonces** recibe una respuesta con estado 200 y recibe el recurso product con los siguientes datos: id,userId, name, quantityPerUni, unitPrice, quantity, photoUrl</p>|6|
+|E6-TS129|Editar cantidad del producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la cantidad del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|<p>**Escenario 1: Editar cantidad del producto**</p><p>**Dado que** el endpoint "api/v1/products/{id}/update-quantity" esta disponible</p><p>**Cuando** envia la solicitud PUT con los siguientes atributos: action, quantity</p><p>**Entonces** recibe una respuesta con estado 200 y recibe el recurso product con los siguientes datos: id,userId, name, quantityPerUni, unitPrice, quantity, photoUrl</p>|6|
+|E6-TS130|Actualizar la información de un producto para el propietario atraves de la APIRESTful|**Como** desarrollador **quiero** actualizar la información de un producto para el propietario atraves de la API **para** mostrar la modificación de datos en la aplicación|<p>**Escenario 1: Actualizar informacion del producto para el propietario**</p><p>**Dado que** el endpoint "api/v1/products/update-product-owner" esta disponible</p><p>**Cuando** envia la solicitud PUT con los siguientes atributos: userId, productId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe el recurso product con los siguientes datos: id,userId, name, quantityPerUni, unitPrice, quantity, photoUrl</p>|6|
+|E6-TS131|Crear subscripcion atraves de la APIRESTful|**Como** desarrollador **quiero** crear subscripcion atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Crear subscripcion**</p><p>**Dado que** el endpoint "api/v1/subscriptions esta disponible</p><p>**Cuando** envia la solicitud POST con los siguientes atributos: planType, userId, status, cost</p><p>**Entonces** recibe una respuesta con estado 201 y recibe un recurso subscription con los siguientes datos: id, planType, userId, startDate, renewalDate, status, cost</p>|6|
+|E6-TS132|Obtener subscripción atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de la subscripcion atraves de la API **para** registrarlo en la base de datos|<p>**Escenario 1: Obtener informacion de la subscipcion por id**</p><p>**Dado que** el endpoint "api/v1/subscriptions/{id} esta disponible</p><p>**Cuando** envia la solicitud GET con el siguiente parametro: id</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso subscription con los siguientes datos: id, planType, userId, startDate, renewalDate, status, cost</p><p>**Escenario 2: Obtener informacion del payment por userId**</p><p>**Dado que** el endpoint "api/v1/subscriptions/user/{userId} esta disponible</p><p>**Cuando** envia la solicitud GET con el siguiente parametro: userId</p><p>**Entonces** recibe una respuesta con estado 200 y recibe un recurso subscription con los siguientes datos: id, planType, userId, startDate, renewalDate, status, cost</p>|6|
+|E6-TS133|Renovar suscripción atraves de la APIRESTful|**Como** desarrollador **quiero** renovar la suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|<p>**Escenario 1: Renovar la subcripción**</p><p>**Dado que** el endpoint "api/v1/subscriptions/{id}/renew" esta disponible</p><p>**Cuando** envia la solicitud PUT con el siguiente parametro: id y el atributo renewalDate</p><p>**Entonces** recibe una respuesta con estado 200 y recibe el recurso subscription con los siguientes datos: id, planType, userId, startDate, renewalDate, status, cost</p>|6|
+|E6-TS134|Actualizar plan de susbcripcion atraves de la APIRESTful|**Como** desarrollador **quiero** actaulizar el plan de suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|<p>**Escenario 1: Actualizar plan de subcripción**</p><p>**Dado que** el endpoint "api/v1/subscriptions/{id}/update-plan-type" esta disponible</p><p>**Cuando** envia la solicitud PUT con el siguiente parametro: id y el atributo plantType</p><p>**Entonces** recibe una respuesta con estado 200 y recibe el recurso subscription con los siguientes datos: id, planType, userId, startDate, renewalDate, status, cost</p>|6|
+
+## 3.3. Impact Mapping.
+A continuación, toca analizar cómo se relacionan nuestras metas de negocios con los principales entregables de nuestro proyecto. Se eligieron las user stories de mayor importancia para el proceso de nuestro aplicativo y su impacto a futuro.
+
+**Segmento Objetivo: Productor Agricola**  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/381e8161cc83f3701e6170a1234263322d4303d6/assets/Chapter%203/Impact%20map-Productores%20Agricolas1.png">
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/381e8161cc83f3701e6170a1234263322d4303d6/assets/Chapter%203/Impact%20map-Productores%20Agricolas2.png">  
+
+**Segmento Objetivo: Distribuidores**  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/381e8161cc83f3701e6170a1234263322d4303d6/assets/Chapter%203/Impact%20map-Distribuidores1.png">
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/381e8161cc83f3701e6170a1234263322d4303d6/assets/Chapter%203/Impact%20map-Distribuidores2.png">
+
+## 3.4. Product Backlog.
+Captura del tablero de Product Backlog en Trello:
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/c59cc5b1ac3b07cc8415b1083ad45a8e72e15437/assets/Chapter%203/Webworks-Product%20Backlog-S2.png">
+
+**Link de Trello:** [Product Backlog WebWorks Trello](https://trello.com/b/UmnID3DF/webworks-product-backlog)
+|# Orden|User story ID|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
+| :- | :- | :- | :- | :- |
+|1|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
+|2|E1-US102|Sección hero de landing page|**Como** visitante **quiero** visualizar una sección hero en el landing page **para** tener una idea sobre lo que ofrece la aplicación|2|
+|3|E1-US103|Sección caracteristicas del producto de landing page|**Como** visitante **quiero** visualizar características de la aplicación en el landing page **para** saber sobre las características que ofrece la aplicación|2|
+|4|E1-US104|Sección de testimonios en landing page|**Como** visitante **quiero** visualizar testimonios de usuarios que utilizaron la aplicación **para** saber sobre experiencias reales de usuarios|2|
+|5|E1-US105|Sección de planes en landing page|**Como** visitante **quiero** visualizar los planes que ofrece la aplicación **para** considerar adquirir la membresía|2|
+|6|E1-US106|Sección de footer a la aplicación en landing page|**Como** visitante **quiero** visualizar la sección de footer **para** acceder a links de la página|2|
+|7|E1-US107|Sección para conocer al equipo de trabajo|**Como** visitante **quiero** conocer más sobre el equipo que desarrolla la aplicación **para** adquirir confianza de dicho equipo de trabajo.|2|
+|8|E6-TS101|Crear API Fake|**Como** desarrollador **quiero** crear una API fake **para** poder avanzar el desarrollo de la web app|2|
+|9|E2-US101|Registro e inicio de sesión|**Como** usuario **quiero** tener en la app un apartado de inicio de sesión **para** que se guarde mi información|3|
+|10|E2-US102|Formulario de login|**Como** usuario de la página web, **quiero** ingresar con mi cuenta con la cual me registre **para** usar las herramientas a mi disposición.|3|
+|11|E2-US103|Recuperación de contraseñas |**Como** usuario **quiero** que la aplicación tenga un apartado que me permita recuperar mi contraseña en caso me olvide **para** ingresar a mi cuenta de usuario|3|
+|12|E3-US101|Crear campos de cultivo|**Como** productor agricola **quiero** crear campos de cultivo **para** poder monitorear facilmente el proceso agricola del campo|3|
+|13|E3-US102|Barra de navegación del productor agricola|**Como** productor agrícola **quiero** una barra de navegación **para** poder tener acceso directos a la informacion de la web app |3|
+|14|E3-US103|Pantalla de inicio del proceso agricola|**Como** productor agrícola **quiero** visualizar todos los registros de los cultivos que he creado **para** poder ver fácilmente el progreso de los mismos|3|
+|15|E3-US104|Programacion de fecha de riego de cultivos|**Como** productor agrícola **quiero** funcionalidades de apoyo en el riego de cultivos **para** mejorar el cuidado de los cultivos|5|
+|16|E3-US105|Compra de productos para cultivos|**Como** productor agrícola **quiero** realizar compras de manera online **para** usarlos en mis cultivos|5|
+|17|E3-US106|Programacion de fechas de tratamiento|**Como** productor agrícola **quiero** funcionalidades de apoyo en el proceso de fumigación **para** mejorar el cuidado de los cultivos|5|
+|18|E3-US107|Proceso de recolección de la cosecha|**Como** productor agrícola **quiero** funcionalidades de apoyo en la recolección de la cosecha **para** gestionar de manera eficiente el inventario y los preciosver la productividad del trabajo elaborado.|5|
+|19|E3-US108|Proceso de análisis financiero de los cultivos|**Como** productor agrícola **quiero**un análisis financiero **para** visualizar la utilidad del trabajo elaborado |5|
+|20|E5-US101|Preferencia de idioma|**Como** usuario **quiero**un análisis financiero **para** visualizar la utilidad del trabajo elaborado |2|
+|21|E5-US102|Página no encontrada|**Como** usuario **quiero** ser informado de una página no encontrada en la aplicación **para** darme cuenta que estoy en una pagina errónea y volver al inicio|2|
+|22|E4-US101|Pantalla de inicio del distribuidor|**Como** distribuidor **quiero** gestionar mi tienda virtual **para** administrar de manera eficiente el inventario y los precios|5|
+|23|E4-US102|Crear productos en la tienda|**Como** distribuidor **quiero** analizar los productos de mi tienda y su disponibilidad **para** optimizar mis decisiones de compra y maximizar mis ventas|5|
+|24|E4-US102|Análisis de producto de la tienda|**Como** distribuidor **quiero** crear productos en la tienda virtual **para** poder venderlos|5|
+|25|E4-US103|Proceso de análisis financiero de la tienda|**Como** distribuidor **quiero** un análisis financiero **para** visualizar la utilidad de mi tienda|5|
+|26|E4-US104|Ofertas de la tienda de distribuidores|**Como** distribuidor **quiero** crear ofertas **para** captar el interés de mi público|3|
+|27|E6-TS102|Registrar usuario atraves de la APIRESTful|**Como** desarrollador **quiero** registrar al usuario atraves de la API **para** persistir su informacion en la base de datos|5|
+|28|E6-TS103|Iniciar sesion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** logear al usuario atraves de la API **para** brindarle acceso a la aplicación|5|
+|29|E6-TS104|Obtener informacion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** obtener informacion del usuario atraves de la API **para** mostrar los datos en la aplicación|2|
+|30|E6-TS105|Crear campo atraves de la APIRESTful|**Como** desarrollador **quiero** crear campo atraves de la API **para** registrarlo en la base de datos|3|
+|31|E6-TS106|Obtener informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del campo atraves de la API **para** mostrar los datos en la aplicación|2|
+|32|E6-TS107|Eliminar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar la informacion del campo atraves de la API **para** eliminar los datos en la aplicación|3|
+|33|E6-TS108|Editar informacion del campo atraves de la APIRESTful**Como** desarrollador **quiero** editar la informacion del campo atraves de la API **para** editar los datos en la aplicación|3|
+|34|E6-TS109|Crear proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** crear el proceso agricola atraves de la API **para** registrarlo en la base de datos|2|
+|35|E6-TS110|Crear actividad en el proceso agricola|**Como** desarrollador **quiero** crear actividades agricolas atraves de las API **para** registrarlo en la base de datos|5|
+|36|E6-TS111|Crear recurso en la actividad|**Como** desarrollador **quiero** crear recurso en la actividad atraves de la API **para** registrarlo en la base de datos|3|
+|37|E6-TS112|Obtener informacion del proceso agricola por campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por campo atraves de la API **para** mostrar los datos en la aplicación|2|
+|38|E6-TS113|Obtener informacion del proceso agricola por identificador del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por identificador del proceso agricola atraves de la API **para** mostrar los datos en la aplicación|2|
+|39|E6-TS114|Obtener informacion de la actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la actividad agricola atraves de la API **para** mostrar los datos en la aplicación|2|
+|40|E6-TS115|Obtener informacion de la ultima actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la ultima actividad agricola atraves de la API **para** mostrar los datos en la aplicación|3|
+|41|E6-TS116|Terminar la plantación atraves de la APIRESTful|**Como** desarrollador **quiero** terminar la plantacion atraves de la API **para** mostrar los datos en la aplicación|3|
+|42|E6-TS117|Editar la informacion de la actividad del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion de la actividad atraves de la API **para** mostrar los datos en la aplicación|3|
+|43|E6-TS118|Agregar trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** agregar trabajador atraves de la API **para** registrarlo en la base de datos|3|
+|44|E6-TS119|Obtener trabajadores atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los trabajadores atraves de la API **para** registrarlo en la base de datos|2|
+|45|E6-TS120|Eliminar Trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar trabajador atraves de la API **para** eliminar los datos en la aplicación|3|
+|46|E6-TS121|Agregar payment atraves de la APIRESTful|**Como** desarrollador **quiero** agregar payment atraves de la API **para** registrarlo en la base de datos|3|
+|47|E6-TS122|Obtener payment atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los payment atraves de la API **para** registrarlo en la base de datos|3|
+|48|E6-TS123|Crear financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** crear dato de financiamiento atraves de la API **para** registrarlo en la base de datos|3|
+|49|E6-TS124|Obtener datos de financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** obtener datos de financiamiento atraves de la API **para** mostrar los datos en la aplicación|2|
+|50|E6-TS125|Crear producto atraves de la APIRESTful|**Como** desarrollador **quiero** crear productos atraves de la API **para** registrarlo en la base de datos|3|
+|51|E6-TS126|Obtener productos atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos atraves de la API **para** mostrar los datos en la aplicación|2|
+|52|E6-TS127|Obtener producto por nombre atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos por nombre atraves de la API **para** mostrar los datos en la aplicación|2|
+|53|E6-TS128|Editar producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
+|54|E6-TS129|Editar cantidad del producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la cantidad del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
+|55|E6-TS130|Actualizar la información de un producto para el propietario atraves de la APIRESTful|**Como** desarrollador **quiero** actualizar la información de un producto **para** el propietario atraves de la API para mostrar la modificación de datos en la aplicación|3|
+|56|E6-TS131|Crear subscripcion atraves de la APIRESTful|**Como** desarrollador **quiero** crear subscripcion atraves de la API **para** registrarlo en la base de datos|3|
+|57|E6-TS132|Obtener subscripción atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de la subscripcion atraves de la API **para** registrarlo en la base de datos|2|
+|58|E6-TS133|Renovar suscripción atraves de la APIRESTful|**Como** desarrollador **quiero** renovar la suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
+|59|E6-TS134|Actualizar plan de susbcripcion atraves de la APIRESTful|**Como** desarrollador **quiero** actaulizar el plan de suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
+
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines.
+### 4.1.1. General Style Guidelines.
+Descripcion del porque estos elementos seran importantes
+
+### Colores
+La paleta de colores de **AgroControl** se compone de cuatro colores principales:
+
+| Color Name     | Hex Code | RGB                | Uso Principal                               |
+|----------------|----------|--------------------|---------------------------------------------|
+| White          | #FFFFFF  | rgb(255, 255, 255) | Texto en fondos oscuros, fondos secundarios |
+| Midnight Green | #043A3A  | rgb(4, 58, 58)     | Fondos primarios, encabezados               |
+| Emerald        | #2FB95D  | rgb(47, 185, 93)   | Botones, elementos destacados               |
+| Davy's Gray    | #525252  | rgb(82, 82, 82)    | Texto en fondos claros, bordes              |
+
+<p align="center">
+  <img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/colors.png?raw=true" alt="colors-style-guidelines" style="width: 800px">
+</p>
+
+### Tipografía
+Se emplean dos fuentes principales en toda la identidad visual de AgroControl:
+
+- **Raleway**: Usada para títulos, subtítulos y elementos destacados.
+  - Tamaños utilizados: 
+    - 64px para títulos principales.
+    - 38px para subtítulos.
+    - 21px para encabezados menores.
+
+- **Mulish**: Utilizada para el cuerpo de texto y subtítulos menores.
+  - Tamaños utilizados:
+    - 16px para el cuerpo del texto y descripciones.
+
+
+
+### Marca
+El logotipo principal de **AgroControl** está compuesto por las palabras "Agro" y "Control". La palabra "Agro" se muestra en color blanco (#FFFFFF) y la palabra "Control" en color esmeralda (#2FB95D). El logotipo se presenta en dos variaciones principales:
+
+1. **Color completo:** Utilizado en fondos claros.
+2. **Versión invertida:** Utilizado en fondos oscuros, con la palabra "Agro" en blanco y "Control" en esmeralda.  
+
+<p align="center">
+  <img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/logo-agro.png?raw=true" alt="logo-agrocontrol" style="width: 800px">
+</p>
+
+## Background
+
+**Fondos Primarios, Secundarios y Terciarios**  
+Utilizamos una combinación de colores para los fondos según el propósito de la sección:
+
+- **Fondo Primario:** Midnight Green (#043A3A)
+- **Fondo Secundario:** Blanco (#FFFFFF)
+- **Fondo Terciario:** Davy's Gray (#525252)
+
+## Text Styles
+
+**Estilos de Texto**  
+Los estilos de texto siguen la jerarquía visual y la tipografía especificada en las pautas generales:
+
+- **H1:** 64px, Raleway, Midnight Green (#043A3A)
+- **H2:** 38px, Raleway, Midnight Green (#043A3A)
+- **H3:** 24px, Raleway, Midnight Green (#043A3A)
+- **Párrafo (p):** 16px, Mulish, Davy's Gray (#525252)
+- **Enlaces (a):** 16px, Mulish, Emerald (#2FB95D) 
+
+
+![Text-styles](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/font-sizes.png?raw=true)
+
+
+
+## Button Styles
+
+**Estilos de Botón y Controles**  
+Los botones y otros controles interactivos tienen una apariencia clara y coherente:
+
+- **Botón Principal:** Fondo esmeralda (#2FB95D), texto blanco (#FFFFFF)
+- **Botón Secundario:** Fondo blanco (#FFFFFF), borde esmeralda (#2FB95D), texto esmeralda (#2FB95D)
+- **Dropdowns y Switches:** Combina Davy's Gray (#525252) para fondo y esmeralda (#2FB95D) para acentos
+
+
+
+![Buttons-1](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/button-style1.png?raw=true)
+![Buttons-2](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/button-style2.png?raw=true)
+
+
+## Icons
+
+**Iconos**  
+Los iconos utilizados están diseñados para un fondo blanco (#FFFFFF) con acentos en Midnight Green (#043A3A) y esmeralda (#2FB95D).
+
+## Misc
+
+**Componentes Misceláneos**  
+Esta categoría incluye elementos como la barra de navegación, carruseles y otros componentes interactivos.
+
+- **Nav Bar:** Fondo Midnight Green (#043A3A) con enlaces en blanco (#FFFFFF)
+- **Slideshow:** Transiciones suaves con botones de navegación en esmeralda (#2FB95D)
+
+
+![Miscellaneos preview web](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/nav-bar-1.png?raw=true)
+
+### 4.1.2. Web Style Guidelines.
+
+AgroControl ofrece una experiencia coherente, intuitiva y visualmente atractiva, optimizando la interacción en una variedad de dispositivos y tamaños de pantalla.
+El diseño debe ajustarse a diferentes tamaños de pantalla sin sacrificar la funcionalidad o estética. Se ha seleccionado el patrón F como el principal esquema de escaneo visual en nuestras interfaces, alineado con los hábitos naturales de lectura de los usuarios. Esto asegura que los usuarios encuentren rápidamente la información más relevante
+
+## 4.2. Information Architecture.
+### 4.2.1. Organization Systems.
+## 4.2.1 Sistemas de Organización
+
+#### Descripción General
+Para garantizar una experiencia de usuario óptima, hemos implementado diferentes sistemas de organización dentro de la interfaz de **AgroControl**. Estos sistemas están diseñados para mejorar la navegabilidad y asegurar que los usuarios encuentren fácilmente la información y las herramientas que necesitan.
+
+#### Tipos de Sistemas de Organización
+
+##### 1. Jerárquico
+El sistema de organización jerárquico se utiliza en la mayoría de las páginas clave de AgroControl. Este sistema estructura el contenido de manera que se distinga el nivel de importancia mediante diferencias físicas como tamaño, color, contraste y alineación. Por ejemplo, los títulos y subtítulos más importantes se presentan en tamaños y colores más destacados.
+
+##### 2. Secuencial
+En las secciones donde los usuarios necesitan seguir un proceso paso a paso, como el registro o la configuración de su cuenta, se emplea un sistema de organización secuencial. Este enfoque guía a los usuarios a través de un camino específico hacia su objetivo, proporcionando el contenido necesario en cada paso del proceso.
+
+##### 3. Matricial
+Para los usuarios que prefieren una navegación más personalizada, se implementa un sistema matricial en áreas específicas, como la búsqueda de artículos en el blog. Este sistema permite a los usuarios elegir cómo desean navegar por el contenido, ya sea de manera alfabética, cronológica o por tema.
+
+#### Aplicación en la Interfaz de AgroControl
+Estos sistemas de organización se combinan de manera efectiva para proporcionar una interfaz intuitiva y accesible. Los usuarios pueden moverse fluidamente por la plataforma, ya sea que estén siguiendo un proceso guiado o explorando el contenido a su manera.
+#### 4.2.2. Labeling Systems.
+The labeling system aims at uniting the data effectively and represent them in simple way and avoid confusing great amount of information. A widely adopted way to achieve this is by creating the labels which represent loads of data in few words.
+![Labeling Systems](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/labeling-systems-1.png?raw=true)
+![Icons-Searching Systems](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/labeling-systems-2.png?raw=true)
+
+### 4.2.3. SEO Tags and Meta Tags
+
+**Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
+* **Titulo**: ```<title>AgroControl - Gestiona Todo Tu Ciclo Agrícola con Eficiencia</title> ```
+* **Descripcion**: ```<meta name="description" content="AgroControl te ayuda a gestionar cada etapa del proceso agrícola, desde el sembrío hasta la distribución, de manera simple y efectiva."> ```
+* **Palabras Clave:** ``` <meta name="keywords" content="agricultura, gestión agrícola, software agrícola, eficiencia agrícola, AgroControl">```
+
+### 4.2.4. Searching Systems.
+
+**¿Qué se busca?:**  
+El sistema de búsqueda de **AgroControl** permite a los usuarios buscar información clave relacionada con la gestión agrícola, como guías, artículos de blog, servicios específicos, o detalles sobre cómo usar la aplicación.
+
+**¿Qué resultados se mostrarán?:**  
+Los resultados de la búsqueda incluirán una lista de artículos relevantes, páginas de servicio, secciones de ayuda, y cualquier contenido relacionado con las palabras clave ingresadas por el usuario. Los resultados se mostrarán en orden de relevancia, destacando los más cercanos a los términos de búsqueda.
+
+**Interfaz de búsqueda:**  
+La interfaz de búsqueda de **AgroControl** está diseñada para ser intuitiva y fácil de usar. Un campo de búsqueda prominente se encuentra en la parte superior de la página, permitiendo a los usuarios ingresar términos rápidamente. Mientras el usuario escribe, se despliegan sugerencias automáticas para ayudar a refinar la búsqueda. Los filtros adicionales permiten a los usuarios ordenar los resultados por categoría, fecha o relevancia, asegurando que encuentren exactamente lo que necesitan con el mínimo esfuerzo.
+
+
+### 4.2.5. Navigation Systems.
+
+### Hierarchical Navigation System
+El sistema de navegación jerárquico en **AgroControl** organiza la navegación desde la página principal hasta las páginas de destino específicas. Los usuarios pueden comenzar en la página de inicio y desde allí acceder a secciones clave como "Servicios", "Blog", o "Contacto", permitiendo un flujo de navegación claro y estructurado.
+
+### Global Navigation System
+Como complemento del sistema jerárquico, **AgroControl** utiliza un sistema de navegación global que facilita el movimiento vertical dentro de una misma página. A través de un menú de navegación fijo, los usuarios pueden desplazarse por las diferentes secciones de la página, manteniendo siempre la opción de regresar a la página principal desde cualquier punto.
+
+### Local Navigation System
+El sistema de navegación local se utiliza para permitir a los usuarios moverse entre sub-sitios o páginas secundarias dentro de **AgroControl**. Este sistema complementa la navegación global, proporcionando enlaces directos a otras páginas relevantes, como la página de detalles de un servicio específico o un artículo del blog, asegurando una experiencia de navegación fluida y coherente.
+## 4.3. Landing Page UI Design.
+Enlace al Landing Page: 
+
+https://agrocontrol-landing-page.vercel.app/index.html
+
+### 4.3.1. Landing Page Wireframe.
+la pagina donde te registras y ves info del web app (te manda al web app)
+
+## 1. Hero
+El Hero es la sección principal y destacada de la landing page, captando la atención del usuario con un llamado a la acción o una introducción a la aplicación.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Hero.png?raw=true" style="width: 800px"/>
+
+---
+
+## 2. Agricultores - Wireframe
+Este wireframe muestra la estructura de la página destinada a los agricultores, incluyendo las secciones y funcionalidades específicas para este grupo de usuarios.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Agricultores%20-%20Wireframe.png?raw=true" style="width: 800px"/>  
+---
+
+## 3. Distribuidores - Wireframe
+En este wireframe se presenta la página dedicada a los distribuidores, destacando las funcionalidades y el diseño pensado para ellos.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Distribuidores-wireframe.png?raw=true" style="width: 800px"/>
+
+---
+
+## 4. Gallery
+Aquí se encuentra la sección de galería, donde se mostrarán imágenes relacionadas con la aplicación o los servicios ofrecidos.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Gallery.png?raw=true" style="width: 800px"/>
+
+---
+
+## 5. Plan Agricultor
+Este wireframe ilustra el plan diseñado para los agricultores, detallando precios y características específicas del plan.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Plan%20Agricultor.png?raw=true" style="width: 800px"/>  
+
+---
+
+## 6. Plan Distribuidor
+Similar al plan de agricultores, este wireframe muestra los detalles del plan pensado para los distribuidores, con su propia estructura y características.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Plan%20Distribuidor.png?raw=true" style="width: 800px"/>
+
+---
+
+## 7. Testimonial
+La sección de testimoniales muestra opiniones y comentarios de usuarios satisfechos, proporcionando credibilidad y confianza en la aplicación.  
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Testimonial.png?raw=true" style="width: 800px"/>  
+
+---
+
+
+## 8. Contact Us
+Este wireframe detalla la página de contacto, donde los usuarios pueden encontrar información para comunicarse con la empresa.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Contact%20Us.png?raw=true" style="width: 800px"/>  
+
+---
+
+## 9. Footer
+El footer incluye enlaces rápidos, información de contacto y otras secciones relevantes para la navegación del usuario en toda la aplicación.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Footer.png?raw=true" style="width: 800px"/>
+
+---
+
+### 4.3.2. Landing Page Mock-up.
+Mockup es todo lo relacionado al diseño de la pagina
+
+## 1. Hero
+El Hero es la sección principal y destacada de la landing page, captando la atención del usuario con un llamado a la acción o una introducción a la aplicación.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_Hero.png?raw=true" style="width: 800px"/>  
+
+---
+
+## 2. Agricultores - Wireframe
+Este wireframe muestra la estructura de la página destinada a los agricultores, incluyendo las secciones y funcionalidades específicas para este grupo de usuarios.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_Agricultores.png?raw=true" style="width: 800px"/>  
+
+---
+
+## 3. Distribuidores - Wireframe
+En este wireframe se presenta la página dedicada a los distribuidores, destacando las funcionalidades y el diseño pensado para ellos.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_Distribuidores.png?raw=true" style="width: 800px"/>  
+
+---
+
+## 4. Gallery
+Aquí se encuentra la sección de galería, donde se mostrarán imágenes relacionadas con la aplicación o los servicios ofrecidos.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_Gallery.png?raw=true" style="width: 800px"/>
+
+---
+
+## 5. Plan Agricultor
+Este wireframe ilustra el plan diseñado para los agricultores, detallando precios y características específicas del plan.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_Plan-Agricultor.png?raw=true" style="width: 800px"/>
+
+---
+
+## 6. Plan Distribuidor
+Similar al plan de agricultores, este wireframe muestra los detalles del plan pensado para los distribuidores, con su propia estructura y características.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_Plan%20Distribuidor.png?raw=true" style="width: 800px"/>
+
+---
+
+## 7. Testimonial
+La sección de testimoniales muestra opiniones y comentarios de usuarios satisfechos, proporcionando credibilidad y confianza en la aplicación.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_testimonial.png?raw=true" style="width: 800px"/>
+
+---
+
+
+## 8. Contact Us
+Este wireframe detalla la página de contacto, donde los usuarios pueden encontrar información para comunicarse con la empresa.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_form.png?raw=true" style="width: 800px"/>  
+
+---
+
+## 9. Footer
+El footer incluye enlaces rápidos, información de contacto y otras secciones relevantes para la navegación del usuario en toda la aplicación.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_footer.png?raw=true" style="width: 800px"/>  
+
+
+## 4.4. Web Applications UX/UI Design.
+
+AgroControl es una plataforma de gestión que facilita diversos procesos, como la administración de campos, horarios e inventarios. Su diseño busca ser atractivo y coherente, además de funcional e intuitivo, garantizando que los usuarios puedan interactuar de manera eficiente con las herramientas ofrecidas.
+En cuanto a la experiencia de usuario, se ha priorizado una navegación intuitiva que permite registrar campos, programar plantaciones, riegos, fertilización y fumigación de manera sencilla. Además de controlar y registrar las cosechas y ganancias derivadas de estas.
+Se han empleado elementos visuales claros, como botones, tablas de registro y menús bien definidos, para asegurar que los usuarios puedan realizar sus tareas sin complicaciones. Además, la plataforma proporciona una visualización de datos principal que permite acceder rápidamente a información clave, como la plantación en curso y los horarios de los próximos procesos a realizar.
+
+
+### 4.4.1. Web Applications Wireframes.
+
+Enlace Figma: https://shorturl.at/EgCQ3
+
+
+**Inicio Sesion**  
+La primera pantalla que interactua el usuario. En esta, el usuario podra iniciar sesion en AgroControl. Ademas de opciones de regsitrarse, sino cuenta con una subscripcion, y opciones de recuperacion de contraseña.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Wireframe/Registro.png" style="width: 800px"/>  
+
+**Registro usuario**
+
+La pantalla de registro, permite al usuario crear un cuenta en AgroControl. Mediante un formulario, se le solicita sus datos personales. Ademas, define el rol que cumple, ya sea "Agricultor" o "Distribuidor, con sus respectivos planes.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/SignUpView.png" style="width: 800px"/>
+
+**Fields**  
+
+Pantalla de control y visualizacion de los fields registrados por el usuario. En el se puede crear un nuevo campo o "Field" e interactuar con la tarjeta para visualizar los procesos activos y las funcionalidades de la plataforma.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Web%20Application%20Wireframe/fieldAgro%20(1).png?raw=true" style="width: 800px"/>
+
+**Home Field**
+
+Pantalla donde se visualiza un panel de control de los diferentes procesos en funcionamiento. En el podemos diferenciar los principales funcionamientos que ofrece la plataforma, como el comienzo de una plantacion, añadir a trabajadores, agendar horarios de riego, fertilizacion y fumigacion.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Home-Field.png" style="width: 800px"/>
+
+**Home Field Menu**
+
+Barra lateral de navegacion. En el se visualiza las funcionalidades de la plataforma. Nos permite dirigirnos a vistas más detalladas de cada proceso.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Home-Field-menu.png" style="width: 800px"/>
+
+**Irrigation**
+
+Pantalla de registro y creacion de procesos de riego. Los datos que se visualizan son el día de inicio de proceso, horas demandadas y los trabajadores involucrados.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Irrigation-list.png" style="width: 800px"/>    
+
+**Fumigation & Fertilization**  
+
+Pantalla de registro y creacion de procesos de fumigación y fertilización. Los datos que se visualizan son el dia de inicio del proceso, horas que tomara el trabajo, el tipo de proceso, ya sea "Fertilization" o "Fumigation", y los trabajadores involucrados.    
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Fumigation-list.png" style="width: 800px"/>
+
+**Harvest**
+
+Pantalla de registro de cosecha en la tabla "Harvest". Sirve como control de las cosechas realizadas en el "Field". Los datos identificados son el dia de registro, el peso de la cosecha y el precio por unidad.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Harvest-Agro.png" style="width: 800px"/>
+
+**Finances**
+
+Pantalla de registro de la finanzas del field del usuario. Nos permite visualizar las ganacias y la cantidad vendido de cosecha en una fecha determinada. Podemos visualizar los datos de fecha de registro, costo total y ganancias.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/financiero-Agro.png" style="width: 800px"/>
+
+**Workers**
+
+Pantalla de registro de trabajadroes. En el nos permite visualizar y manejar los trabajadores que esten relacionados a nuestro field. Los datos solicitados son el nombre del trabajador, numero telefonico y el numero de documento de identidad.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Workers-list.png" style="width: 800px"/>
+
+**Store**
+
+Pantalla de la tienda virtual de la aplicacion AgroControl. Nos muestra los diferentes objetos publicados por los usuarios, ya sean "Agricultores" o "Distribuidores".  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Tienda-Agro.png" style="width: 800px"/>
+
+
+### 4.4.2. Web Applications Wireflow Diagrams.
+
+Enlace Lucidchart: https://shorturl.at/MMpXU
+
+**Agregar nueva cosecha en tabla "Harvest"**
+
+En este flujo especificamos el proceso de agregar los datos de la cosecha realizada en nuestro "Field". Registramos el nombre del producto cosechado, la fecha en que fue realizada, el peso total recogido y el precio por unidad.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Harvest-wire.png" style="width: 800px"/>
+
+**Crear nueva plantacion en "Planting"**
+
+Este flujo muestra el proceso de inicio de una plantacion, que se esta realizando en un "Field". Registramos el producto a plantar y la fecha de inicio del proceso. Por ultimo es mostrado en el Panel principal en una tabla.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Planting-wire.png" style="width: 800px"/>
+
+**Crear nuevo "Field"**
+
+La primera funcionalidad que interactua el usuario. En este flujo se crea un campo "Field", con los datos del nombre, el tamaño del campo en hectareas y la locacion del campo. Por ultimo se visualizara en el Inicio, los diferentes campos registrados.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Field-wire.png" style="width: 800px"/>
+
+**Agregar nuevos datos de finanzas en "Finances"**
+
+Funcionalidad de agregar y monitorear las finanzas relacionadas al campo trabajado. Los datos ingresados son la fecha del registro, el costo total, el ingreso total y las ganancias. Estos datos se visualizaran en la tabla "Finances", permitiendo un control sencillo.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Finances-wire.png" style="width: 800px"/>
+
+**Agregar nuevo proceso de fumigacion y fertilizacion en "Fumigation & Fertilization"**
+
+Funcionalidad de agregar y monitorear los procesos de fumigacion y fertilizacion realizados en el campo trabajado. Los datos son registrados en la tabla "Fumigation & Fertilization" para un control total. Esto nos permite conocer la fecha en la cual se realizara el proceso, el tipo de proceso "Fumigation" o "Fertilization", las horas trabajadas, los trabajadores involucrados y los productos utilizados.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Fum-Fert.png" style="width: 800px"/>
+
+**Agregar nuevo proceso de riego en "Irrigation"**
+
+Funcionalidad de agregar y monitorear los procesos de riego planificados para el campo. Se agregan a la tabla "Irrigation" y se muestran los procesos registrados para tener un control total. Los datos solicitados son la fecha programada del proceso, las horas demandadas y los trabajadores involucrados.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/irrigation-wire.png" style="width: 800px"/>
+
+**Agregar nuevo trabajador de cultivo en "Workers"**
+
+Funcionalidad de registro de trabajadores relacionados al campo del usuario. En el tenemos un control de los trabajadores involucrados en los diferentes procesos del campo, además de contar con sus datos personales. Esto nos permite la facil asignacion de trabajadores a diferentes procesos.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/worker-wire.png" style="width: 800px"/>
+
+
+### 4.4.3. Web Applications Mock-ups.
+
+Link Figma: https://shorturl.at/EgCQ3  
+
+**Inicio Sesion**
+La pantalla de inicio de sesión de AgroControl está diseñada con simplicidad y accesibilidad en mente. Es el primer punto de contacto del usuario con la aplicación AgroControl.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Registro.png" style="width: 800px"/>
+
+**Registro usuario**  
+La pantalla de registro de AgroControl permite a los usuarios seleccionar su rol de Agricultor o Distribuidor mediante dos radio buttons.   
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/SignUp-Agro.png" style="width: 800px"/>
+
+**Fields**  
+La pantalla de Fields permite al usuario registra y visualizar los campos a su disposición. En el podemos ver los nombres, el tamaño y la localización de esta.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Home-Agro.png" style="width: 800px"/>
+
+**Home Field**  
+Pantalla de visualización de datos principales como el inicio de una plantación con sus datos respectivos, además de los horarios registrados para los procesos de riego, fertilización y fumigación. 
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Home-Field.png" style="width: 800px"/>  
+
+**Home Field Menu**  
+Se visualiza en la zona derecha un menú de navegación donde nos permite visualizar y dirigirnos a las diferentes funcionalidades de la aplicación.  
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Home-Field-menu.png" style="width: 800px"/>
+
+**Irrigation**  
+Pantalla de visualización y registro de procesos de riego. Se puede monitorear el horario de inicio del proceso, las horas destinadas y los trabajadores involucrados.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Irrigation-list.png" style="width: 800px"/>
+
+**Fumigation & Fertilization**  
+La pantalla Fumigation & Fertilization permite visualizar y monitorear los diferentes procesos agendados. Se registra el día y las horas dedicadas para el proceso.   
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Fumigation-list.png" style="width: 800px"/>
+
+**Harvest**  
+Pantalla Harvest permite registrar las cosechas realizadas, con el peso de la cosecha y el precio por unidad.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Harvest-Agro.png" style="width: 800px"/>
+
+**Finances**  
+En Finances se puede visualizar una tabla que permite registrar y monitorear el día de registro de las ganancias generadas por la venta de los productos vendidos.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/financiero-Agro.png" style="width: 800px"/>  
+
+**Workers**  
+Pantalla de visualización de trabajadores registrados al Field. Se registra el nombre, su número telefónico y documento de identidad.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Workers-list.png" style="width: 800px"/>
+
+**Store**  
+Pantalla de la tienda interna de los usuarios. En ella podemos ver los productos publicados por Agricultores y Distribuidores, y realizar compras de estos.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Tienda-Agro.png" style="width: 800px"/>
+
+### 4.4.4. Web Applications User Flow Diagrams.
+
+Enlace LucidChart: https://shorturl.at/MMpXU  
+
+**Agregar nueva cosecha en tabla "Harvest"**  
+En este flujo especificamos el proceso de agregar los datos de la cosecha realizada en nuestro "Field". Registramos el nombre del producto cosechado, la fecha en que fue realizada, el peso total recogido y el precio por unidad.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/Harvest-uflow.png" style="width: 800px"/>
+
+**Crear nueva plantacion en "Planting"**  
+Este flujo muestra el proceso de inicio de una plantacion, que se esta realizando en un "Field". Registramos el producto a plantar y la fecha de inicio del proceso. Por ultimo es mostrado en el Panel principal en una tabla.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/Planting-uflow.png" style="width: 800px"/>
+
+**Crear nuevo "Field"**  
+La primera funcionalidad que interactua el usuario. En este flujo se crea un campo "Field", con los datos del nombre, el tamaño del campo en hectareas y la locacion del campo. Por ultimo se visualizara en el Inicio, los diferentes campos registrados.   
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/field-uflow.png" style="width: 800px"/>
+
+**Agregar nuevos datos de finanzas en "Finances"**  
+Funcionalidad de agregar y monitorear las finanzas relacionadas al campo trabajado. Los datos ingresados son la fecha del registro, el costo total, el ingreso total y las ganancias. Estos datos se visualizaran en la tabla "Finances", permitiendo un control sencillo.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/finances-uflow.png" style="width: 800px"/>
+
+**Agregar nuevo proceso de fumigacion y fertilizacion en "Fumigation & Fertilization"**  
+Funcionalidad de agregar y monitorear los procesos de fumigacion y fertilizacion realizados en el campo trabajado. Los datos son registrados en la tabla "Fumigation & Fertilization" para un control total. Esto nos permite conocer la fecha en la cual se realizara el proceso, el tipo de proceso "Fumigation" o "Fertilization", las horas trabajadas, los trabajadores involucrados y los productos utilizados.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/fum-fer-uflow.png" style="width: 800px"/>
+
+**Agregar nuevo proceso de riego en "Irrigation"**  
+Funcionalidad de agregar y monitorear los procesos de riego planificados para el campo. Se agregan a la tabla "Irrigation" y se muestran los procesos registrados para tener un control total. Los datos solicitados son la fecha programada del proceso, las horas demandadas y los trabajadores involucrados.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/irrigation-uflow.png" style="width: 800px"/>
+
+**Agregar nuevo trabajador de cultivo en "Workers"**  
+Funcionalidad de registro de trabajadores relacionados al campo del usuario. En el tenemos un control de los trabajadores involucrados en los diferentes procesos del campo, además de contar con sus datos personales. Esto nos permite la facil asignacion de trabajadores a diferentes procesos.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/worker-uflow.png" style="width: 800px"/>
+
+## 4.5. Web Applications Prototyping.
+
+**Crear y agregar un "Field"**  
+El prototipo desarrollado presenta el flujo completo para la creación de un campo agricola, una funcionalidad central para los agricultores.
+Desde la pantalla principal, el usuario puede agregar y acceder a un formulario de creación de campos haciendo click en el botón de accion con el simbolo "+".
+
+El formulario de creación de campo incluye los siguientes campos obligatorios:
+
+- Nombre del Campo: El usuario ingresa el nombre que quiere asignar al campo
+- Tamaño del Campo: Ingresado en hectareas
+- Ubicación del Campo: Ingresa la ubicacion geografica.
+
+Después de crear un campo, el usuario regresa a la pantalla principal, donde los campos registrados se muestran en formato de cards. Están diseñadas con un estilo claro y visualmente atractivo, organizadas en grillas que responde a los diferentes tamaños de pantalla. Los usuarios pueden interactuar con las cards para ver más detalles de los procesos o eliminarlo.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/create_field.png" style="width: 800px"/>
+
+Video: https://shorturl.at/D5nOI
+
+**Registro de proceso de fumigacion y fertilizacion en la tabla "Fumigation & Fertilization"**
+
+El presente prototipo se evidencia el flujo de registro del proceso de fumigacion y fertilizacion. Desde la pantalla de "Fumigation & Fertilization", el usuario puede agregar mediante un formulario los siguientes datos:
+
+- Fecha del proceso: Seleccion de fecha de inicio del proceso.
+- Horas trabajadas: Ingresa las horas que conlleva dicho proceso
+- Tipo de proceso: Seleccion entre los procesos de "Fumigation" y "Fertilization"
+- Productos utilizados: Productos del inventario del agricultor
+- Trabajadores: Los trabajadores involucrados en el procesos.
+
+Despues de crear el proceso, se visualiza en la tabla "Fumigation & Fertilization".
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/fumigation.png" style="width: 800px"/>
+
+Video: https://shorturl.at/iygAV
+
+**Registro y visualizacion de las finanzas del usuario relacionadas a un campo**
+
+Esta característica se diseñó considerando criterios de interacción que maximizan la claridad y facilidad de uso.
+Desde la pantalla principal del campo, el usuario accede a la sección de finanzas mediante una pestaña claramente identificada como "Finanzas", ubicada en el menú lateral o directamente dentro de la card del campo.
+El usuario tiene la opción de agregar un nuevo dato. Los campos a completar incluyen:
+
+- Fecha de registro: Fecha de registro de inicio del proceso.
+- Costo Total: El costo total de los procesos realizados en el campo.
+- Ingreso Total: El ingreso total por proceso de plantacion.
+- Ganancias: Las ganancias obtenidas del proceso.
+
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/finances.png" style="width: 800px"/>
+
+Video: https://shorturl.at/Y5MGc
+
+**Registro de proceso de riego en la tabla "Irrigation"**
+
+El flujo representa el  registrar y visualizar los datos relacionados con el riego de sus campos, lo que les permite un mejor control sobre el uso del agua y las fechas programadas para futuras irrigaciones. Estos registros se almacenan en la tabla llamada "Irrigation".
+En la pantalla de riego, se presenta un botón prominente llamado "Add" que abre un formulario de ingreso de datos. Se abre un formulario donde el usuario debe llenar la siguiente información:
+
+- Fecha de riego: Selecciona mediante un calendario.
+- Duracion: Cantidad de tiempo que dura el riego.
+- Trabajadores: Los trabajadores involucrados con el proceso
+
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/irrigation.png" style="width: 800px"/>
+
+Video: https://shorturl.at/GkG2u
+
+**Registro de cosecha realizada en la tabla "Harvest"**
+
+El registro de la cosecha es un proceso que permite rastrear las cantidades recolectadas y sus valores comerciales. Los datos se almacenan en una tabla denominada "Harvest". En esta tabla, el usuario puede registrar la fecha de la cosecha, el peso total recolectado, y el precio por unidad de peso.
+
+- Fecha de la cosecha: Se selecciona desde un calendario.
+- Peso total: Ingresado en kilogramos o la unidad de peso utilizada por el agricultor
+- Precio por unidad de peso: El precio que se espera recibir por cada unidad del peso total cosechado.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/harvest.png" style="width: 800px"/>
+
+Video: https://shorturl.at/Vioq8
+
+**Registro de proceso de plantación de producto en el campo.**
+
+El registro del proceso de plantación sigue un flujo secuencial. Este enfoque guía a los agricultores a través de un formulario simple y ordenado, permitiendo que la información esencial del proceso de plantación sea registrada de manera clara y concisa. Además, la tabla que almacena esta información les permite acceder rápidamente a los datos de plantaciones anteriores.
+
+Desde la pantalla principal de AgroControl, el usuario selecciona el campo en el que desea registrar la plantación. En la vista de ese campo, se presenta una opción en el menú o en las cards de acciones rápidas llamada "Create Planting".
+
+El formulario contiene los siguientes campos esenciales para el registro:
+
+- Fecha de inicio: Se especifica el inicio del proceso de plantación 
+- Semillas plantadas: Descripción de las semillas utilizadas
+- Cantidad: Especifica la cantidad utilizada para el proceso
+- Costo: Especifica el costo total del uso de las semillas
+- Workers: Ingresar los workers involucrados en el proceso
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/planting.png" style="width: 800px"/>
+
+Video: https://t.ly/ZSkcb
+
+**Registro y visualizacion de trabajadores relacionados a los procesos del campo, en la tabla "Workers".**
+
+El manejo de los trabajadores es un aspecto clave en la gestión agrícola. AgroControl permite a los agricultores registrar a los trabajadores asignados a sus campos, ingresando información básica como el nombre, el teléfono, y el documento de identidad de cada trabajador.
+El sistema utiliza un enfoque jerárquico y secuencial para la gestión de los trabajadores. Los usuarios pueden registrar la información de sus trabajadores de manera sencilla y visualizarla en una tabla organizada, permitiendo tanto la actualización como la eliminación de registros.
+
+El formulario permite registrar los siguientes datos básicos de cada trabajador:
+
+- Nombre del trabajador.
+- Teléfono de contacto.
+- Documento de identidad.
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/workers.png" style="width: 800px"/>
+
+Video: https://shorturl.at/3LBmG  
+
+## 4.6. Domain-Driven Software Architecture.
+La arquitectura de software basada en el dominio, un enfoque que centra el diseño y desarrollo del software en el conocimiento del dominio específico del negocio, se presenta en esta sección. Este método facilita la comunicación entre desarrolladores y expertos del dominio y permite la creación de sistemas más alineados con las necesidades y procesos comerciales. A continuación se presentan los diagramas y contextos delimitados que conforman la arquitectura de software de nuestro proyecto.
+
+### 4.6.1. Software Architecture Context Diagram.  
+El diagrama de contexto del sistema muestra la relación entre el sistema y los actores externos, proporcionando una visión general de la arquitectura del sistema y sus interacciones con el entorno externo.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Context%20Diagram.png" style="width: 800px"/>
+   
+### 4.6.2. Software Architecture Container Diagrams.
+Las aplicaciones web, las bases de datos, los microservicios y cómo se comunican entre sí se muestran en los diagramas de contenedores. Estos diagramas destacan las responsabilidades y las interacciones de cada contenedor, ofreciendo una visión general de la arquitectura del sistema.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Container%20Diagram.png" style="width: 800px"/>
+
+### 4.6.3. Software Architecture Components Diagrams.  
+Los diagramas de componentes de la arquitectura de software se presentan en esta sección. Estos diagramas muestran los diversos componentes del sistema, sus funciones y cómo interactúan entre sí.
+
+#### IAM Bounded Context
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram-IAM%20Context.png" style="width: 800px">
+
+#### Profile Bounded Context
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram-Profile%20Context.png" style="width: 800px">
+
+#### Field Bounded Context
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram-Field%20Context.png" style="width: 800px">
+
+#### Agricultrual Process Bounded Context
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram-AgriculturalProcess%20Context.png" style="width: 800px">
+
+
+#### Store Bounded Context
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram-Store%20Context.png" style="width: 800px">
+
+#### Subscription Bounded Context
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram-Subscription%20Context.png" style="width: 800px">
+
+#### Financial Bounded Context
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram%20-%20FinancialContext.png" style="width: 800px">
+
+## 4.7. Software Object-Oriented Design.
+El diseño orientado a objetos (OOD) organiza el software en torno a objetos que combinan datos y funciones. Basado en principios como la abstracción, encapsulamiento, herencia y polimorfismo, OOD facilita la creación de sistemas modulares, reutilizables y fáciles de mantener.  
+
+### 4.7.1. Class Diagrams.  
+Los diagramas de clases representan la estructura de un sistema orientado a objetos, mostrando clases, atributos, métodos y sus relaciones, facilitando la comprensión de la arquitectura del software.  
+
+#### Agricultural Process
+
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/agricultural-process.png" style="width: 800px"/>
+
+#### Fields
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/fields.png" style="width: 800px"/>
+
+
+#### Profiles
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/profiles.png" style="width: 800px"/>
+
+#### IAM
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/iam.png" style="width: 800px"/>
+
+#### Finances
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/finances.png" style="width: 800px"/>
+
+#### Subscription
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/subscription.png" style="width: 800px"/>
+
+#### Store
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/store.png" style="width: 800px"/>
+
+#### Payment
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/payment.png" style="width: 800px"/>
+
+#### Diagram class
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/ClassDiagram.png" style="width: 800px"/>
+
+
+
+### 4.7.2. Class Dictionary.
+
+# 4.7.2. Class Dictionary
+
+## Subscription
+Clase que representa la suscripción de un usuario, que define el acceso a funcionalidades específicas.
+- **PlanTypes**: Enumeración que categoriza los planes como **Basic**, **Premium** o **Standard**.
+
+---
+
+## PaymentProduct
+Clase que representa los productos asociados a pagos realizados por los usuarios.
+
+---
+
+## Product
+Clase que representa un producto disponible en la tienda de un distribuidor.
+
+---
+
+## Distributor
+Clase que representa los distribuidores, incluyendo su información personal y empresarial.
+
+---
+
+## Producer
+Clase que representa a los productores agrícolas, con datos como ubicación y contacto.
+
+---
+
+## Payment
+Clase que gestiona los pagos realizados por los usuarios, incluyendo detalles de tarjetas de crédito.
+
+---
+
+## User
+Clase que representa a los usuarios del sistema y sus roles asociados.
+
+---
+
+## Role
+Clase que define los roles disponibles en el sistema, como **Admin**, **Agricultural Producer** y **Distributor**.
+
+---
+
+## Finance
+Clase que registra las transacciones financieras relacionadas con los procesos agrícolas.
+
+---
+
+## Field
+Clase que representa la tierra de cultivo del usuario **Farmer**.
+
+---
+
+## Worker
+Clase que representa a los trabajadores asociados a un productor.
+
+---
+
+## AgriculturalProcess
+Clase que gestiona los procesos agrícolas, incluyendo actividades como siembra, riego, fertilización, fumigación y cosecha.
+- **AgriculturalActivityManager**: Clase que gestiona las actividades agrícolas.
+- **Resource**: Clase que detalla los recursos utilizados en las actividades.
+- **ActivityType**: Enumeración que categoriza actividades como **Seeding**, **Irrigation**, **Harvest**, entre otras.
+
+---
+
+## AgriculturalActivity
+Clase que detalla una actividad agrícola específica dentro de un proceso.
+
+---
+
+## IrrigationSchedule
+Clase que representa la función de horario de riego de un campo.
+
+---
+
+## FertilizationSchedule
+Clase que representa la función de horario de fertilización de un campo.
+
+---
+
+## FumigationSchedule
+Clase que representa la función de horario de fumigación de un campo.
+
+---
+
+## Harvest
+Clase que representa la cosecha realizada en un campo.
+
+---
+
+## Offer
+Clase que representa una oferta especial en la tienda de un distribuidor.
+
+---
+
+
+## 4.8. Database Design.  
+### 4.8.1. Database Diagram.  
+Visualizamos la estructura de una base de datos, mostrando entidades, atributos y relaciones, lo que ayuda a comprender la organización y el flujo de información en el sistema.  
+
+#### Agricultural Process
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/agriculturalprocessdb.jpeg" style="width: 800px"/>
+
+#### Fields
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/fieldsdb.jpeg" style="width: 800px"/>
+
+#### Profiles
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/profilesdb.jpeg" style="width: 800px"/>
+
+#### IAM
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/IAM.jpeg" style="width: 800px"/>
+
+#### Finances
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/financesdb.jpeg" style="width: 800px"/>
+
+#### Subscription
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/subscriptiondb.jpeg" style="width: 800px"/>
+
+#### Store
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/storedb.jpeg" style="width: 800px"/>
+
+#### Payment
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/paymentdb.jpeg" style="width: 800px"/>
+
+#### Diagram class
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/DB%20DIAGRAM.png" style="width: 800px"/>
+
+
+
+
+
+
+
 
