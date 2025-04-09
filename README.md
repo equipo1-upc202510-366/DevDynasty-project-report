@@ -218,3 +218,9 @@ Ser la plataforma líder en gestión agrícola, reconocida por nuestra capacidad
         </td>
     </tr>
 </table>
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+### Antecedentes:
+La agricultura sigue siendo una de las principales actividades económicas a nivel global. Sin embargo, muchos productores agrícolas, especialmente los pequeños y medianos, enfrentan dificultades para gestionar eficientemente sus procesos de producción y distribución. La falta de acceso a herramientas de planificación, monitoreo y administración de recursos limita su capacidad para optimizar la producción, lo que a su vez reduce su rentabilidad y sostenibilidad. Además, los distribuidores se ven afectados por problemas de trazabilidad y coordinación en la cadena de suministro, lo que complica la entrega oportuna de productos de calidad al mercado.
