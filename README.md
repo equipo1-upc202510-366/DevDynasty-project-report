@@ -75,6 +75,7 @@ URL del repositorio GitHub: https://github.com/orgs/equipo1-upc202510-366/reposi
     </tr>
   </tbody>
 </table>
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile  
 Sección donde presentamos al Startup y a los miembros que la conforman.  
