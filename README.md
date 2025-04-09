@@ -302,3 +302,51 @@ Actualmente, los agricultores y distribuidores carecen de soluciones integrales 
 ##### Initial Segment
 Compuesto por productores agrícolas pequeños y medianos, que necesitan una solución económica pero efectiva para gestionar sus operaciones diarias, así como distribuidores locales que requieren optimizar su logística y mejorar la trazabilidad de los productos que entregan.
 
+#### 1.2.2.2. Lean UX Assumptions
+#### Features
+* Gestión de las etapas del ciclo agrícola (siembra, riego, fumigación, recolección, distribución).
+* Programación automática de tareas clave (fechas de riego, fumigación, recolección).
+* Gestión financiera y control de costos asociados a cada etapa del ciclo agrícola.
+
+#### Business Outcomes
+Tenemos como objetivo generar impactos comerciales positivos para los productores y los distribuidores, como:
+* Aumento de productividad agrícola, llevando a una mayor rentabilidad para los productores.
+* Reducción de costos operativos para agricultores mediante una mejor planificación.
+* Mejora en la satisfacción de los usuarios al ofrecer una solución accesible y fácil de usar.
+
+#### Business Assumptions
+Suponemos que los usuarios adoptarán tecnología digital, que habrá un mercado en crecimiento y que la conectividad será accesible para todos los usuarios.
+* Adaptación a la tecnología de los productores agrícolas y distribuidores para mejorar sus operaciones.
+* Crecimiento de mercado con una creciente demanda de herramientas de gestión agrícola, debido a la presión por ser más eficientes y sostenibles.
+* La solución será escalable para diferentes tipos de productores y distribuidores, desde pequeñas granjas hasta grandes operaciones agrícolas.
+
+#### User Outcomes
+###### Productores agrícolas: 
+* Aumento en la eficiencia del uso de recursos, reducción de costos, mayor control sobre las operaciones diarias y una mejor visibilidad de las finanzas agrícolas.
+
+###### Distribuidores: 
+* Mejora en la logística de entrega y  reducción de errores en la distribución.
+
+#### User assumptions
+* Los usuarios (productores y distribuidores) estarán dispuestos a adoptar herramientas digitales, a pesar de la posible falta de familiaridad inicial.
+* La mayoría de los productores y distribuidores tendrán acceso a dispositivos móviles o computadoras con conectividad a internet.
+* Los usuarios estarán interesados en invertir tiempo y esfuerzo en aprender y usar la plataforma si perciben que los beneficios a largo plazo superan la inversión inicial.
+* Los usuarios buscarán reducir costos y optimizar recursos, por lo que la plataforma se verá como una solución viable para mejorar sus operaciones.
+
+#### ¿Dónde encaja nuestro producto en sus trabajos o vidas?
+Se integra directamente en las operaciones diarias de los productores y distribuidores. Para los productores, facilita la planificación, monitoreo y administración de sus recursos y cultivos. Para los distribuidores, nuestro producto se convierte en una herramienta clave para mejorar la logística, asegurando una cadena de suministro más eficiente.
+
+#### ¿Qué problema resuelve nuestro producto?
+Resuelve problemas de ineficiencia en la gestión de recursos agrícolas, como la programación de riego, control de fumigación, y seguimiento de la producción. También resuelve la falta de coordinación en distribución, permitiendo que los productos lleguen a su destino de manera oportuna y con menos errores.
+
+#### ¿Cuándo y cómo es usado nuestro producto?
+Nuestro producto es utilizado durante todo el ciclo agrícola, desde la planificación de la siembra hasta la distribución de los productos. Los usuarios lo acceden desde dispositivos con conexión a internet para monitorear y gestionar sus operaciones en tiempo real. La programación de riego y fumigación, el control de costos y la gestión de la distribución son ejemplos de actividades diarias en las que el producto es indispensable.
+
+#### ¿Qué características son importantes?
+* Gestión y monitoreo en tiempo real de todas las etapas del ciclo agrícola.
+* Programación automatizada de tareas clave (riego, fumigación, recolección).
+* Control financiero asociado a cada etapa de la producción.
+
+#### ¿Cómo debería verse y comportarse nuestro producto?
+Nuestro producto debe tener una interfaz intuitiva y fácil de usar, permitiendo que los usuarios naveguen sin dificultad entre las distintas funcionalidades. La interfaz debe ser limpia, con accesos directos a las tareas más comunes como la programación de riego, seguimiento de recursos y control de distribución.
+
