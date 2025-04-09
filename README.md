@@ -551,4 +551,173 @@ Agroptima es una aplicación diseñada para facilitar la gestión de las activid
   </tr>
 </table>
 
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+En esta sección se han definido una serie de preguntas para nuestros segmentos objetivos, con la finalidad de obtener información cualitativa como opiniones y descripciones. Esta información será de gran ayuda en el desarrollo de nuestra solución.
+
+**Preguntas generales:**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿Dónde vives actualmente?
+4. ¿A qué te dedicas?
+5. ¿Cual es el navegador (browser) que más usas?
+6. ¿Cual es el dispositivo que más usas?
+
+**Preguntas Segmento 1: Productores Agricolas**
+
+1. ¿Cuáles son los principales desafíos que enfrentas en la gestión de tus campos de cultivo?
+2. ¿Qué herramientas utilizas actualmente para la gestión de tus operaciones agrícolas?
+3. ¿Qué funcionalidades consideras más importantes en una aplicación de gestión agrícola?
+4. ¿Qué aspectos te gustaría mejorar en las herramientas actuales que usas?
+5. ¿Con qué frecuencia utilizas tecnología para la gestión de tus cultivos?
+6. ¿Qué tipo de datos o información te gustaría que te proporcionara una aplicación de gestión agrícola?
+7. ¿Cómo manejas actualmente el seguimiento de tus gastos e ingresos relacionados con la agricultura?
+8. ¿Qué tipo de análisis o reportes serían útiles para ti en una plataforma de gestión agrícola?
+9. ¿Cómo te gustaría que una aplicación te ayude en la toma de decisiones para la gestión de tus campos?
+
+**Preguntas Segmento 2: Distribuidores**
+
+1. ¿Cuáles son los mayores retos en la gestión del inventario y las ventas en tu negocio?
+2. ¿Qué sistemas usas actualmente para el control del inventario y las ventas?
+3. ¿Qué características consideras imprescindibles en una herramienta de gestión para distribuidores?
+4. ¿Cómo te gustaría que se integren las funcionalidades de la aplicación con tus procesos actuales?
+5. ¿Qué mejorarías en los sistemas actuales que utilizas para la gestión de inventarios?
+6. ¿Con qué frecuencia revisas o actualizas el inventario en tu sistema actual?
+7. ¿Qué tipo de reportes o análisis de ventas encuentras más útiles para tu negocio?
+8. ¿Cómo manejas actualmente la comunicación y coordinación con los productores agricolas?
+9. ¿Qué tipo de soporte adicional o capacitación consideras necesaria para una nueva herramienta de gestión?
+10. ¿Cómo prefieres que una aplicación te ayude a optimizar la cadena de suministro y la gestión de ventas?
+
+
+### 2.2.2 Registro de entrevistas.
+
+Link Entrevistas: https://shorturl.at/Nxe2d
+
+**Segmento Productor Agricola:**
+
+**Entrevista 1:**
+
+Nombres: Isidro 
+
+Apellidos: Principe Ramirez
+
+Edad: 65 años
+
+Lugar de residencia: Lima, Peru
+
+Evidencia de la entrevista:
+
+<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaIsidro.png?raw=true" alt="Evidencia Productor Agricola 1">
+
+Timing Entrevista: 00:05 - 06:30
+
+Resumen de la entrevista:
+El señor Isidro Principe Ramirez, un productor agrícola de 65 años de Lima, Perú, nos compartió algunos de los desafíos que enfrenta en la gestión de sus cultivos. Señaló que uno de los mayores retos es mantener un control preciso de las distintas etapas del proceso agrícola, como las fechas de fumigación y el manejo de los insumos. Actualmente, utiliza un cuaderno para registrar esta información, pero expresó interés en adoptar soluciones tecnológicas que le ayuden a optimizar esta tarea.
+
+Además, comentó que utiliza diversas herramientas agrícolas, como mochilas a motor y otras maquinarias, para el manejo de sus campos. En cuanto a la toma de decisiones, manifestó que le gustaría recibir informes detallados sobre el estado de sus cultivos para poder hacer un mejor seguimiento y planificar de manera más eficiente.
+
+Características observadas:
+
+Personalidad: Proactivo, con disposición hacia el uso de tecnología para mejorar sus procesos.
+Influencias: Limitado uso de herramientas tecnológicas, pero abierto al cambio.
+Canales de interacción: Actualmente utiliza herramientas manuales, pero con interés en digitalización.
+Dispositivos: Sin mención específica de dispositivos, pero se podría inferir que es usuario potencial de software en dispositivos móviles.
+
+**Entrevista 2:**
+
+Nombres: Fidel 
+
+Apellidos: Godoy Zevallos
+
+Edad: 60 años
+
+Lugar de residencia: Lima, Peru
+
+Evidencia de la entrevista:
+
+<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaFidel.png?raw=true" alt="Evidencia Productor Agricola 2">
+
+Timing Entrevista: 06:31 - 13:51
+
+Resumen de la entrevista:
+El señor Fidel Godoy Zevallos, un productor agrícola de 60 años de Lima, Perú, compartió que su desafío más significativo en la gestión agrícola es el registro de operaciones y gastos. Aunque utiliza Excel para este propósito, considera que esta herramienta no es muy efectiva.
+
+Se mostró interesado en mejorar el sistema de riego para sus cultivos y en utilizar herramientas tecnológicas que faciliten una mejor cosecha. Además, enfatizó la importancia de recibir información sobre el clima, la calidad del suelo y otros factores relevantes para tomar decisiones informadas en la gestión de sus cultivos.
+
+Características observadas:
+
+Personalidad: Reflexivo, con interés en la mejora continua de su gestión agrícola.
+Influencias: Uso limitado de herramientas tecnológicas, busca alternativas más eficientes.
+Canales de interacción: Principalmente herramientas manuales, con apertura hacia la digitalización.
+Dispositivos: Sin mención específica de dispositivos, pero potencialmente un usuario de software agrícola en dispositivos móviles.
+
+Resumen de la entrevista:
+La señora Elizabeth Caro, productora agrícola de 59 años, nos compartió los desafíos que enfrenta en la gestión de sus cultivos, siendo el más destacado la irregularidad en la entrega de agua para riego, tanto por parte de las autoridades como en años de sequía. Utiliza principalmente mano de obra para tareas como el sembrado, limpieza, arado, mantenimiento y cosecha, empleando herramientas manuales como lampas, picos, machetes y javas para almacenar sus productos.
+
+Elizabeth considera esencial contar con una aplicación de gestión agrícola que le brinde información sobre la producción nacional de frutas y semillas, como mangos, uvas, paltas y naranjas, para facilitar la comercialización de sus cultivos. Aunque está satisfecha con las herramientas manuales que utiliza, siente que necesita mayor acceso a información para mejorar la venta de sus productos.
+
+Su uso de tecnología se limita a buscar en Internet sobre plagas que pueden afectar sus cultivos. En términos de necesidades tecnológicas, le gustaría tener una aplicación que le permita llevar un control preciso del inventario de cosechas y ventas, así como calcular las utilidades netas después de deducir los gastos operativos, como el pago a trabajadores.
+
+Actualmente, gestiona manualmente el seguimiento de ingresos y gastos relacionados con la agricultura, contabilizando la cantidad de jabas producidas y vendidas, así como los gastos en personal. Sería útil para ella contar con una plataforma que ofrezca reportes detallados sobre ventas en términos de unidades y valores, así como sobre gastos en insumos y mantenimiento del cultivo. Además, desearía que la aplicación la apoye en la toma de decisiones estratégicas, facilitando la exhibición de sus productos y permitiendo que sus socios tengan acceso en tiempo real a la información de ventas, tanto en unidades como en valores, optimizando así el control y la gestión financiera de su producción agrícola.
+
+Características observadas:
+
+Personalidad: Proactiva y con interés en optimizar su gestión agrícola.
+Influencias: Uso limitado de tecnología, busca herramientas que faciliten la toma de decisiones.
+Canales de interacción: Predominantemente manuales, con un interés en digitalización.
+Dispositivos: Sin mención específica de dispositivos, pero potencialmente abierta al uso de software en dispositivos móviles para la gestión agrícola.
+
+**Segmento Distribuidor:**
+
+**Entrevista 1:**
+
+Entrevistas #01: **William Ramos** (**28 años - Surco**) - **29 de agosto del 2024** 
+
+<img src="https://github.com/W3bW0rks/project-report/blob/feature/chapter-2/assets/Chapter-2/Distribuidor-William%20Ramos.png?raw=true">
+
+Timing Entrevista: 22:40 - 32:51
+
+Resumen de la entrevista: La entrevista se ha realizado al distribuidor William Ramos de 28 años, quien cuenta con experiencia en la distribución de semillas, fumigantes y fertilizantes para el sector agrícola. William nos comenta que enfrenta muchos problemas al momento de inventariar una gran cantidad de pedidos, teniendo que realizar inventarios por región, departamentos y meses. Anteriormente, utilizaba hojas de Excel, pero debido a la gran cantidad de datos, optó por usar varias hojas en Google Drive, aprovechando su capacidad de almacenamiento.
+
+Respecto a las funcionalidades que le gustaría tener, menciona que desea poder registrar los gastos e ingresos para poder evaluar la utilidad obtenida. También le gustaría clasificar los productos, incluyendo diferentes tipos de semillas, fumigantes y fertilizantes. Además, comenta que sería útil realizar el inventario directamente en la plataforma, evitando la búsqueda en múltiples carpetas y problemas de almacenamiento. William también desea tener la capacidad de observar en qué lugares realiza más ventas y registrar incidentes en la entrega del producto, como rupturas o robos.
+
+En cuanto a la comunicación con sus clientes, William utiliza redes sociales como Instagram y TikTok, pero para compras en grandes cantidades, prefiere comunicarse por correo electrónico o WhatsApp. Su navegador preferido es Google Chrome, y aunque dispone de celular y computadora, utiliza principalmente la computadora.
+
+Finalmente, expresa que estaría dispuesto a utilizar un software que le ayude a optimizar las ventas y el inventario, siempre que cumpla con las funcionalidades que mencionó anteriormente.
+
+Características observadas:
+
+Personalidad: Proactivo, busca optimizar procesos y abierto a nuevas tecnologías. 
+Influencias: Limitado por herramientas actuales, pero con disposición al cambio. 
+Canales de interacción: Utiliza redes sociales y aplicaciones de mensajería, además de correo electrónico. 
+Dispositivos: Principalmente utiliza computadora, pero también tiene acceso a un celular.
+
+**Entrevista 2:**
+
+Nombre: **Jorge** 
+
+Apellido: **Gonzales**
+
+Edad: **52 años**
+
+Lugar de residencia: **Lima, Perú**
+
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/Chapter-2/Entrevista_Distribuidor_Jorge.png?raw=true" alt="entrevista-distribuidor2" />
+
+Timing Entrevista: 32:52 - 38:52
+
+Resumen de la entrevista: La entrevista se ha realizado al distribuidor Jorge Gonzales de 52 años, quien se encuentra en el sector de productos alimenticios. Jorge enfrenta retos en la gestión de inventario, principalmente en mantener el equilibrio entre oferta y demanda, así como la precisión en los registros y evitar el exceso y escasez de inventario. Actualmente, utiliza sistemas de gestión combinados con hojas de cálculo, aunque estos no siempre son ágiles ni ofrecen las capacidades necesarias para optimizar sus procesos.
+
+Además, el mayorista busca una solución que se integre fácilmente con sus procesos actuales, permitiendo la sincronización automática de datos entre ventas e inventario, y que ofrezca una interfaz más intuitiva y personalizable. Los reportes detallados de ventas, análisis de márgenes de beneficio y las tendencias de ventas a lo largo del tiempo son funcionalidades clave que deben incorporarse, ya que son esenciales para la toma de decisiones estratégicas.
+
+En cuanto a la comunicación, actualmente es manual y se realiza a través de la aplicación WhatsApp. Jorge considera que necesita plataformas que mejoren la coordinación, como un sistema de mensajería directa o alertas automatizadas para sincronizar órdenes y entregas.
+
+Características observadas:
+
+Personalidad: Organizado, busca soluciones que optimicen la gestión y la toma de decisiones. 
+Influencias: Limitado por la combinación de herramientas actuales, pero abierto a nuevas integraciones. 
+Canales de interacción: Utiliza WhatsApp para la comunicación, pero busca mejorar la coordinación.
+Dispositivos: Usa principalmente un celular pero tambien se apoya con una tablet.
+
 
