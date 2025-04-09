@@ -224,3 +224,35 @@ Ser la plataforma líder en gestión agrícola, reconocida por nuestra capacidad
 ### 1.2.1. Antecedentes y problemática
 ### Antecedentes:
 La agricultura sigue siendo una de las principales actividades económicas a nivel global. Sin embargo, muchos productores agrícolas, especialmente los pequeños y medianos, enfrentan dificultades para gestionar eficientemente sus procesos de producción y distribución. La falta de acceso a herramientas de planificación, monitoreo y administración de recursos limita su capacidad para optimizar la producción, lo que a su vez reduce su rentabilidad y sostenibilidad. Además, los distribuidores se ven afectados por problemas de trazabilidad y coordinación en la cadena de suministro, lo que complica la entrega oportuna de productos de calidad al mercado.
+
+### Problemática (5Ws y 2Hs)
+### What/Qué
+#### ¿Cuál es el problema?
+Los productores agrícolas y distribuidores enfrentan desafíos en la gestión eficiente de sus operaciones. Las tareas de planificación, seguimiento de cultivos, administración de recursos y control financiero son ineficaces, lo que provoca pérdidas de tiempo y dinero.
+
+### Where / Dónde
+#### ¿Dónde surge el problema?
+Este problema es global y afecta tanto a regiones con alta actividad agrícola como a zonas rurales donde el acceso a tecnologías de gestión es limitado.
+
+### Why / Por Qué
+#### ¿Cuál es la causa del problema?
+La falta de herramientas tecnológicas accesibles y eficientes para monitorear y optimizar cada etapa del ciclo agrícola genera una mala gestión de recursos (semillas, agua, mano de obra) y una baja trazabilidad en la distribución de productos, afectando tanto la productividad como la sostenibilidad de los agricultores y la efectividad de los distribuidores.
+
+### When / Cuándo
+#### ¿Cuándo sucede el problema?
+Los problemas surgen durante todas las etapas del ciclo agrícola, desde la planificación de la siembra hasta la distribución de productos al mercado, impactando continuamente la producción y la distribución.
+
+### Who / Quién
+#### ¿Quiénes están involucrados?
+Los agricultores y distribuidores que participan en las diferentes etapas del ciclo agrícola.
+
+### How / Cómo
+
+#### ¿Cómo nos conocieron los usuarios?
+Los usuarios nos conocieron principalmente por recomendaciones de otros productores agrícolas y distribuidores que han experimentado mejoras significativas en la gestión de sus operaciones al utilizar nuestra solución. Además, hemos realizado esfuerzos de marketing digital en redes sociales, donde promocionamos casos de éxito
+
+#### ¿Cómo prefieren los usuarios acceder a nuestro servicio?
+Los usuarios prefieren acceder a nuestro servicio a través de una aplicación web fácil de usar, que sea accesible desde cualquier dispositivo con conexión a internet, como tablets o computadoras. Este enfoque les permite gestionar y monitorear sus actividades agrícolas de forma remota y en tiempo real, asegurando que puedan adaptar sus operaciones según las necesidades específicas del ciclo productivo.
+
+### How much / Cuánto
+La falta de soluciones efectivas provoca pérdidas económicas significativas para los productores agrícolas y a su vez, los distribuidores sufren retrasos y una disminución en la calidad de los productos entregados, impactando su relación con los clientes.
