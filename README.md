@@ -1046,7 +1046,7 @@ Captura del tablero de Product Backlog en Trello:
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/c59cc5b1ac3b07cc8415b1083ad45a8e72e15437/assets/Chapter%203/Webworks-Product%20Backlog-S2.png">
 
-**Link de Trello:** [Product Backlog WebWorks Trello](https://trello.com/b/UmnID3DF/webworks-product-backlog)
+**Link de Trello:** [Product Backlog DevDynasty Trello](https://trello.com/b/UmnID3DF/webworks-product-backlog)
 |# Orden|User story ID|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
 | :- | :- | :- | :- | :- |
 |1|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
@@ -1999,7 +1999,7 @@ TypeScript. (n.d.). TypeScript: Typed JavaScript at Any Scale. Retrieved from ht
 
 ### Anexo A. Github Repositories
 
-Link de la Organización WebWorks: https://github.com/equipo1-upc202510-366
+Link de la Organización DevDynasty: https://github.com/equipo1-upc202510-366
 
 | Repositorios               | Enlace                                                 |
 |----------------------------|--------------------------------------------------------|
