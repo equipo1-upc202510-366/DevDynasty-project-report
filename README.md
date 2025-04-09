@@ -608,7 +608,7 @@ Lugar de residencia: Lima, Peru
 
 Evidencia de la entrevista:
 
-<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaIsidro.png?raw=true" alt="Evidencia Productor Agricola 1">
+<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaIsidro.png?raw=truee" alt="Evidencia Productor Agricola 1">
 
 Timing Entrevista: 00:05 - 06:30
 
@@ -636,7 +636,7 @@ Lugar de residencia: Lima, Peru
 
 Evidencia de la entrevista:
 
-<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaFidel.png?raw=true" alt="Evidencia Productor Agricola 2">
+<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaFidel.png?raw=truee" alt="Evidencia Productor Agricola 2">
 
 Timing Entrevista: 06:31 - 13:51
 
@@ -674,7 +674,7 @@ Dispositivos: Sin mención específica de dispositivos, pero potencialmente abie
 
 Entrevistas #01: **William Ramos** (**28 años - Surco**) - **29 de agosto del 2024** 
 
-<img src="https://github.com/W3bW0rks/project-report/blob/feature/chapter-2/assets/Chapter-2/Distribuidor-William%20Ramos.png?raw=true">
+<img src="https://github.com/W3bW0rks/project-report/blob/feature/chapter-2/assets/Chapter-2/Distribuidor-William%20Ramos.png?raw=truee">
 
 Timing Entrevista: 22:40 - 32:51
 
@@ -703,7 +703,7 @@ Edad: **52 años**
 
 Lugar de residencia: **Lima, Perú**
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/Chapter-2/Entrevista_Distribuidor_Jorge.png?raw=true" alt="entrevista-distribuidor2" />
+<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/Chapter-2/Entrevista_Distribuidor_Jorge.png?raw=truee" alt="entrevista-distribuidor2" />
 
 Timing Entrevista: 32:52 - 38:52
 
