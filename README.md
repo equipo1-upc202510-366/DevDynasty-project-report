@@ -75,3 +75,146 @@ URL del repositorio GitHub: https://github.com/orgs/equipo1-upc202510-366/reposi
     </tr>
   </tbody>
 </table>
+# Capítulo I: Introducción
+## 1.1. Startup Profile  
+Sección donde presentamos al Startup y a los miembros que la conforman.  
+
+### 1.1.1. Descripción de la Startup
+Nuestra startup está enfocada en la gestión del ciclo agrícola, con el objetivo de facilitar y optimizar las actividades de productores agricolas y distribuidores. A través de un sistema integral, abarcamos todas las etapas clave del proceso agrícola, desde el sembrío hasta la distribución. Este sistema proporciona herramientas que permiten gestionar y supervisar de manera eficiente cada fase del ciclo productivo, incluyendo la siembra, riego, fumigación, recolección y distribución de productos.
+
+El enfoque de la startup es brindar una plataforma robusta que no solo facilite el día a día de agricultores y distribuidores, sino que también impulse la eficiencia en la producción agrícola y optimice la cadena de suministro en el sector.
+
+### Misión
+Nuestra misión es transformar el sector agrícola mediante el desarrollo de soluciones tecnológicas accesibles e integradas que permitan a los productores y distribuidores optimizar sus operaciones. Buscamos empoderar a los agricultores, ayudándoles a gestionar de manera eficiente el ciclo productivo, mejorando su rentabilidad y sostenibilidad.
+
+### Visión
+Ser la plataforma líder en gestión agrícola, reconocida por nuestra capacidad de simplificar y mejorar las operaciones en el sector, fomentando una agricultura más productiva, eficiente y sostenible para agricultores y distribuidores de todas las escalas.
+
+### 1.1.2. Perfiles de los integrantes del equipo
+<table border="1" width="70%" style="text-align:center;">
+    <tr align="center">
+        <td rowspan="3">
+            <img src="" alt="" style="margin-bottom: 5px;" width="400"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Ricardo
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ingeniería de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+		   Soy un estudiante de Ingeniería de Software con conocimientos en lenguajes de programación como C#, Python, JavaScript, entre otros. Me apasiona la tecnología y el desarrollo de software, y estoy interesado en seguir aprendiendo más y desarrollar mis habilidades como programador. Además, soy responsable, proactivo y me gusta trabajar en equipo para lograr los objetivos propuestos.
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Fabiola
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ingeniería de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+            Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con una gran pasión por la tecnología y un fuerte compromiso con el aprendizaje continuo. Estoy enfocado en seguir desarrollándome profesionalmente, adquiriendo conocimientos y habilidades que me permitan enfrentar nuevos desafíos en el mundo del desarrollo de software.
+            <b>Habilidades Técnicas:</b>
+            <ul>
+                <li><b>Lenguajes de Programación:</b> C, C++, Python, C#, JavaScript, TypeScript.</li>
+                <li><b>Desarrollo Web:</b> HTML, CSS, Bootstrap, Angular.</li>
+                <li><b>Base de Datos</b> MySQL.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Eduardo
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ingeniería de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        Soy estudiante de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable, estudioso y disciplinado. Desde pequeño siempre he tenido ese interés por la tecnología y dicha curiosidad me ha llevado a elegir esta carrera. Espero en el futuro adquirir los conocimientos necesarios de esta carrera para poder vivir de lo que me gusta.
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>            
+            Alejandro Espino Flores
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ingeniería de Software 
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+        </td>
+    </tr>
+    <tr align="center">
+        <td rowspan="3">
+            <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/profileImages/hardie.jpg" alt=""  style="margin-bottom: 5px;" width="600"/>
+        </td>
+        <td align="left">
+            <b>Nombre y Apellido:</b>
+            <br>   
+            Hardie Alfonso Holguín Gamarra
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Carrera:</b>
+        <br>
+        Ingeniería de Software
+        </td>
+    </tr>
+    <tr>
+        <td align="left">
+        <b>Acerca de:</b>
+        <br>
+      Estoy cursando la carrera de Ingeniería de Software en la UPC y tengo experiencia en lenguajes como C++, Python, JavaScript y C#. Actualmente, estoy enfocado en aprender Java. Creo que la comunicación y el trabajo en equipo con mis compañeros son fundamentales. Estoy decidido a seguir aprendiendo y a avanzar en mi desarrollo profesional.
+        </td>
+    </tr>
+</table>
