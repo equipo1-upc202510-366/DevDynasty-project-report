@@ -114,7 +114,6 @@ Ser la plataforma líder en gestión agrícola, reconocida por nuestra capacidad
         <td align="left">
         <b>Acerca de:</b>
         <br>
-		   Soy un estudiante de Ingeniería de Software con conocimientos en lenguajes de programación como C#, Python, JavaScript, entre otros. Me apasiona la tecnología y el desarrollo de software, y estoy interesado en seguir aprendiendo más y desarrollar mis habilidades como programador. Además, soy responsable, proactivo y me gusta trabajar en equipo para lograr los objetivos propuestos.
         </td>
     </tr>
     <tr align="center">
@@ -138,7 +137,6 @@ Ser la plataforma líder en gestión agrícola, reconocida por nuestra capacidad
         <td align="left">
         <b>Acerca de:</b>
         <br>
-            Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con una gran pasión por la tecnología y un fuerte compromiso con el aprendizaje continuo. Estoy enfocado en seguir desarrollándome profesionalmente, adquiriendo conocimientos y habilidades que me permitan enfrentar nuevos desafíos en el mundo del desarrollo de software.
             <b>Habilidades Técnicas:</b>
             <ul>
                 <li><b>Lenguajes de Programación:</b> C, C++, Python, C#, JavaScript, TypeScript.</li>
@@ -168,7 +166,6 @@ Ser la plataforma líder en gestión agrícola, reconocida por nuestra capacidad
         <td align="left">
         <b>Acerca de:</b>
         <br>
-        Soy estudiante de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable, estudioso y disciplinado. Desde pequeño siempre he tenido ese interés por la tecnología y dicha curiosidad me ha llevado a elegir esta carrera. Espero en el futuro adquirir los conocimientos necesarios de esta carrera para poder vivir de lo que me gusta.
         </td>
     </tr>
     <tr align="center">
