@@ -1,33 +1,99 @@
-# <center>COURSE PROJECT</center>
 
-<p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>Aplicaciones para Dispositivos Móviles - 366 </strong><br>
-    <strong>Profesor: David Gerardo Quevedo Velasco </strong><br>
-    <br>INFORME TB1
-    <br> 2025 - 10
-</p>
+<div align="center">
+
+![Logo UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+
+Universidad Peruana de Ciencias Aplicadas
+
+Carrera: Ingeniería de Software
+
+Ciclo: 2025-01
+
+Curso: Aplicaciones para Dispositivos Móviles - 366
+
+Profesor: David Gerardo Quevedo Velasco
+
+Informe del Trabajo Final  - TP
+
+Startup: DevDynasty
+
+Producto: 
+
+### Team Members:
+
+| Member                                 | Code       |
+|----------------------------------------|------------|
+| Barrutia Vaez, Ricardo Andree          | U201714765 |
+| Espinoza Inoñan, Fabiola Ximena        | U202214784 |
+| Holguín Gamarra, Hardie Alfonso        | U202220250 |
+| Ccotarma Ttito, Eduardo Eusebio Sihuar | U20211C736 |
 
 
-# Registro de Versiones del Informe
-| Version | Fecha      | Autor             | Descripcion de Modificacion                                                    |
-|---------|------------|-------------------|--------------------------------------------------------------------------------|
-| 0.0.1   | 09/04/2025 | Hardie Holguin   | Agregado del capítulo 1 apartado 1.1 - 1.2 - 1.3                               |
-                                              
+**Abril del 2025**
+
+</div>
+
+| Versión | Fecha      | Autor   | Descripción de modificaciones         |
+|---------|------------|---------|---------------------------------------|
+| 1.0     | 25/08/2024 | Barrutia Vaez, Ricardo Andree <br>	Espinoza Inoñan, Fabiola Ximena	<br> Holguín Gamarra, Hardie Alfonso 	<br> Ccotarma Ttito, Eduardo Eusebio Sihuar	<br>  | Capítulo I <br> Capítulo II <br> Capítulo III <br> Capítulo IV <br> Capítulo V       |
+
+
+
+
 # Project Report Collaboration Insights
+
+**TB1:** Todo el equipo de trabajo colaboró en el desarrollo del sistema, dividiendo de manera equitativa las tareas entre los miembros. Además, colaboramos conjuntamente en aspectos clave, como las entrevistas con los usuarios. Este enfoque integral y cooperativo nos permitió garantizar la calidad y eficiencia en todas las etapas del proyecto.
+
+* Los contenidos asignados a cada miembro fueron redactados y organizados en formato Markdown, y se realizaron commits para asegurar el avance en el repositorio.
+* Se generaron los artefactos necesarios utilizando las herramientas recomendadas, obteniendo enlaces de imagen desde la carpeta "assets" ubicada en la rama develop del repositorio del informe.
+* Se programaron reuniones para coordinar el avance de los elementos del informe y comunicar los progresos del Sprint 1, cuyo enfoque es avanzar con la mayor parte del informe.
+
+
+Contribuciones del equipo
+
+![Contribuciones del equipo](assets/img/develop/img-contributors-team.png)
+
+**Imágen de las contribuciones Ricardo:**
+
+![Contribuciones Ricardo](assets/img/develop/img-contributors-ricardo.png)
+
+**Imágen de los commits Ricardo:**
+
+![Commits Ricardo](assets/img/develop/img-commits-ricardo.png)
+
+**Imágen de las contribuciones Fabiola:**
+
+![Contribuciones Fabiola](assets/img/develop/img-contributors-fabiola.png)
+
+**Imágen de los commits Fabiola:**
+
+![Commits Fabiola](assets/img/develop/img-commits-fabiola.png)
+
+**Imágen de las contribuciones Hardie:**
+
+![Contribuciones Hardie](assets/img/develop/img-contributors-hardie.png)
+
+**Imágen de los commits Hardie:**
+
+![Commits Hardie](assets/img/develop/img-commits-hardie.png)
+
+**Imágen de las contribuciones Eduardo:**
+
+![Contribuciones Eduardo](assets/img/develop/img-contributors-eduardo.png)
+
+**Imágen de los commits Eduardo:**
+
+![Commits Eduardo](assets/img/develop/img-commits-eduardo.png)
+
+
+
+
+
 Link de la organizacion: https://github.com/equipo1-upc202510-366  
 Link del reporte: https://github.com/equipo1-upc202510-366/DevDynasty-project-report   
 URL del repositorio GitHub: https://github.com/orgs/equipo1-upc202510-366/repositories
 
-**TB1:** Todo el equipo de trabajo colaboró en el desarrollo del sistema, dividiendo de manera equitativa las tareas entre los miembros. Además, colaboramos conjuntamente en aspectos clave, como las entrevistas con los usuarios. Este enfoque integral y cooperativo nos permitió garantizar la calidad y eficiencia en todas las etapas del proyecto.  
 
-* Los contenidos asignados a cada miembro fueron redactados y organizados en formato Markdown, y se realizaron commits para asegurar el avance en el repositorio.
-* Se generaron los artefactos necesarios utilizando las herramientas recomendadas, obteniendo enlaces de imagen desde la carpeta "assets" ubicada en la rama develop del repositorio del informe.
-* Se programaron reuniones para coordinar el avance de los elementos del informe y comunicar los progresos del Sprint 1, cuyo enfoque es avanzar con la mayor parte del informe.  
-
-<img src=".\assets\chapter-5-images\overviewSprint1.png" style="width: 700px;"/>  
 
 ---
 
@@ -92,130 +158,16 @@ Nuestra misión es transformar el sector agrícola mediante el desarrollo de sol
 Ser la plataforma líder en gestión agrícola, reconocida por nuestra capacidad de simplificar y mejorar las operaciones en el sector, fomentando una agricultura más productiva, eficiente y sostenible para agricultores y distribuidores de todas las escalas.
 
 ### 1.1.2. Perfiles de los integrantes del equipo
-<table border="1" width="70%" style="text-align:center;">
-    <tr align="center">
-        <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="400"/>
-        </td>
-        <td align="left">
-            <b>Nombre y Apellido:</b>
-            <br>            
-            Ricardo
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Carrera:</b>
-        <br>
-        Ingeniería de Software
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Acerca de:</b>
-        <br>
-        </td>
-    </tr>
-    <tr align="center">
-        <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
-        </td>
-        <td align="left">
-            <b>Nombre y Apellido:</b>
-            <br>            
-            Fabiola
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Carrera:</b>
-        <br>
-        Ingeniería de Software
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Acerca de:</b>
-        <br>
-            <b>Habilidades Técnicas:</b>
-            <ul>
-                <li><b>Lenguajes de Programación:</b> C, C++, Python, C#, JavaScript, TypeScript.</li>
-                <li><b>Desarrollo Web:</b> HTML, CSS, Bootstrap, Angular.</li>
-                <li><b>Base de Datos</b> MySQL.</li>
-            </ul>
-        </td>
-    </tr>
-    <tr align="center">
-        <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
-        </td>
-        <td align="left">
-            <b>Nombre y Apellido:</b>
-            <br>            
-            Eduardo
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Carrera:</b>
-        <br>
-        Ingeniería de Software
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Acerca de:</b>
-        <br>
-        </td>
-    </tr>
-    <tr align="center">
-        <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
-        </td>
-        <td align="left">
-            <b>Nombre y Apellido:</b>
-            <br>            
-            Alejandro Espino Flores
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Carrera:</b>
-        <br>
-        Ingeniería de Software 
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Acerca de:</b>
-        <br>
-        </td>
-    </tr>
-    <tr align="center">
-        <td rowspan="3">
-            <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/profileImages/hardie.jpg" alt=""  style="margin-bottom: 5px;" width="600"/>
-        </td>
-        <td align="left">
-            <b>Nombre y Apellido:</b>
-            <br>   
-            Hardie Alfonso Holguín Gamarra
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Carrera:</b>
-        <br>
-        Ingeniería de Software
-        </td>
-    </tr>
-    <tr>
-        <td align="left">
-        <b>Acerca de:</b>
-        <br>
-      Estoy cursando la carrera de Ingeniería de Software en la UPC y tengo experiencia en lenguajes como C++, Python, JavaScript y C#. Actualmente, estoy enfocado en aprender Java. Creo que la comunicación y el trabajo en equipo con mis compañeros son fundamentales. Estoy decidido a seguir aprendiendo y a avanzar en mi desarrollo profesional.
-        </td>
-    </tr>
-</table>
+
+
+| Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Foto                                                      |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+| **Ricardo Andree Barrutia Vaez**<br><br>Código: U201714765<br><br>Conocimientos y Habilidades: <br> <br>Como estudiante de ingeniería de software he adquirido conocimientos de C++, Java y de Ionic. Con respecto a las habilidades más destacables de mi persona, considero que el trabajo en equipo es una de ellas. Además de la capacidad resolutiva a la par que adaptativa ante diversas situaciones.<br>                                                                                  | ![Ricardo Barrutia](assets/img/chapter-1/img-ricardo.jpg) |
+| **Hardie Alfonso Holguín Gamarra**<br><br>Código: U202220250 <br><br>Conocimientos y Habilidades:<br><br>       Estoy cursando la carrera de Ingeniería de Software en la UPC y tengo experiencia en lenguajes como C++, Python, JavaScript y C#. Actualmente, estoy enfocado en aprender Java. Creo que la comunicación y el trabajo en equipo con mis compañeros son fundamentales. Estoy decidido a seguir aprendiendo y a avanzar en mi desarrollo profesional.                               | ![Hardie Holguin](assets/img/chapter-1/img-hardie.jpg)    |
+| **Ccotarma Ttito, Eduardo Eusebio Sihuar**<br><br>Código:U20211C736 <br><br>Conocimientos y Habilidades:<br><br>                                                                                                                                                                                                                                                                                                                                                                                  | ![Eduardo Ccotarma](assets/img/chapter-1/img-eduardo.jpg) |
+| **Fabiola Ximena Espinoza Inoñan**<br><br>Código: u202214784<br><br>Conocimientos y Habilidades: <br><br>Mi nombre es Fabiola Espinoza, tengo 21 años y estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona responsable, creativa y empática, con habilidades destacadas en el trabajo en equipo y la convivencia con otras personas. He participado en el programa Coder Bloom, 28h y más. Y actualmente soy coordinadora de ACM Women UPC. | ![Fabiola Espinoza](assets/img/chapter-1/img-fabiola.png) |
+
+
 
 ## 1.2. Solution Profile
 
@@ -377,8 +329,10 @@ Nuestro producto debe tener una interfaz intuitiva y fácil de usar, permitiendo
 #### 1.2.2.4. Lean UX Canvas
 En Lean UX Canvas facilitamos la colaboración y el enfoque en el usuario en el diseño de productos, permitiendo a nuestro equipo definir su visión, hipótesis y métricas de éxito de manera ágil.
 
-<img src="./assets/chapter-1-images/LeanUXCanvas-1.png" width=600px/>
-<img src="./assets/chapter-1-images/LeanUXCanvas-2.png" width=600px/>
+![Lean UX-1](assets/img/chapter-1/img-lean-ux-1.png)
+![Lean UX-2](assets/img/chapter-1/img-lean-ux-2.png)
+
+
 
 ## 1.3. Segmentos Objetivo
 | **Tipo de usuario**    | **Geográfico**                                                                                                                                                                                            | **Psicográfico**                                                                                                                                                                        | **Demográfico**                                                                                                                                                                  |
@@ -772,13 +726,13 @@ En esta sección se presentarán las fichas de User Persona, las cuales son repr
 
 Las User Personas desarrolladas para AgroControl representan los perfiles más relevantes de los usuarios identificados a partir de un exhaustivo análisis de entrevistas y estudios de la competencia. Estas personas capturan las motivaciones, desafíos, y comportamientos de los productores agrícolas y distribuidores, quienes son los usuarios principales de la plataforma.
 
-<img src="./assets/Chapter-2/UserPerson1.png" alt="Segmento 1 user persona">
+<img src="assets/img/chapter-2/UserPerson1.png" alt="Segmento 1 user persona">
 
 **Segmento Distribuidor:**  
 
 El perfil de María Rodríguez, una distribuidora, resalta la necesidad de mejorar la gestión de inventarios y la planificación de entregas, motivada por el deseo de incrementar ventas y optimizar su negocio. Por otro lado, Juan Pérez, un productor agrícola, refleja las preocupaciones de los agricultores en la automatización de procesos como riego y fumigación, buscando reducir costos y mejorar la eficiencia operativa. Ambos perfiles fueron construidos para guiar el diseño del sistema, asegurando que la plataforma AgroControl responda adecuadamente a sus necesidades específicas y se alinee con las mejores prácticas del mercado.
 
-<img src="./assets/Chapter-2/UserPerson2.png" alt="Segmento 2 user persona">
+<img src="assets/img/chapter-2/UserPerson2.png" alt="Segmento 2 user persona">
 
 
 ### 2.3.2. User Task Matrix
