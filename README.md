@@ -726,14 +726,13 @@ En esta sección se presentarán las fichas de User Persona, las cuales son repr
 
 Las User Personas desarrolladas para AgroControl representan los perfiles más relevantes de los usuarios identificados a partir de un exhaustivo análisis de entrevistas y estudios de la competencia. Estas personas capturan las motivaciones, desafíos, y comportamientos de los productores agrícolas y distribuidores, quienes son los usuarios principales de la plataforma.
 
-<img src="assets/img/chapter-2/UserPerson1.png" alt="Segmento 1 user persona">
+![User Persona Agricola](assets/img/chapter-2/img-user-persona-1.png)
 
 **Segmento Distribuidor:**  
 
 El perfil de María Rodríguez, una distribuidora, resalta la necesidad de mejorar la gestión de inventarios y la planificación de entregas, motivada por el deseo de incrementar ventas y optimizar su negocio. Por otro lado, Juan Pérez, un productor agrícola, refleja las preocupaciones de los agricultores en la automatización de procesos como riego y fumigación, buscando reducir costos y mejorar la eficiencia operativa. Ambos perfiles fueron construidos para guiar el diseño del sistema, asegurando que la plataforma AgroControl responda adecuadamente a sus necesidades específicas y se alinee con las mejores prácticas del mercado.
 
-<img src="assets/img/chapter-2/UserPerson2.png" alt="Segmento 2 user persona">
-
+![User Persona Distribuidor](assets/img/chapter-2/img-user-persona-2.png)
 
 ### 2.3.2. User Task Matrix
 
