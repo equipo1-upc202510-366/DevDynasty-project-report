@@ -279,7 +279,7 @@ Compuesto por productores agrícolas pequeños y medianos, que necesitan una sol
 * Reducción de desperdicio de insumos (agua, fertilizantes, mano de obra).
 * Mejora en la trazabilidad y calidad del producto.
 * Ahorro de tiempo en procesos de planificación y seguimiento.
-*Información financiera organizada y disponible.
+* Información financiera organizada y disponible.
 * Mayor capacidad de respuesta ante cambios del entorno (clima, demanda).
 
 6. **Voy a adquirir la mayoría de mis clientes a través de** recomendaciones entre agricultores y distribuidores satisfechos (boca a boca), además de campañas de marketing digital enfocadas en comunidades agrícolas y asociaciones del sector.
@@ -310,41 +310,61 @@ Tenemos como objetivo generar impactos comerciales positivos para los productore
 * Reducción de costos operativos para agricultores mediante una mejor planificación.
 * Mejora en la satisfacción de los usuarios al ofrecer una solución accesible y fácil de usar.
 
+
+#### User Assumptions
+
+1. **¿Quién es el usuario?**
+
+El usuario son los pequeños y medianos productores agrícolas que necesitan gestionar sus cultivos de forma más eficiente, y distribuidores locales que buscan mejorar la trazabilidad, planificación y entrega oportuna de productos agrícolas. Ambos grupos suelen tener recursos limitados y poca familiaridad con soluciones tecnológicas, pero están motivados por la necesidad de optimizar sus operaciones y reducir costos.
+
+2. **¿Dónde encaja nuestro producto en su trabajo o vida?**
+
+El producto se integra directamente en sus actividades diarias.
+
+* **Para los productores agrícolas**, actúa como herramienta central para planificar la siembra, monitorear el uso de recursos (agua, fertilizantes, mano de obra) y registrar las actividades del campo.
+
+* **Para los distribuidores**, ayuda a coordinar la logística, mejorar los tiempos de entrega y asegurar la trazabilidad del producto, lo que se traduce en mayor eficiencia y menor pérdida de calidad.
+En ambos casos, la solución apoya la toma de decisiones y mejora la productividad.
+
+3. **¿Qué problemas resuelve nuestro producto?**
+
+* Falta de planificación estructurada en las operaciones agrícolas.
+* Dificultades en el registro y seguimiento de actividades del cultivo.
+* Mala asignación de recursos como agua y fertilizantes.
+* Falta de coordinación en la cadena de distribución.
+* Poca visibilidad financiera de las operaciones.
+
+En conjunto, estos problemas generan pérdidas económicas, baja productividad y dificultades logísticas que nuestro producto busca eliminar.
+
+4. **¿Cuándo y cómo es usado nuestro producto?**
+
+Nuestro producto es utilizado durante todas las etapas del ciclo agrícola:
+
+* Desde la planificación inicial (fechas de siembra, recursos necesarios),pasando por el seguimiento diario (riego, fumigación, recolección),hasta la etapa final de distribución y entrega.
+* Los usuarios acceden principalmente a través de una aplicación web en dispositivos móviles o computadoras, permitiendo la gestión en tiempo real, desde el campo o el almacén.
+
+5. **¿Qué características son importantes?**
+
+* Gestión y monitoreo en tiempo real del ciclo agrícola.
+* Programación automatizada de tareas (riego, fumigación, cosecha).
+* Control y visualización de los recursos utilizados.
+* Reportes financieros e históricos de actividades.
+* Panel de trazabilidad de productos desde su origen hasta el punto de entrega.
+* Accesibilidad desde dispositivos con conexión a internet.
+
+6. **¿Cómo debe verse nuestro producto y comportarse?**
+
+* Debe tener una interfaz sencilla, intuitiva y visualmente limpia, accesible incluso para usuarios con poca experiencia digital.
+* El diseño debe priorizar accesos rápidos a funciones clave (programar riego, registrar tareas, revisar logística).
+* Debe comportarse de forma ágil, con tiempos de respuesta cortos y navegación fluida.
+* Idealmente, debe contar con modo offline con sincronización automática al reconectarse.
+* Debe inspirar confianza y facilidad de uso, minimizando la curva de aprendizaje.
+
 #### Features
 * Gestión de las etapas del ciclo agrícola (siembra, riego, fumigación, recolección, distribución).
 * Programación automática de tareas clave (fechas de riego, fumigación, recolección).
 * Gestión financiera y control de costos asociados a cada etapa del ciclo agrícola.
 
-
-#### User Outcomes
-###### Productores agrícolas: 
-* Aumento en la eficiencia del uso de recursos, reducción de costos, mayor control sobre las operaciones diarias y una mejor visibilidad de las finanzas agrícolas.
-
-###### Distribuidores: 
-* Mejora en la logística de entrega y  reducción de errores en la distribución.
-
-#### User assumptions
-* Los usuarios (productores y distribuidores) estarán dispuestos a adoptar herramientas digitales, a pesar de la posible falta de familiaridad inicial.
-* La mayoría de los productores y distribuidores tendrán acceso a dispositivos móviles o computadoras con conectividad a internet.
-* Los usuarios estarán interesados en invertir tiempo y esfuerzo en aprender y usar la plataforma si perciben que los beneficios a largo plazo superan la inversión inicial.
-* Los usuarios buscarán reducir costos y optimizar recursos, por lo que la plataforma se verá como una solución viable para mejorar sus operaciones.
-
-#### ¿Dónde encaja nuestro producto en sus trabajos o vidas?
-Se integra directamente en las operaciones diarias de los productores y distribuidores. Para los productores, facilita la planificación, monitoreo y administración de sus recursos y cultivos. Para los distribuidores, nuestro producto se convierte en una herramienta clave para mejorar la logística, asegurando una cadena de suministro más eficiente.
-
-#### ¿Qué problema resuelve nuestro producto?
-Resuelve problemas de ineficiencia en la gestión de recursos agrícolas, como la programación de riego, control de fumigación, y seguimiento de la producción. También resuelve la falta de coordinación en distribución, permitiendo que los productos lleguen a su destino de manera oportuna y con menos errores.
-
-#### ¿Cuándo y cómo es usado nuestro producto?
-Nuestro producto es utilizado durante todo el ciclo agrícola, desde la planificación de la siembra hasta la distribución de los productos. Los usuarios lo acceden desde dispositivos con conexión a internet para monitorear y gestionar sus operaciones en tiempo real. La programación de riego y fumigación, el control de costos y la gestión de la distribución son ejemplos de actividades diarias en las que el producto es indispensable.
-
-#### ¿Qué características son importantes?
-* Gestión y monitoreo en tiempo real de todas las etapas del ciclo agrícola.
-* Programación automatizada de tareas clave (riego, fumigación, recolección).
-* Control financiero asociado a cada etapa de la producción.
-
-#### ¿Cómo debería verse y comportarse nuestro producto?
-Nuestro producto debe tener una interfaz intuitiva y fácil de usar, permitiendo que los usuarios naveguen sin dificultad entre las distintas funcionalidades. La interfaz debe ser limpia, con accesos directos a las tareas más comunes como la programación de riego, seguimiento de recursos y control de distribución.
 
 #### 1.2.2.4. Lean UX Hypothesis Statements
 ### Hipótesis 1:
