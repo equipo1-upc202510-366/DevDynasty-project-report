@@ -265,10 +265,44 @@ Actualmente, los agricultores y distribuidores carecen de soluciones integrales 
 Compuesto por productores agrícolas pequeños y medianos, que necesitan una solución económica pero efectiva para gestionar sus operaciones diarias, así como distribuidores locales que requieren optimizar su logística y mejorar la trazabilidad de los productos que entregan.
 
 #### 1.2.2.2. Lean UX Assumptions
-#### Features
-* Gestión de las etapas del ciclo agrícola (siembra, riego, fumigación, recolección, distribución).
-* Programación automática de tareas clave (fechas de riego, fumigación, recolección).
-* Gestión financiera y control de costos asociados a cada etapa del ciclo agrícola.
+#### Business Assumptions
+1. **Creo que mis clientes necesitan** una solución tecnológica integral y accesible que les permita planificar, monitorear y gestionar eficientemente cada etapa del ciclo agrícola, desde la siembra hasta la distribución, optimizando recursos y facilitando la toma de decisiones.
+
+2. **Estas necesidades se pueden resolver con** una aplicación web fácil de usar, disponible desde cualquier dispositivo con conexión a internet, que brinde herramientas de planificación, registro de actividades, análisis de datos en tiempo real, trazabilidad y gestión financiera.
+
+3. **Mis clientes iniciales son (o serán)** pequeños y medianos productores agrícolas, así como distribuidores locales que buscan mejorar la eficiencia operativa, la trazabilidad y la rentabilidad de sus actividades.
+
+4. **El valor #1 que un cliente quiere de mi servicio es** la capacidad de tomar decisiones informadas en tiempo real para optimizar sus operaciones y recursos.
+
+5. **El cliente también puede obtener estos beneficios adicionales**
+
+* Reducción de desperdicio de insumos (agua, fertilizantes, mano de obra).
+* Mejora en la trazabilidad y calidad del producto.
+* Ahorro de tiempo en procesos de planificación y seguimiento.
+*Información financiera organizada y disponible.
+* Mayor capacidad de respuesta ante cambios del entorno (clima, demanda).
+
+6. **Voy a adquirir la mayoría de mis clientes a través de** recomendaciones entre agricultores y distribuidores satisfechos (boca a boca), además de campañas de marketing digital enfocadas en comunidades agrícolas y asociaciones del sector.
+
+7. **Haré dinero a través de** un modelo de suscripción mensual o anual por acceso a la plataforma, con diferentes planes según el tamaño del productor o la complejidad de las operaciones.
+
+8. **Mi competencia principal en el mercado será** sistemas de gestión agrícola existentes que ofrecen soluciones parciales, como herramientas de trazabilidad o gestión de cultivos específicas, pero que no cubren el ciclo completo ni están adaptadas al contexto local o de bajo presupuesto.
+
+9. **Los venceremos debido** a nuestra solución está diseñada específicamente para productores pequeños y medianos, combinando accesibilidad, simplicidad de uso y cobertura integral de todo el ciclo agrícola, lo que mejora la experiencia del usuario y resuelve más de un problema a la vez.
+
+10. **Mi mayor riesgo de producto es** que los agricultores no adopten la herramienta por falta de familiaridad con tecnología o conectividad limitada en zonas rurales.
+
+11. **Resolveremos esto a través de**
+
+* Capacitación gratuita y acompañamiento técnico durante la implementación.
+* Interfaz simple y adaptada a sus conocimientos tecnológicos.
+
+12. **¿Qué otras suposiciones tenemos que, si se prueban falsas, causarán que nuestro negocio/proyecto no funcione?**
+
+* Que los agricultores están dispuestos a pagar por una solución tecnológica si les demuestra valor.
+* Que podrán acceder a dispositivos y conexión a internet con frecuencia suficiente.
+* Que las recomendaciones de otros usuarios y el marketing digital serán suficientes para escalar la adopción.
+* Que las necesidades de gestión agrícola son lo suficientemente homogéneas como para que una sola solución pueda adaptarse sin personalización excesiva.
 
 #### Business Outcomes
 Tenemos como objetivo generar impactos comerciales positivos para los productores y los distribuidores, como:
@@ -276,11 +310,11 @@ Tenemos como objetivo generar impactos comerciales positivos para los productore
 * Reducción de costos operativos para agricultores mediante una mejor planificación.
 * Mejora en la satisfacción de los usuarios al ofrecer una solución accesible y fácil de usar.
 
-#### Business Assumptions
-Suponemos que los usuarios adoptarán tecnología digital, que habrá un mercado en crecimiento y que la conectividad será accesible para todos los usuarios.
-* Adaptación a la tecnología de los productores agrícolas y distribuidores para mejorar sus operaciones.
-* Crecimiento de mercado con una creciente demanda de herramientas de gestión agrícola, debido a la presión por ser más eficientes y sostenibles.
-* La solución será escalable para diferentes tipos de productores y distribuidores, desde pequeñas granjas hasta grandes operaciones agrícolas.
+#### Features
+* Gestión de las etapas del ciclo agrícola (siembra, riego, fumigación, recolección, distribución).
+* Programación automática de tareas clave (fechas de riego, fumigación, recolección).
+* Gestión financiera y control de costos asociados a cada etapa del ciclo agrícola.
+
 
 #### User Outcomes
 ###### Productores agrícolas: 
