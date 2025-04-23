@@ -925,12 +925,84 @@ En esta sección se presentan los As-Is Scenario Maps para cada User Persona, qu
 ### **Segmento Productor Agricola:**  
 El productor agrícola realiza la siembra, riego y fumigación con métodos básicos, reflexionando sobre las condiciones del suelo y el clima. Su principal preocupación es lograr una buena cosecha y distribución, enfrentando frustraciones y estrés por la eficiencia y los costos.  
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-2-images/AsIsScenarioMappingUserPersona1.jpg?raw=true" alt="Segmento 1 user persona">
+<img src="assets/img/chapter-2/img-as-is-1.PNG" alt="Segmento 1 user persona">
+
+**Positive Points:**
+
+Planificación anticipada para una siembra efectiva: 
+Los agricultores planifican cuidadosamente la siembra, ya sea de forma manual o con maquinaria, lo que demuestra un compromiso con buenas prácticas agrícolas desde el inicio del proceso.
+
+Satisfacción por los resultados de la cosecha: 
+Durante la etapa de recolección, los agricultores sienten satisfacción si la cantidad y calidad de la cosecha cumple con lo esperado, generando una sensación de logro por el trabajo realizado.
+
+Organización en la distribución final: 
+Los productores organizan y ejecutan la distribución a los puntos de venta, lo que refleja eficiencia operativa y una actitud proactiva para cumplir con la demanda del mercado.
+
+
+**Negative Points:**
+
+Frustración si las condiciones del suelo o clima no son ideales: 
+La incertidumbre climática y del terreno genera frustración desde las primeras etapas del cultivo, afectando la motivación del productor.
+
+Ansiedad por el riesgo de exceso o falta de riego: 
+El riego es una de las tareas más delicadas y puede generar ansiedad constante por el impacto que tiene en la salud de los cultivos.
+
+Estrés por asegurar una distribución efectiva: 
+La logística de entrega a los puntos de venta es una fuente de estrés, especialmente cuando se depende de terceros o hay riesgo de retrasos.
+
+
+**Blank Points:**
+
+Clasificación de productos por calidad antes del envío (implícita): 
+Aunque no se menciona explícitamente, hay una oportunidad en mejorar el valor del producto mediante una mejor clasificación antes de la distribución.
+
+Evaluación de métodos alternativos para fertilización: 
+El agricultor se pregunta si los productos químicos están siendo aplicados adecuadamente, lo que abre la posibilidad de explorar opciones más sostenibles o automatizadas.
+
+Análisis del retorno de los puntos de venta: 
+La reflexión sobre eficiencia y costos en la distribución sugiere una oportunidad para integrar herramientas de análisis financiero y de ventas.
+
 
 ### **Segmento Distribuidor:**  
 El distribuidor gestiona inventarios y ventas de manera manual, centrando sus esfuerzos en mejorar la eficiencia y satisfacción del cliente. Se enfrenta a desafíos como la rotación de inventario y ajustes en las estrategias de ventas, sintiendo estrés y frustración por la rentabilidad.   
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-2-images/AsIsScenarioMappingUserPersona2.jpg?raw=true" alt="Segmento 2 user persona">
+<img src="assets/img/chapter-2/img-as-is-2.PNG" alt="Segmento 2 user persona">
+
+**Positive Points:**
+
+Revisión activa de informes para mejorar el desempeño:
+Refleja una actitud analítica y de mejora continua en las decisiones comerciales.
+
+Motivación al lograr una venta grande o cerrar un trato difícil:
+Este sentimiento impulsa el rendimiento y la persistencia del equipo de ventas.
+
+Alivio cuando el stock coincide con lo esperado tras los conteos:
+Indica que las acciones de control están dando resultado y generan confianza.
+
+
+**Negative Points:**
+
+Estrés por el riesgo de tener exceso o escasez de stock:
+Provoca inseguridad y puede derivar en malas decisiones operativas.
+
+Frustración si las ventas no cumplen con las expectativas:
+Indica un desajuste entre las metas del negocio y su rendimiento real.
+
+Ansiedad sobre la rentabilidad y las decisiones a tomar:
+Muestra una falta de apoyo analítico para tomar decisiones estratégicas.
+
+
+**Blank Points:**
+
+Considera implementar un sistema digital para automatizar la gestión:
+Una idea que aún no se ejecuta, pero puede traer grandes beneficios.
+
+Se plantea si se están aprovechando bien los datos recolectados:
+Refleja una inquietud válida sobre cómo extraer valor de la información.
+
+Se pregunta si el canal de ventas actual es el más eficiente:
+Una duda que abre la puerta a optimizar procesos o cambiar estrategias.
+
 
 ### 2.4. Ubiquitous Language.
 
