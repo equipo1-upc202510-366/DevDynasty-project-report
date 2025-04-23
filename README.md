@@ -1255,17 +1255,50 @@ Para los usuarios que prefieren una navegación más personalizada, se implement
 
 #### Aplicación en la Interfaz de AgroControl
 Estos sistemas de organización se combinan de manera efectiva para proporcionar una interfaz intuitiva y accesible. Los usuarios pueden moverse fluidamente por la plataforma, ya sea que estén siguiendo un proceso guiado o explorando el contenido a su manera.
-#### 4.2.2. Labeling Systems.
-The labeling system aims at uniting the data effectively and represent them in simple way and avoid confusing great amount of information. A widely adopted way to achieve this is by creating the labels which represent loads of data in few words.
+
+### 4.2.2. Labeling Systems.
+
+El sistema de etiquetado tiene como objetivo unificar los datos de manera efectiva, representarlos de forma simple y evitar confusión ante grandes cantidades de información. Una forma ampliamente adoptada para lograr esto es necesario crear etiquetas que representen grandes volúmenes de datos.
+
 ![Labeling Systems](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/labeling-systems-1.png?raw=true)
+
 ![Icons-Searching Systems](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/labeling-systems-2.png?raw=true)
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-**Meta & SEO (Search Engine Optimization) Tags:**  sirven para que la pagina web sea encontrada facilmente es lo que sale al encontrar la pagina en el buscador (se ponen en el <"head">)
-* **Titulo**: ```<title>AgroControl - Gestiona Todo Tu Ciclo Agrícola con Eficiencia</title> ```
-* **Descripcion**: ```<meta name="description" content="AgroControl te ayuda a gestionar cada etapa del proceso agrícola, desde el sembrío hasta la distribución, de manera simple y efectiva."> ```
-* **Palabras Clave:** ``` <meta name="keywords" content="agricultura, gestión agrícola, software agrícola, eficiencia agrícola, AgroControl">```
+Hemos utilizado palabras claves para optimizar nuestros SEO Tags y Meta Tags para los motores de búsqueda, así mejoraremos la visibilidad de nuestra página y aplicación web.
+
+**Landing Page**
+```
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroControl - Gestiona Todo Tu Ciclo Agrícola con Eficiencia</title>
+<meta name="description" content="AgroControl es la solución integral para productores agrícolas. Gestiona fácilmente cada etapa del ciclo agrícola: siembra, riego, tratamientos, cosecha y distribución.">
+<meta name="keywords" content="agricultura inteligente, gestión agrícola, software agrícola, ciclo agrícola, AgroControl, producción agrícola eficiente">
+<meta name="author" content="AgroDevTeam">
+```
+**Web Application**
+```
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroControl - Gestiona Todo Tu Ciclo Agrícola con Eficiencia</title>
+<meta name="description" content="AgroControl es la solución integral para productores agrícolas. Gestiona fácilmente cada etapa del ciclo agrícola: siembra, riego, tratamientos, cosecha y distribución.">
+<meta name="keywords" content="agricultura inteligente, gestión agrícola, software agrícola, ciclo agrícola, AgroControl, producción agrícola eficiente">
+<meta name="author" content="AgroDevTeam">
+```
+
+* meta charset="UTF-8": Define la codificación de caracteres para asegurar que todo el contenido se muestre correctamente.
+
+* meta name="viewport" content="width=device-width, initial-scale=1.0": Hace que la página sea adaptable a diferentes dispositivos (responsive design), especialmente móviles.
+
+* title: Es el título que aparecerá en la pestaña del navegador y en los resultados de búsqueda. Resume el propósito de la aplicación.
+
+* meta name="description": Breve descripción que ayuda a los motores de búsqueda a mostrar un resumen claro y atractivo en los resultados.
+
+* meta name="keywords": Palabras clave estratégicas que mejoran el posicionamiento SEO y relacionan tu web con búsquedas relevantes.
+
+* meta name="author": Identifica al autor o equipo de desarrollo del sitio web.
+
 
 ### 4.2.4. Searching Systems.
 
