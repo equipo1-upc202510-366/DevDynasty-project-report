@@ -1835,7 +1835,7 @@ Los diagramas de clases representan la estructura de un sistema orientado a obje
 
 ### 4.7.2. Class Dictionary.
 
-# 4.7.2. Class Dictionary
+
 
 ## Subscription
 Clase que representa la suscripción de un usuario, que define el acceso a funcionalidades específicas.
