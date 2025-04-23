@@ -1237,7 +1237,6 @@ El diseño debe ajustarse a diferentes tamaños de pantalla sin sacrificar la fu
 
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
-## 4.2.1 Sistemas de Organización
 
 #### Descripción General
 Para garantizar una experiencia de usuario óptima, hemos implementado diferentes sistemas de organización dentro de la interfaz de **AgroControl**. Estos sistemas están diseñados para mejorar la navegabilidad y asegurar que los usuarios encuentren fácilmente la información y las herramientas que necesitan.
