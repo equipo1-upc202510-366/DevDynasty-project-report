@@ -1861,99 +1861,95 @@ Los diagramas de clases representan la estructura de un sistema orientado a obje
 
 
 
-## Subscription
+##### Subscription:
 Clase que representa la suscripción de un usuario, que define el acceso a funcionalidades específicas.
 - **PlanTypes**: Enumeración que categoriza los planes como **Basic**, **Premium** o **Standard**.
 
----
 
-## PaymentProduct
+
+##### PaymentProduct:
 Clase que representa los productos asociados a pagos realizados por los usuarios.
 
----
 
-## Product
+
+##### Product:
 Clase que representa un producto disponible en la tienda de un distribuidor.
 
----
 
-## Distributor
+
+##### Distributor:
 Clase que representa los distribuidores, incluyendo su información personal y empresarial.
 
----
 
-## Producer
+##### Producer:
 Clase que representa a los productores agrícolas, con datos como ubicación y contacto.
 
----
 
-## Payment
+
+##### Payment:
 Clase que gestiona los pagos realizados por los usuarios, incluyendo detalles de tarjetas de crédito.
 
----
 
-## User
+##### User:
 Clase que representa a los usuarios del sistema y sus roles asociados.
 
----
 
-## Role
+##### Role:
 Clase que define los roles disponibles en el sistema, como **Admin**, **Agricultural Producer** y **Distributor**.
 
----
 
-## Finance
+
+##### Finance:
 Clase que registra las transacciones financieras relacionadas con los procesos agrícolas.
 
----
 
-## Field
+
+##### Field:
 Clase que representa la tierra de cultivo del usuario **Farmer**.
 
----
 
-## Worker
+
+##### Worker:
 Clase que representa a los trabajadores asociados a un productor.
 
----
 
-## AgriculturalProcess
+##### AgriculturalProcess:
 Clase que gestiona los procesos agrícolas, incluyendo actividades como siembra, riego, fertilización, fumigación y cosecha.
 - **AgriculturalActivityManager**: Clase que gestiona las actividades agrícolas.
 - **Resource**: Clase que detalla los recursos utilizados en las actividades.
 - **ActivityType**: Enumeración que categoriza actividades como **Seeding**, **Irrigation**, **Harvest**, entre otras.
 
----
 
-## AgriculturalActivity
+
+##### AgriculturalActivity:
 Clase que detalla una actividad agrícola específica dentro de un proceso.
 
----
 
-## IrrigationSchedule
+
+##### IrrigationSchedule:
 Clase que representa la función de horario de riego de un campo.
 
----
 
-## FertilizationSchedule
+
+##### FertilizationSchedule:
 Clase que representa la función de horario de fertilización de un campo.
 
----
 
-## FumigationSchedule
+
+##### FumigationSchedule:
 Clase que representa la función de horario de fumigación de un campo.
 
----
 
-## Harvest
+
+##### Harvest:
 Clase que representa la cosecha realizada en un campo.
 
----
 
-## Offer
+
+##### Offer:
 Clase que representa una oferta especial en la tienda de un distribuidor.
 
----
+
 
 
 ## 4.8. Database Design.  
