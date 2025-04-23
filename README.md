@@ -1064,9 +1064,9 @@ A continuación, toca analizar cómo se relacionan nuestras metas de negocios co
 ## 3.4. Product Backlog.
 Captura del tablero de Product Backlog en Trello:
 
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/c59cc5b1ac3b07cc8415b1083ad45a8e72e15437/assets/Chapter%203/Webworks-Product%20Backlog-S2.png">
+<img src="assets/img/chapter-3/img-backlog-trello.PNG">
 
-**Link de Trello:** [Product Backlog DevDynasty Trello](https://trello.com/b/UmnID3DF/webworks-product-backlog)
+**Link de Trello:** [Product Backlog DevDynasty Trello](https://trello.com/b/XXOkZKCL/devdynasty-product-backlog)
 |# Orden|User story ID|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
 | :- | :- | :- | :- | :- |
 |1|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
