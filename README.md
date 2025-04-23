@@ -213,6 +213,10 @@ Los usuarios prefieren acceder a nuestro servicio a través de una aplicación w
 ### How much / Cuánto
 La falta de adopción de tecnologías agrícolas modernas provoca pérdidas económicas significativas para los productores agrícolas. En regiones como África Subsahariana, la productividad agrícola promedio es aproximadamente un 50% inferior en comparación con otros países de ingresos bajos y medianos. Además, los rendimientos promedio alcanzan menos del 20% de su potencial biológico. Esta brecha tecnológica se traduce en ineficiencias en la gestión de recursos, menor rentabilidad y dificultades para competir en los mercados internacionales (Pretty et al., 2023).
 
+<div style="text-align: center;">
+    <img src="assets/img/chapter-1/est.png">
+</div>
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem statements
