@@ -696,7 +696,7 @@ Dispositivos: Sin mención específica de dispositivos, pero potencialmente abie
 
 Entrevistas #01: **William Ramos** (**28 años - Surco**) - **29 de agosto del 2024** 
 
-<img src="">
+<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaIsidro.png?raw=true" alt="Evidencia Productor Agricola 1">
 
 Timing Entrevista: 22:40 - 32:51
 
@@ -725,7 +725,7 @@ Edad: **52 años**
 
 Lugar de residencia: **Lima, Perú**
 
-<img src="" />
+<img src="https://github.com/W3bW0rks/project-report/blob/e6d3cdfd16bb75a8318c4fba894a004586bfff74/assets/chapter-2-images/ProductorAgricolaFidel.png?raw=true" alt="Evidencia Productor Agricola 2" />
 
 Timing Entrevista: 32:52 - 38:52
 
