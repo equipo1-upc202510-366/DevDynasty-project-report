@@ -614,7 +614,7 @@ En esta sección se han definido una serie de preguntas para nuestros segmentos 
 
 ### 2.2.2 Registro de entrevistas.
 
-Link Entrevistas: https://shorturl.at/Nxe2d
+ **Link Entrevistas:** [https://upcedupe-my.sharepoint.com/personal/u202014511_upc_edu_pe](https://trello.com/b/UmnID3DF/webworks-product-backlog)
 
 **Segmento Productor Agricola:**
 
