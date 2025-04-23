@@ -1322,6 +1322,7 @@ Como complemento del sistema jerárquico, **AgroControl** utiliza un sistema de 
 
 ### Local Navigation System
 El sistema de navegación local se utiliza para permitir a los usuarios moverse entre sub-sitios o páginas secundarias dentro de **AgroControl**. Este sistema complementa la navegación global, proporcionando enlaces directos a otras páginas relevantes, como la página de detalles de un servicio específico o un artículo del blog, asegurando una experiencia de navegación fluida y coherente.
+
 ## 4.3. Landing Page UI Design.
 Enlace al Landing Page: 
 
@@ -1468,7 +1469,7 @@ Se han empleado elementos visuales claros, como botones, tablas de registro y me
 
 ### 4.4.1. Web Applications Wireframes.
 
-Enlace Figma: https://shorturl.at/EgCQ3
+Enlace Figma: https://www.figma.com/design/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
 
 
 **Inicio Sesion**  
@@ -1539,7 +1540,8 @@ Pantalla de la tienda virtual de la aplicacion AgroControl. Nos muestra los dife
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-Enlace Lucidchart: https://shorturl.at/MMpXU
+Enlace Lucidchart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_loc=-13454%2C-9786%2C39430%2C19324%2C0_0&invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60
+
 
 **Agregar nueva cosecha en tabla "Harvest"**
 
@@ -1586,7 +1588,7 @@ Funcionalidad de registro de trabajadores relacionados al campo del usuario. En 
 
 ### 4.4.3. Web Applications Mock-ups.
 
-Link Figma: https://shorturl.at/EgCQ3  
+Link Figma: https://www.figma.com/design/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
 
 **Inicio Sesion**
 La pantalla de inicio de sesión de AgroControl está diseñada con simplicidad y accesibilidad en mente. Es el primer punto de contacto del usuario con la aplicación AgroControl.  
@@ -1639,7 +1641,7 @@ Pantalla de la tienda interna de los usuarios. En ella podemos ver los productos
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
-Enlace LucidChart: https://shorturl.at/MMpXU  
+Enlace LucidChart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_loc=-13454%2C-9786%2C39430%2C19324%2C0_0&invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60
 
 **Agregar nueva cosecha en tabla "Harvest"**  
 En este flujo especificamos el proceso de agregar los datos de la cosecha realizada en nuestro "Field". Registramos el nombre del producto cosechado, la fecha en que fue realizada, el peso total recogido y el precio por unidad.  
@@ -1671,6 +1673,10 @@ Funcionalidad de registro de trabajadores relacionados al campo del usuario. En 
 
 ## 4.5. Web Applications Prototyping.
 
+Enlace: https://www.figma.com/proto/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EdIlGXAG09JIofoB6UDvBkgBYGKwaYc4s0DNKQD1iLkqtQ?e=0VpdRk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 **Crear y agregar un "Field"**  
 El prototipo desarrollado presenta el flujo completo para la creación de un campo agricola, una funcionalidad central para los agricultores.
 Desde la pantalla principal, el usuario puede agregar y acceder a un formulario de creación de campos haciendo click en el botón de accion con el simbolo "+".
@@ -1685,7 +1691,6 @@ Después de crear un campo, el usuario regresa a la pantalla principal, donde lo
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/create_field.png" style="width: 800px"/>
 
-Video: https://shorturl.at/D5nOI
 
 **Registro de proceso de fumigacion y fertilizacion en la tabla "Fumigation & Fertilization"**
 
@@ -1701,7 +1706,6 @@ Despues de crear el proceso, se visualiza en la tabla "Fumigation & Fertilizatio
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/fumigation.png" style="width: 800px"/>
 
-Video: https://shorturl.at/iygAV
 
 **Registro y visualizacion de las finanzas del usuario relacionadas a un campo**
 
@@ -1717,7 +1721,6 @@ El usuario tiene la opción de agregar un nuevo dato. Los campos a completar inc
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/finances.png" style="width: 800px"/>
 
-Video: https://shorturl.at/Y5MGc
 
 **Registro de proceso de riego en la tabla "Irrigation"**
 
@@ -1731,7 +1734,6 @@ En la pantalla de riego, se presenta un botón prominente llamado "Add" que abre
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/irrigation.png" style="width: 800px"/>
 
-Video: https://shorturl.at/GkG2u
 
 **Registro de cosecha realizada en la tabla "Harvest"**
 
@@ -1743,7 +1745,6 @@ El registro de la cosecha es un proceso que permite rastrear las cantidades reco
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/harvest.png" style="width: 800px"/>
 
-Video: https://shorturl.at/Vioq8
 
 **Registro de proceso de plantación de producto en el campo.**
 
@@ -1761,7 +1762,6 @@ El formulario contiene los siguientes campos esenciales para el registro:
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/planting.png" style="width: 800px"/>
 
-Video: https://t.ly/ZSkcb
 
 **Registro y visualizacion de trabajadores relacionados a los procesos del campo, en la tabla "Workers".**
 
@@ -1776,7 +1776,6 @@ El formulario permite registrar los siguientes datos básicos de cada trabajador
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/workers.png" style="width: 800px"/>
 
-Video: https://shorturl.at/3LBmG  
 
 ## 4.6. Domain-Driven Software Architecture.
 La arquitectura de software basada en el dominio, un enfoque que centra el diseño y desarrollo del software en el conocimiento del dominio específico del negocio, se presenta en esta sección. Este método facilita la comunicación entre desarrolladores y expertos del dominio y permite la creación de sistemas más alineados con las necesidades y procesos comerciales. A continuación se presentan los diagramas y contextos delimitados que conforman la arquitectura de software de nuestro proyecto.
