@@ -399,7 +399,7 @@ Nuestro producto es utilizado durante todas las etapas del ciclo agrícola:
 #### 1.2.2.4. Lean UX Canvas
 En Lean UX Canvas facilitamos la colaboración y el enfoque en el usuario en el diseño de productos, permitiendo a nuestro equipo definir su visión, hipótesis y métricas de éxito de manera ágil.
 
-![Lean UX-1](assets/img/chapter-1/img-lean-ux-1.PNG)
+![Lean UX-1](assets/img/chapter-1/img-lean-ux-1.png)
 
 
 
