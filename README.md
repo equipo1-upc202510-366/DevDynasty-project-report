@@ -214,7 +214,7 @@ Los usuarios prefieren acceder a nuestro servicio a través de una aplicación w
 La falta de adopción de tecnologías agrícolas modernas provoca pérdidas económicas significativas para los productores agrícolas. En regiones como África Subsahariana, la productividad agrícola promedio es aproximadamente un 50% inferior en comparación con otros países de ingresos bajos y medianos. Además, los rendimientos promedio alcanzan menos del 20% de su potencial biológico. Esta brecha tecnológica se traduce en ineficiencias en la gestión de recursos, menor rentabilidad y dificultades para competir en los mercados internacionales (Pretty et al., 2023).
 
 <div style="text-align: center;">
-    <img src="assets/img/chapter-1/est.png">
+    <img src="assets/img/chapter-1/img-estadistica.PNG">
 </div>
 
 ### 1.2.2. Lean UX Process
@@ -399,8 +399,8 @@ Nuestro producto es utilizado durante todas las etapas del ciclo agrícola:
 #### 1.2.2.4. Lean UX Canvas
 En Lean UX Canvas facilitamos la colaboración y el enfoque en el usuario en el diseño de productos, permitiendo a nuestro equipo definir su visión, hipótesis y métricas de éxito de manera ágil.
 
-![Lean UX-1](assets/img/chapter-1/img-lean-ux-1.png)
-![Lean UX-2](assets/img/chapter-1/img-lean-ux-2.png)
+![Lean UX-1](assets/img/chapter-1/img-lean-ux-1.PNG)
+
 
 
 
