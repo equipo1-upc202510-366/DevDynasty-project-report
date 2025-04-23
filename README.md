@@ -1067,6 +1067,7 @@ Captura del tablero de Product Backlog en Trello:
 <img src="assets/img/chapter-3/img-backlog-trello.PNG">
 
 **Link de Trello:** [Product Backlog DevDynasty Trello](https://trello.com/b/XXOkZKCL/devdynasty-product-backlog)
+
 |# Orden|User story ID|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
 | :- | :- | :- | :- | :- |
 |1|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
@@ -1101,7 +1102,7 @@ Captura del tablero de Product Backlog en Trello:
 |30|E6-TS105|Crear campo atraves de la APIRESTful|**Como** desarrollador **quiero** crear campo atraves de la API **para** registrarlo en la base de datos|3|
 |31|E6-TS106|Obtener informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del campo atraves de la API **para** mostrar los datos en la aplicación|2|
 |32|E6-TS107|Eliminar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar la informacion del campo atraves de la API **para** eliminar los datos en la aplicación|3|
-|33|E6-TS108|Editar informacion del campo atraves de la APIRESTful**Como** desarrollador **quiero** editar la informacion del campo atraves de la API **para** editar los datos en la aplicación|3|
+|33|E6-TS108|Editar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del campo atraves de la API **para** editar los datos en la aplicación|3|
 |34|E6-TS109|Crear proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** crear el proceso agricola atraves de la API **para** registrarlo en la base de datos|2|
 |35|E6-TS110|Crear actividad en el proceso agricola|**Como** desarrollador **quiero** crear actividades agricolas atraves de las API **para** registrarlo en la base de datos|5|
 |36|E6-TS111|Crear recurso en la actividad|**Como** desarrollador **quiero** crear recurso en la actividad atraves de la API **para** registrarlo en la base de datos|3|
@@ -2012,6 +2013,8 @@ CC BY 3.0. Retrieved from https://www.conventionalcommits.org/en/v1.0.0/
 Angular. (n.d.). Angular Documentation. Retrieved from https://angular.dev/  
 
 TypeScript. (n.d.). TypeScript: Typed JavaScript at Any Scale. Retrieved from https://www.typescriptlang.org/  
+
+Pretty, J., Benton, T. G., Bharucha, Z. P., Dicks, L. V., Flora, C. B., Godfray, H. C. J., ... & Wratten, S. D. (2023). Transforming food systems with agroecology. PLOS Sustainability and Transformation, 2(1), e0000018. https://doi.org/10.1371/journal.pstr.0000018
 
 # Anexos
 
