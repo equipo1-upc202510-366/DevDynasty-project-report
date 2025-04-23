@@ -668,6 +668,67 @@ Influencias: Uso limitado de tecnología, busca herramientas que faciliten la to
 Canales de interacción: Predominantemente manuales, con un interés en digitalización.
 Dispositivos: Sin mención específica de dispositivos, pero potencialmente abierta al uso de software en dispositivos móviles para la gestión agrícola.
 
+**Entrevista 3:**
+
+link: [video de entrevista 3](https://drive.google.com/file/d/17l4TQSdMDyZlOSQLvRtc-BUtDpguBLig/view?usp=sharing)
+
+Nombres: Valentino
+
+Apellidos: Cervantes aiquita
+
+Edad: 21 años
+
+Lugar de residencia: Lima, Peru
+
+Evidencia de la entrevista:
+
+<img src="assets/img/chapter-2/img_entr_prod_valentino.png.png" alt="Evidencia Productor Agricola 3">
+
+Timing Entrevista: 00:00 - 05:30
+
+Resumen de la entrevista:
+El compañero Valentino nos compartió cómo apoya a sus familiares en las tareas administrativas del campo, ubicado en la zona de Lima. Comentó que uno de sus mayores retos es la gestión de insumos y la planificación de las cosechas, ya que no cuenta con un sistema que le permita llevar un control adecuado de estos aspectos. Actualmente, utiliza una hoja de Excel para registrar los gastos e ingresos relacionados con la agricultura, pero considera que esta herramienta resulta insuficiente para cubrir todas sus necesidades.
+
+Características observadas:
+
+Perfil de personalidad: Se caracteriza por ser proactivo y tener una actitud favorable hacia la incorporación de tecnología que optimice sus actividades.
+
+Factores de influencia: Aunque su experiencia con herramientas digitales es limitada, muestra una actitud receptiva frente a nuevas soluciones tecnológicas.
+
+Medios de interacción actuales: Utiliza principalmente métodos manuales, aunque demuestra interés en adoptar procesos digitalizados.
+
+Uso de dispositivos: No se especifica el uso de dispositivos en particular, pero es probable que esté abierto al uso de aplicaciones móviles para facilitar su trabajo.
+
+
+**Entrevista 4:**
+
+link: [video de entrevista 4](https://drive.google.com/file/d/17l4TQSdMDyZlOSQLvRtc-BUtDpguBLig/view?usp=sharing)
+
+Nombres: gianmarco 
+
+Apellidos: olaine lopez
+
+Edad: 22 años
+
+Lugar de residencia: Lima, Peru
+
+Evidencia de la entrevista:
+
+<img src="assets/img/chapter-2/img_entr_prod_marco.png" alt="Evidencia Productor Agricola 4">
+
+Timing Entrevista: 00:00 - 05:00
+
+Resumen de la entrevista:
+Gianmarco nos relató cómo colabora con sus familiares en la gestión administrativa del terreno agrícola. Explicó que uno de los mayores obstáculos que enfrenta es organizar adecuadamente los insumos y planificar las etapas de cultivo, ya que actualmente no cuenta con una herramienta que le permita controlar estos aspectos de forma ordenada. Para llevar el registro de los ingresos y egresos vinculados a la producción, recurre a usar calendarios e libretasw; sin embargo, considera que esta solución no le brinda el nivel de eficiencia que necesita.
+Características observadas:
+
+Perfil de personalidad: Gianmarco muestra una actitud activa y está siempre dispuesto a incorporar herramientas tecnológicas que le ayuden a hacer más eficientes sus tareas.
+
+Factores de influencia: Aunque su contacto con soluciones digitales ha sido reducido, está abierto a probar nuevas tecnologías que puedan mejorar su rutina de trabajo.
+
+Medios de interacción actuales: Por ahora, se apoya en métodos tradicionales y manuales, pero tiene un claro interés en modernizar sus procesos a través de la digitalización.
+
+Uso de dispositivos: No se ha detallado el tipo de dispositivos que utiliza, aunque se intuye que podría adaptarse con facilidad al uso de software en teléfonos móviles u otras plataformas digitales.
 **Segmento Distribuidor:**
 
 **Entrevista 1:**
