@@ -51,47 +51,25 @@ Producto:
 
 Contribuciones del equipo
 
-![Contribuciones del equipo](assets/img/develop/img-contributors-team.png)
+<img src="assets/img/chapter-1/img-contributors-team.PNG" style="width: 500px"/>
 
 **Imágen de las contribuciones Ricardo:**
 
-![Contribuciones Ricardo](assets/img/develop/img-contributors-ricardo.png)
-
-**Imágen de los commits Ricardo:**
-
-![Commits Ricardo](assets/img/develop/img-commits-ricardo.png)
+<img src="assets/img/chapter-1/img-contributors-ricardo.PNG" style="width: 300px"/>
 
 **Imágen de las contribuciones Fabiola:**
 
-![Contribuciones Fabiola](assets/img/develop/img-contributors-fabiola.png)
-
-**Imágen de los commits Fabiola:**
-
-![Commits Fabiola](assets/img/develop/img-commits-fabiola.png)
+<img src="assets/img/chapter-1/img-contributors-fabiola.PNG" style="width: 300px"/>
 
 **Imágen de las contribuciones Hardie:**
 
-![Contribuciones Hardie](assets/img/develop/img-contributors-hardie.png)
-
-**Imágen de los commits Hardie:**
-
-![Commits Hardie](assets/img/develop/img-commits-hardie.png)
+<img src="assets/img/chapter-1/img-contributors-hardie.PNG" style="width: 300px"/>
 
 **Imágen de las contribuciones Eduardo:**
 
-![Contribuciones Eduardo](assets/img/develop/img-contributors-eduardo.png)
-
-**Imágen de los commits Eduardo:**
-
-![Commits Eduardo](assets/img/develop/img-commits-eduardo.png)
+<img src="assets/img/chapter-1/img-contributors-eduardo.PNG" style="width: 300px"/>
 
 
-
-
-
-Link de la organizacion: https://github.com/equipo1-upc202510-366  
-Link del reporte: https://github.com/equipo1-upc202510-366/DevDynasty-project-report   
-URL del repositorio GitHub: https://github.com/orgs/equipo1-upc202510-366/repositories
 
 
 
@@ -2109,14 +2087,25 @@ Pretty, J., Benton, T. G., Bharucha, Z. P., Dicks, L. V., Flora, C. B., Godfray,
 
 # Anexos
 
+Organizacion Github: https://github.com/equipo1-upc202510-366
 
-### Anexo A. Github Repositories
+Project Report: https://github.com/equipo1-upc202510-366/DevDynasty-project-report   
 
-Link de la Organización DevDynasty: https://github.com/equipo1-upc202510-366
+URL del repositorio GitHub: https://github.com/orgs/equipo1-upc202510-366/repositories
 
-| Repositorios               | Enlace                                                 |
-|----------------------------|--------------------------------------------------------|
-| AgroControl Project Report | https://github.com/equipo1-upc202510-366/DevDynasty-project-report |
+Landing page: https://equipo1-upc202510-366.github.io/DevDynasty-LandingPage/
+
+Link Web Applications Wireflow Diagrams.
+https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_loc=-13454%2C-9786%2C39430%2C19324%2C0_0&invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60
+
+Web Applications Mock-ups.
+https://www.figma.com/design/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
+
+Web Applications User Flow Diagrams.
+https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_loc=-13454%2C-9786%2C39430%2C19324%2C0_0&invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60
+
+Web Applications Prototyping
+https://www.figma.com/proto/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
 
 
 
