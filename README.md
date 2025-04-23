@@ -1291,7 +1291,7 @@ El sistema de navegación local se utiliza para permitir a los usuarios moverse 
 ## 4.3. Landing Page UI Design.
 Enlace al Landing Page: 
 
-https://agrocontrol-landing-page.vercel.app/index.html
+https://equipo1-upc202510-366.github.io/DevDynasty-LandingPage/index.html
 
 ### 4.3.1. Landing Page Wireframe.
 la pagina donde te registras y ves info del web app (te manda al web app)
