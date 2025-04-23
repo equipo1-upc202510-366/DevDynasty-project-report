@@ -592,7 +592,7 @@ En esta sección se han definido una serie de preguntas para nuestros segmentos 
 
 ### 2.2.2 Registro de entrevistas.
 
- **Link Entrevistas:** [https://upcedupe-my.sharepoint.com/personal/u202014511_upc_edu_pe](https://trello.com/b/UmnID3DF/webworks-product-backlog)
+[Link Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=yXIAHB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
 
 **Segmento Productor Agricola:**
 
@@ -610,7 +610,9 @@ Evidencia de la entrevista:
 
 <img src="assets/img/chapter-2/img-entrevista-productor-isidro.png" alt="Evidencia Productor Agricola 1">
 
-Timing Entrevista: 00:05 - 06:30
+Timing Entrevista: 00:00 - 06:30
+
+[Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=h07v64&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NS43Nn19)
 
 Resumen de la entrevista:
 El señor Isidro Principe Ramirez, un productor agrícola de 65 años de Lima, Perú, nos compartió algunos de los desafíos que enfrenta en la gestión de sus cultivos. Señaló que uno de los mayores retos es mantener un control preciso de las distintas etapas del proceso agrícola, como las fechas de fumigación y el manejo de los insumos. Actualmente, utiliza un cuaderno para registrar esta información, pero expresó interés en adoptar soluciones tecnológicas que le ayuden a optimizar esta tarea.
@@ -639,6 +641,8 @@ Evidencia de la entrevista:
 <img src="assets/img/chapter-2/img-entrevista-productor-fidel.png" alt="Evidencia Productor Agricola 2">
 
 Timing Entrevista: 06:31 - 13:51
+
+[Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=PExsnL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzkyLjN9fQ%3D%3D)
 
 Resumen de la entrevista:
 El señor Fidel Godoy Zevallos, un productor agrícola de 60 años de Lima, Perú, compartió que su desafío más significativo en la gestión agrícola es el registro de operaciones y gastos. Aunque utiliza Excel para este propósito, considera que esta herramienta no es muy efectiva.
@@ -670,8 +674,6 @@ Dispositivos: Sin mención específica de dispositivos, pero potencialmente abie
 
 **Entrevista 3:**
 
-link: [video de entrevista 3](https://drive.google.com/file/d/17l4TQSdMDyZlOSQLvRtc-BUtDpguBLig/view?usp=sharing)
-
 Nombres: Valentino
 
 Apellidos: Cervantes aiquita
@@ -682,9 +684,11 @@ Lugar de residencia: Lima, Peru
 
 Evidencia de la entrevista:
 
-<img src="assets/img/chapter-2/img_entr_prod_valentino.png.png" alt="Evidencia Productor Agricola 3">
+<img src="assets/img/chapter-2/img_entr_prod_valentino.png" alt="Evidencia Productor Agricola 3">
 
-Timing Entrevista: 00:00 - 05:30
+Timing Entrevista: 13:51 - 19:19
+
+[Entrevista 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=Dvkkn9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODMxLjQ5fX0%3D)
 
 Resumen de la entrevista:
 El compañero Valentino nos compartió cómo apoya a sus familiares en las tareas administrativas del campo, ubicado en la zona de Lima. Comentó que uno de sus mayores retos es la gestión de insumos y la planificación de las cosechas, ya que no cuenta con un sistema que le permita llevar un control adecuado de estos aspectos. Actualmente, utiliza una hoja de Excel para registrar los gastos e ingresos relacionados con la agricultura, pero considera que esta herramienta resulta insuficiente para cubrir todas sus necesidades.
@@ -702,11 +706,9 @@ Uso de dispositivos: No se especifica el uso de dispositivos en particular, pero
 
 **Entrevista 4:**
 
-link: [video de entrevista 4](https://drive.google.com/file/d/17l4TQSdMDyZlOSQLvRtc-BUtDpguBLig/view?usp=sharing)
+Nombres: Gianmarco 
 
-Nombres: gianmarco 
-
-Apellidos: olaine lopez
+Apellidos: Olaine lopez
 
 Edad: 22 años
 
@@ -716,7 +718,9 @@ Evidencia de la entrevista:
 
 <img src="assets/img/chapter-2/img_entr_prod_marco.png" alt="Evidencia Productor Agricola 4">
 
-Timing Entrevista: 00:00 - 05:00
+Timing Entrevista: 19:19 - 24:11
+
+[Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=xjz6xe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTE1OS4xOX19)
 
 Resumen de la entrevista:
 Gianmarco nos relató cómo colabora con sus familiares en la gestión administrativa del terreno agrícola. Explicó que uno de los mayores obstáculos que enfrenta es organizar adecuadamente los insumos y planificar las etapas de cultivo, ya que actualmente no cuenta con una herramienta que le permita controlar estos aspectos de forma ordenada. Para llevar el registro de los ingresos y egresos vinculados a la producción, recurre a usar calendarios e libretasw; sin embargo, considera que esta solución no le brinda el nivel de eficiencia que necesita.
@@ -729,6 +733,7 @@ Factores de influencia: Aunque su contacto con soluciones digitales ha sido redu
 Medios de interacción actuales: Por ahora, se apoya en métodos tradicionales y manuales, pero tiene un claro interés en modernizar sus procesos a través de la digitalización.
 
 Uso de dispositivos: No se ha detallado el tipo de dispositivos que utiliza, aunque se intuye que podría adaptarse con facilidad al uso de software en teléfonos móviles u otras plataformas digitales.
+
 **Segmento Distribuidor:**
 
 **Entrevista 1:**
@@ -737,7 +742,9 @@ Entrevistas #01: **William Ramos** (**28 años - Surco**) - **29 de agosto del 2
 
 <img src="assets/img/chapter-2/img-entrevista-distribuidor-william.png" alt="Evidencia Productor Agricola 1">
 
-Timing Entrevista: 22:40 - 32:51
+Timing Entrevista: 33:05 - 43:12
+
+[Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=kYVnaS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTk4NS43OX19)
 
 Resumen de la entrevista: La entrevista se ha realizado al distribuidor William Ramos de 28 años, quien cuenta con experiencia en la distribución de semillas, fumigantes y fertilizantes para el sector agrícola. William nos comenta que enfrenta muchos problemas al momento de inventariar una gran cantidad de pedidos, teniendo que realizar inventarios por región, departamentos y meses. Anteriormente, utilizaba hojas de Excel, pero debido a la gran cantidad de datos, optó por usar varias hojas en Google Drive, aprovechando su capacidad de almacenamiento.
 
@@ -766,7 +773,9 @@ Lugar de residencia: **Lima, Perú**
 
 <img src="assets/img/chapter-2/img-entrevista-distribuidor-jorge.png" alt="Evidencia Productor Agricola 2" />
 
-Timing Entrevista: 32:52 - 38:52
+Timing Entrevista: 43:12 - 49:14
+
+[Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=FyOgIY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjU5My4yMn19)
 
 Resumen de la entrevista: La entrevista se ha realizado al distribuidor Jorge Gonzales de 52 años, quien se encuentra en el sector de productos alimenticios. Jorge enfrenta retos en la gestión de inventario, principalmente en mantener el equilibrio entre oferta y demanda, así como la precisión en los registros y evitar el exceso y escasez de inventario. Actualmente, utiliza sistemas de gestión combinados con hojas de cálculo, aunque estos no siempre son ágiles ni ofrecen las capacidades necesarias para optimizar sus procesos.
 
@@ -2167,6 +2176,10 @@ https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_
 
 Web Applications Prototyping
 https://www.figma.com/proto/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
+
+Needfinding Interviews
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201714765_upc_edu_pe/EVZaYTuRk1ZEsIQpwGhtfQQBayGfLnTw7DGR8VVmrF-rHQ?e=yXIAHB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D
+
 
 
 
