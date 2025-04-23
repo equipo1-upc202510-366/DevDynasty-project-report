@@ -749,43 +749,34 @@ En esta sección se analizan las características comunes identificadas en las e
 
 ### Segmento: Productores Agrícolas
 
-### Desafíos en la Gestión de Cultivos:
+* El 100% de los entrevistados prefieren Google Chrome como navegador principal, lo que evidencia una inclinación por herramientas ampliamente compatibles y de uso común, facilitando así la adopción de soluciones digitales.
 
-#### Control de Etapas de Cultivo:
-- **Objetiva:** El 100% de los productores mencionaron dificultades en el control de las distintas etapas del cultivo, evidenciando la falta de un sistema eficiente.
-- **Subjetiva:** Los productores expresan frustración por el uso de métodos manuales, lo que afecta su capacidad de gestión.
+* El 100% de los entrevistados manifestaron dificultades en el control de las distintas etapas del cultivo, como la siembra, riego, fumigación y cosecha. Esta falta de un sistema eficiente obliga al uso de métodos manuales, lo que genera frustración y reduce su capacidad de gestión.
 
-### Necesidades Tecnológicas:
+* El 100% de los entrevistados mostraron interés en herramientas tecnológicas para optimizar la gestión agrícola, reflejando una clara apertura al cambio, al deseo de modernizar sus procesos y mejorar la eficiencia operativa.
 
-#### Interés en Aplicaciones de Gestión:
-- **Objetiva:** El 100% de los entrevistados manifestó interés en herramientas tecnológicas que optimicen la gestión agrícola.
-- **Subjetiva:** Hay un deseo común de modernizar sus procesos, lo que refleja una apertura al cambio y la innovación.
+* El 100% de los entrevistados utilizan actualmente herramientas manuales para la mayoría de sus actividades agrícolas. Reconocen que estas herramientas son limitantes y no les permiten maximizar su productividad.
 
-### Herramientas Utilizadas:
+* El 66% de los entrevistados indicaron que los retrasos en la entrega son uno de los problemas más frecuentes en su cadena de distribución. Esta situación impacta negativamente en la eficiencia logística y en la satisfacción de sus clientes.
 
-#### Mano de Obra y Herramientas Manuales:
-- **Objetiva:** Todos los productores utilizan herramientas manuales para el cultivo y la cosecha.
-- **Subjetiva:** Hay un reconocimiento de que estas herramientas son limitantes y no les permiten maximizar su eficiencia.
+* El 33% de los entrevistados utiliza herramientas tecnológicas específicas para la gestión de pedidos, siendo Infores la única plataforma mencionada. Sin embargo, se destacó que esta herramienta presenta limitaciones operativas, lo que refuerza la necesidad de una solución más completa y adaptada a sus necesidades.
+
 
 ### Segmento: Distribuidores
 
-### Gestión de Inventario:
 
-#### Dificultades en el Inventario:
-- **Objetiva:** El 100% de los distribuidores mencionó problemas para mantener un inventario equilibrado entre oferta y demanda.
-- **Subjetiva:** Expresan preocupación por la falta de precisión en sus registros, lo que impacta en su rentabilidad.
+* El 100% de los entrevistados mencionó dificultades para mantener un inventario equilibrado entre oferta y demanda, lo que demuestra una necesidad urgente de sistemas que brinden mayor control y precisión en la gestión de stock.
 
-### Funcionalidades Deseadas:
+* El 100% de los entrevistados expresó preocupación por la falta de precisión en sus registros, lo que impacta directamente en su rentabilidad y capacidad de planificación.
 
-#### Integración y Automatización:
-- **Objetiva:** El 100% busca soluciones que integren ventas e inventario con sincronización automática de datos.
-- **Subjetiva:** Los distribuidores sienten que la falta de una solución adecuada limita su capacidad de respuesta y adaptación al mercado.
+* El 100% de los entrevistados busca soluciones que integren ventas e inventario, con sincronización automática de datos, lo que refleja un fuerte interés por mejorar la eficiencia operativa mediante herramientas tecnológicas.
 
-### Canales de Comunicación:
+* El 100% de los entrevistados considera que la ausencia de una solución adecuada limita su capacidad de respuesta y adaptación al mercado, lo que refuerza la necesidad de plataformas más completas y adaptables.
 
-#### Uso de Redes Sociales y Aplicaciones de Mensajería:
-- **Objetiva:** Todos los distribuidores utilizan WhatsApp y redes sociales para comunicarse con sus clientes.
-- **Subjetiva:** Hay un sentimiento de que la comunicación actual es insuficiente para gestionar pedidos de gran volumen, lo que indica la necesidad de mejores herramientas de coordinación.
+* El 100% de los entrevistados utiliza WhatsApp y redes sociales como canales principales de comunicación con sus clientes, lo que indica una fuerte dependencia de plataformas informales para la gestión comercial.
+
+* El 100% de los entrevistados percibe que estos canales no son suficientes para gestionar pedidos a gran escala, lo que revela una necesidad de herramientas más robustas y especializadas en coordinación y atención al cliente.
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.3. Needfinding
