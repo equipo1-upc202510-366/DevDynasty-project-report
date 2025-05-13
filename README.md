@@ -2148,6 +2148,56 @@ Ejemplo Landing Page:
 - `'feature/html-structure'`. Indicando la sección a implementar.
 
 ### 6.1.3. Source Code Style Guide & Conventions.
+Para el diseño y construcción de la landing page, utilizamos HTML y CSS, siguiendo las recomendaciones de style guide de Google para HTML/CSS. Esta guía nos orienta en cómo escribir código de manera eficiente y estandarizada. Algunas de las prácticas que adoptamos incluyen:
+
+- Declarar el tipo de documento para asegurar que los navegadores interpreten correctamente el código.
+
+- Escribir los elementos HTML en minúsculas (por ejemplo, `<p>`, `<h1>`, `<section>`, `<header>`) para mantener la consistencia y legibilidad.
+
+- Declarar entre comillas los atributos de los elementos HTML, como en `'<p class="nombre"></p>`, para evitar errores de interpretación.
+
+- Especificar atributos esenciales como `alt`, `width`, y `height` en las imágenes, mejorando tanto la accesibilidad como el rendimiento de la página.
+
+- Mantener las líneas de código concisas, evitando que sean demasiado largas, lo que facilita la lectura y el mantenimiento del código.
+
+- Incluir siempre el elemento `<title>` en la cabecera del documento para definir el título de la página web.
+
+- Emplear metaetiquetas (meta tags) al inicio del documento para establecer la codificación de caracteres, la descripción y otras configuraciones esenciales que mejoran la indexación y visualización de la página.
+
+En cuanto al uso de JavaScript, seguimos las pautas de style guide de Google para JavaScript, asegurando un código limpio y bien estructurado. Algunas de las convenciones que aplicamos son:
+
+- Nombrar variables y funciones utilizando el estilo camelCase, como en `numberArray`, para mejorar la claridad del código.
+
+- Utilizar comillas simples `(')` para definir cadenas de texto, en línea con las mejores prácticas recomendadas.
+
+- Finalizar cada sentencia con un punto y coma `(;)` para evitar posibles errores de ejecución.
+
+- Preferir el uso de `let` y `const` en lugar de `var` para la declaración de variables, garantizando una mejor gestión del alcance de las variables.
+
+Convenciones de Código - Kotlin
+
+Para el desarrollo en Kotlin, seguimos las convenciones oficiales de estilo recomendadas por JetBrains, con el fin de mantener un código limpio, legible y coherente entre todos los miembros del equipo. Algunas de las prácticas aplicadas fueron:
+
+- **Nombrado en camelCase** para variables, funciones y propiedades, por ejemplo: `userName`, `calculateTotal()` y `orderList`.
+
+- **Uso de PascalCase para clases y objetos**, como `UserProfile` o `MainViewModel`, siguiendo el estándar establecido para tipos.
+
+- **Evitar nombres abreviados** que puedan dificultar la comprensión, prefiriendo nombres descriptivos como `customerAddress` en lugar de `custAddr`.
+
+- **Declarar variables inmutables con `val`** siempre que sea posible, y usar `var` solo cuando sea necesario modificar su valor.
+
+- **Organización clara de clases y archivos**, agrupando propiedades, funciones privadas y públicas de forma lógica. Se utilizan líneas en blanco o comentarios para separar bloques de funcionalidad.
+
+- **No se usan puntos y coma** (`;`) al final de las líneas, ya que Kotlin no los requiere.
+
+- **Declaración explícita de tipos** en funciones públicas, especificando el tipo de retorno incluso cuando puede inferirse, para mejorar la legibilidad.
+
+- **Evitar el operador `!!`** (not-null assertion) siempre que sea posible, utilizando verificaciones seguras (`?.`) o control de flujo con `if`, `let`, `run`, etc.
+
+- **Indentación de 4 espacios** y líneas de código que no excedan los 100 caracteres, para facilitar la lectura y evitar scroll horizontal innecesario.
+
+- **Uso adecuado de funciones de extensión y lambdas**, aprovechando la expresividad de Kotlin sin comprometer la claridad del código.
+
 
 ### 6.1.4. Software Deployment Configuration
 
