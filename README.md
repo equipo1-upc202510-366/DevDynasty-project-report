@@ -2200,6 +2200,30 @@ Para el desarrollo en Kotlin, seguimos las convenciones oficiales de estilo reco
 
 
 ### 6.1.4. Software Deployment Configuration
+En esta sección explicaremos el proceso de despliegue de nuestra landing page utilizando el servicio automatizado de GitHub Pages. A continuación, se detallarán los pasos requeridos para alcanzar el despliegue.
+-   Debemos asegurarnos de tener un repositorio con la landing page a desplegar.
+
+![Configuration 1](assets/img/chapter-5/img-configuration-1.png)
+
+-   Accedemos a nuestro repositorio y debemos de añadir el html, css y js segun corresponda.
+
+![Configuration 2](assets/img/chapter-5/img-configuration-2.png)
+
+- Debemos ingresar al apartado de configuracion de nuestro repositorio.
+
+![Configuration 3](assets/img/chapter-5/img-configuration-3.png)
+
+- Dentro de la configuracion debemos seleccionar el apartado de GitHub Pages.
+
+![Configuration 4](assets/img/chapter-5/img-configuration-4.png)
+
+- Una vez dentro de GitHub Pages debemos seleccionar la branch que deseamos desplegar y presionar el boton de save para que empieze a desplegarse.
+
+![Configuration 5](assets/img/chapter-5/img-configuration-5.png)
+
+- Una vez final el build podremos visualizar el enlace con el que podremos visualizar nuestra landing page desplegada.
+
+![Configuration 6](assets/img/chapter-5/img-configuration-6.png)
 
 ## Software Configuration Management.
 ### Software Development Environment Configuration.
