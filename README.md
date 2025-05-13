@@ -1179,67 +1179,67 @@ Captura del tablero de Product Backlog en Trello:
 
 **Link de Trello:** [Product Backlog DevDynasty Trello](https://trello.com/b/XXOkZKCL/devdynasty-product-backlog)
 
-|# Orden|User story ID|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
-| :- | :- | :- | :- | :- |
-|9|E2-US101|Registro e inicio de sesión|**Como** usuario **quiero** tener en la app un apartado de inicio de sesión **para** que se guarde mi información|3|
-|10|E2-US102|Formulario de login|**Como** usuario de la página web, **quiero** ingresar con mi cuenta con la cual me registre **para** usar las herramientas a mi disposición.|3|
-|11|E2-US103|Recuperación de contraseñas |**Como** usuario **quiero** que la aplicación tenga un apartado que me permita recuperar mi contraseña en caso me olvide **para** ingresar a mi cuenta de usuario|3|
-|27|E6-TS102|Registrar usuario atraves de la APIRESTful|**Como** desarrollador **quiero** registrar al usuario atraves de la API **para** persistir su informacion en la base de datos|5|
-|28|E6-TS103|Iniciar sesion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** logear al usuario atraves de la API **para** brindarle acceso a la aplicación|5|
-|29|E6-TS104|Obtener informacion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** obtener informacion del usuario atraves de la API **para** mostrar los datos en la aplicación|2|
-|12|E3-US101|Crear campos de cultivo|**Como** productor agricola **quiero** crear campos de cultivo **para** poder monitorear facilmente el proceso agricola del campo|3|
-|30|E6-TS105|Crear campo atraves de la APIRESTful|**Como** desarrollador **quiero** crear campo atraves de la API **para** registrarlo en la base de datos|3|
-|31|E6-TS106|Obtener informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del campo atraves de la API **para** mostrar los datos en la aplicación|2|
-|34|E6-TS109|Crear proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** crear el proceso agricola atraves de la API **para** registrarlo en la base de datos|2|
-|35|E6-TS110|Crear actividad en el proceso agricola|**Como** desarrollador **quiero** crear actividades agricolas atraves de las API **para** registrarlo en la base de datos|5|
-|36|E6-TS111|Crear recurso en la actividad|**Como** desarrollador **quiero** crear recurso en la actividad atraves de la API **para** registrarlo en la base de datos|3|
-|13|E3-US102|Barra de navegación del productor agricola|**Como** productor agrícola **quiero** una barra de navegación **para** poder tener acceso directos a la informacion de la web app |3|
-|14|E3-US103|Pantalla de inicio del proceso agricola|**Como** productor agrícola **quiero** visualizar todos los registros de los cultivos que he creado **para** poder ver fácilmente el progreso de los mismos|3|
-|32|E6-TS107|Eliminar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar la informacion del campo atraves de la API **para** eliminar los datos en la aplicación|3|
-|33|E6-TS108|Editar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del campo atraves de la API **para** editar los datos en la aplicación|3|
-|37|E6-TS112|Obtener informacion del proceso agricola por campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por campo atraves de la API **para** mostrar los datos en la aplicación|2|
-|38|E6-TS113|Obtener informacion del proceso agricola por identificador del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por identificador del proceso agricola atraves de la API **para** mostrar los datos en la aplicación|2|
-|39|E6-TS114|Obtener informacion de la actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la actividad agricola atraves de la API **para** mostrar los datos en la aplicación|2|
-|40|E6-TS115|Obtener informacion de la ultima actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la ultima actividad agricola atraves de la API **para** mostrar los datos en la aplicación|3|
-|41|E6-TS116|Terminar la plantación atraves de la APIRESTful|**Como** desarrollador **quiero** terminar la plantacion atraves de la API **para** mostrar los datos en la aplicación|3|
-|15|E3-US104|Programacion de fecha de riego de cultivos|**Como** productor agrícola **quiero** funcionalidades de apoyo en el riego de cultivos **para** mejorar el cuidado de los cultivos|5|
-|16|E3-US105|Compra de productos para cultivos|**Como** productor agrícola **quiero** realizar compras de manera online **para** usarlos en mis cultivos|5|
-|17|E3-US106|Programacion de fechas de tratamiento|**Como** productor agrícola **quiero** funcionalidades de apoyo en el proceso de fumigación **para** mejorar el cuidado de los cultivos|5|
-|18|E3-US107|Proceso de recolección de la cosecha|**Como** productor agrícola **quiero** funcionalidades de apoyo en la recolección de la cosecha **para** gestionar de manera eficiente el inventario y los preciosver la productividad del trabajo elaborado.|5|
-|19|E3-US108|Proceso de análisis financiero de los cultivos|**Como** productor agrícola **quiero**un análisis financiero **para** visualizar la utilidad del trabajo elaborado |5|
-|42|E6-TS117|Editar la informacion de la actividad del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion de la actividad atraves de la API **para** mostrar los datos en la aplicación|3|
-|43|E6-TS118|Agregar trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** agregar trabajador atraves de la API **para** registrarlo en la base de datos|3|
-|44|E6-TS119|Obtener trabajadores atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los trabajadores atraves de la API **para** registrarlo en la base de datos|2|
-|45|E6-TS120|Eliminar Trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar trabajador atraves de la API **para** eliminar los datos en la aplicación|3|
-|46|E6-TS121|Agregar payment atraves de la APIRESTful|**Como** desarrollador **quiero** agregar payment atraves de la API **para** registrarlo en la base de datos|3|
-|47|E6-TS122|Obtener payment atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los payment atraves de la API **para** registrarlo en la base de datos|3|
-|48|E6-TS123|Crear financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** crear dato de financiamiento atraves de la API **para** registrarlo en la base de datos|3|
-|49|E6-TS124|Obtener datos de financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** obtener datos de financiamiento atraves de la API **para** mostrar los datos en la aplicación|2|
-|50|E6-TS125|Crear producto atraves de la APIRESTful|**Como** desarrollador **quiero** crear productos atraves de la API **para** registrarlo en la base de datos|3|
-|51|E6-TS126|Obtener productos atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos atraves de la API **para** mostrar los datos en la aplicación|2|
-|52|E6-TS127|Obtener producto por nombre atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos por nombre atraves de la API **para** mostrar los datos en la aplicación|2|
-|53|E6-TS128|Editar producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
-|54|E6-TS129|Editar cantidad del producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la cantidad del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
-|55|E6-TS130|Actualizar la información de un producto para el propietario atraves de la APIRESTful|**Como** desarrollador **quiero** actualizar la información de un producto **para** el propietario atraves de la API para mostrar la modificación de datos en la aplicación|3|
-|56|E6-TS131|Crear subscripcion atraves de la APIRESTful|**Como** desarrollador **quiero** crear subscripcion atraves de la API **para** registrarlo en la base de datos|3|
-|57|E6-TS132|Obtener subscripción atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de la subscripcion atraves de la API **para** registrarlo en la base de datos|2|
-|58|E6-TS133|Renovar suscripción atraves de la APIRESTful|**Como** desarrollador **quiero** renovar la suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
-|59|E6-TS134|Actualizar plan de susbcripcion atraves de la APIRESTful|**Como** desarrollador **quiero** actaulizar el plan de suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3||1|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
-|22|E4-US101|Pantalla de inicio del distribuidor|**Como** distribuidor **quiero** gestionar mi tienda virtual **para** administrar de manera eficiente el inventario y los precios|5|
-|23|E4-US102|Crear productos en la tienda|**Como** distribuidor **quiero** analizar los productos de mi tienda y su disponibilidad **para** optimizar mis decisiones de compra y maximizar mis ventas|5|
-|24|E4-US102|Análisis de producto de la tienda|**Como** distribuidor **quiero** crear productos en la tienda virtual **para** poder venderlos|5|
-|25|E4-US103|Proceso de análisis financiero de la tienda|**Como** distribuidor **quiero** un análisis financiero **para** visualizar la utilidad de mi tienda|5|
-|26|E4-US104|Ofertas de la tienda de distribuidores|**Como** distribuidor **quiero** crear ofertas **para** captar el interés de mi público|3|
-|1|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
-|2|E1-US102|Sección hero de landing page|**Como** visitante **quiero** visualizar una sección hero en el landing page **para** tener una idea sobre lo que ofrece la aplicación|2|
-|3|E1-US103|Sección caracteristicas del producto de landing page|**Como** visitante **quiero** visualizar características de la aplicación en el landing page **para** saber sobre las características que ofrece la aplicación|2|
-|4|E1-US104|Sección de testimonios en landing page|**Como** visitante **quiero** visualizar testimonios de usuarios que utilizaron la aplicación **para** saber sobre experiencias reales de usuarios|2|
-|5|E1-US105|Sección de planes en landing page|**Como** visitante **quiero** visualizar los planes que ofrece la aplicación **para** considerar adquirir la membresía|2|
-|6|E1-US106|Sección de footer a la aplicación en landing page|**Como** visitante **quiero** visualizar la sección de footer **para** acceder a links de la página|2|
-|7|E1-US107|Sección para conocer al equipo de trabajo|**Como** visitante **quiero** conocer más sobre el equipo que desarrolla la aplicación **para** adquirir confianza de dicho equipo de trabajo.|2|
-|20|E5-US101|Preferencia de idioma|**Como** usuario **quiero**un análisis financiero **para** visualizar la utilidad del trabajo elaborado |2|
-|21|E5-US102|Página no encontrada|**Como** usuario **quiero** ser informado de una página no encontrada en la aplicación **para** darme cuenta que estoy en una pagina errónea y volver al inicio|2|
-|8|E6-TS101|Crear API Fake|**Como** desarrollador **quiero** crear una API fake **para** poder avanzar el desarrollo de la web app|2|
+| # Orden |User story ID|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
+|:--------| :- | :- | :- | :- |
+| 1       |E2-US101|Registro e inicio de sesión|**Como** usuario **quiero** tener en la app un apartado de inicio de sesión **para** que se guarde mi información|3|
+| 2       |E2-US102|Formulario de login|**Como** usuario de la página web, **quiero** ingresar con mi cuenta con la cual me registre **para** usar las herramientas a mi disposición.|3|
+| 3       |E2-US103|Recuperación de contraseñas |**Como** usuario **quiero** que la aplicación tenga un apartado que me permita recuperar mi contraseña en caso me olvide **para** ingresar a mi cuenta de usuario|3|
+| 4       |E6-TS102|Registrar usuario atraves de la APIRESTful|**Como** desarrollador **quiero** registrar al usuario atraves de la API **para** persistir su informacion en la base de datos|5|
+| 5       |E6-TS103|Iniciar sesion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** logear al usuario atraves de la API **para** brindarle acceso a la aplicación|5|
+| 6       |E6-TS104|Obtener informacion del usuario atraves de la APIRESTful|**Como** desarrollador **quiero** obtener informacion del usuario atraves de la API **para** mostrar los datos en la aplicación|2|
+| 7       |E3-US101|Crear campos de cultivo|**Como** productor agricola **quiero** crear campos de cultivo **para** poder monitorear facilmente el proceso agricola del campo|3|
+| 8       |E6-TS105|Crear campo atraves de la APIRESTful|**Como** desarrollador **quiero** crear campo atraves de la API **para** registrarlo en la base de datos|3|
+| 9       |E6-TS106|Obtener informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del campo atraves de la API **para** mostrar los datos en la aplicación|2|
+| 10      |E6-TS109|Crear proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** crear el proceso agricola atraves de la API **para** registrarlo en la base de datos|2|
+| 11      |E6-TS110|Crear actividad en el proceso agricola|**Como** desarrollador **quiero** crear actividades agricolas atraves de las API **para** registrarlo en la base de datos|5|
+| 12      |E6-TS111|Crear recurso en la actividad|**Como** desarrollador **quiero** crear recurso en la actividad atraves de la API **para** registrarlo en la base de datos|3|
+| 13      |E3-US102|Barra de navegación del productor agricola|**Como** productor agrícola **quiero** una barra de navegación **para** poder tener acceso directos a la informacion de la web app |3|
+| 14      |E3-US103|Pantalla de inicio del proceso agricola|**Como** productor agrícola **quiero** visualizar todos los registros de los cultivos que he creado **para** poder ver fácilmente el progreso de los mismos|3|
+| 15      |E6-TS107|Eliminar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar la informacion del campo atraves de la API **para** eliminar los datos en la aplicación|3|
+| 16      |E6-TS108|Editar informacion del campo atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del campo atraves de la API **para** editar los datos en la aplicación|3|
+| 17      |E6-TS112|Obtener informacion del proceso agricola por campo atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por campo atraves de la API **para** mostrar los datos en la aplicación|2|
+| 18      |E6-TS113|Obtener informacion del proceso agricola por identificador del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion del proceso agricola por identificador del proceso agricola atraves de la API **para** mostrar los datos en la aplicación|2|
+| 19      |E6-TS114|Obtener informacion de la actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la actividad agricola atraves de la API **para** mostrar los datos en la aplicación|2|
+| 20      |E6-TS115|Obtener informacion de la ultima actividad agricola atraves de la APIRESTful|**Como** desarrollador **quiero** obtener la informacion de la ultima actividad agricola atraves de la API **para** mostrar los datos en la aplicación|3|
+| 21      |E6-TS116|Terminar la plantación atraves de la APIRESTful|**Como** desarrollador **quiero** terminar la plantacion atraves de la API **para** mostrar los datos en la aplicación|3|
+| 22      |E3-US104|Programacion de fecha de riego de cultivos|**Como** productor agrícola **quiero** funcionalidades de apoyo en el riego de cultivos **para** mejorar el cuidado de los cultivos|5|
+| 23      |E3-US105|Compra de productos para cultivos|**Como** productor agrícola **quiero** realizar compras de manera online **para** usarlos en mis cultivos|5|
+| 24      |E3-US106|Programacion de fechas de tratamiento|**Como** productor agrícola **quiero** funcionalidades de apoyo en el proceso de fumigación **para** mejorar el cuidado de los cultivos|5|
+| 25      |E3-US107|Proceso de recolección de la cosecha|**Como** productor agrícola **quiero** funcionalidades de apoyo en la recolección de la cosecha **para** gestionar de manera eficiente el inventario y los preciosver la productividad del trabajo elaborado.|5|
+| 26      |E3-US108|Proceso de análisis financiero de los cultivos|**Como** productor agrícola **quiero**un análisis financiero **para** visualizar la utilidad del trabajo elaborado |5|
+| 27      |E6-TS117|Editar la informacion de la actividad del proceso agricola atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion de la actividad atraves de la API **para** mostrar los datos en la aplicación|3|
+| 28      |E6-TS118|Agregar trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** agregar trabajador atraves de la API **para** registrarlo en la base de datos|3|
+| 29      |E6-TS119|Obtener trabajadores atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los trabajadores atraves de la API **para** registrarlo en la base de datos|2|
+| 30      |E6-TS120|Eliminar Trabajador atraves de la APIRESTful|**Como** desarrollador **quiero** eliminar trabajador atraves de la API **para** eliminar los datos en la aplicación|3|
+| 31      |E6-TS121|Agregar payment atraves de la APIRESTful|**Como** desarrollador **quiero** agregar payment atraves de la API **para** registrarlo en la base de datos|3|
+| 32      |E6-TS122|Obtener payment atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de los payment atraves de la API **para** registrarlo en la base de datos|3|
+| 33      |E6-TS123|Crear financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** crear dato de financiamiento atraves de la API **para** registrarlo en la base de datos|3|
+| 34      |E6-TS124|Obtener datos de financiamiento atraves de la APIRESTful|**Como** desarrollador **quiero** obtener datos de financiamiento atraves de la API **para** mostrar los datos en la aplicación|2|
+| 35      |E6-TS125|Crear producto atraves de la APIRESTful|**Como** desarrollador **quiero** crear productos atraves de la API **para** registrarlo en la base de datos|3|
+| 36      |E6-TS126|Obtener productos atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos atraves de la API **para** mostrar los datos en la aplicación|2|
+| 37      |E6-TS127|Obtener producto por nombre atraves de la APIRESTful|**Como** desarrollador **quiero** obtener productos por nombre atraves de la API **para** mostrar los datos en la aplicación|2|
+| 38      |E6-TS128|Editar producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la informacion del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
+| 39      |E6-TS129|Editar cantidad del producto atraves de la APIRESTful|**Como** desarrollador **quiero** editar la cantidad del producto atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
+| 40      |E6-TS130|Actualizar la información de un producto para el propietario atraves de la APIRESTful|**Como** desarrollador **quiero** actualizar la información de un producto **para** el propietario atraves de la API para mostrar la modificación de datos en la aplicación|3|
+| 41      |E6-TS131|Crear subscripcion atraves de la APIRESTful|**Como** desarrollador **quiero** crear subscripcion atraves de la API **para** registrarlo en la base de datos|3|
+| 42      |E6-TS132|Obtener subscripción atraves de la APIRESTful|**Como** desarrollador **quiero** obtener información de la subscripcion atraves de la API **para** registrarlo en la base de datos|2|
+| 43      |E6-TS133|Renovar suscripción atraves de la APIRESTful|**Como** desarrollador **quiero** renovar la suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
+| 44      |E6-TS134|Actualizar plan de susbcripcion atraves de la APIRESTful|**Como** desarrollador **quiero** actaulizar el plan de suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3||1|E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
+| 45      |E4-US101|Pantalla de inicio del distribuidor|**Como** distribuidor **quiero** gestionar mi tienda virtual **para** administrar de manera eficiente el inventario y los precios|5|
+| 46      |E4-US102|Crear productos en la tienda|**Como** distribuidor **quiero** analizar los productos de mi tienda y su disponibilidad **para** optimizar mis decisiones de compra y maximizar mis ventas|5|
+| 47      |E4-US102|Análisis de producto de la tienda|**Como** distribuidor **quiero** crear productos en la tienda virtual **para** poder venderlos|5|
+| 48      |E4-US103|Proceso de análisis financiero de la tienda|**Como** distribuidor **quiero** un análisis financiero **para** visualizar la utilidad de mi tienda|5|
+| 49      |E4-US104|Ofertas de la tienda de distribuidores|**Como** distribuidor **quiero** crear ofertas **para** captar el interés de mi público|3|
+| 50      |E1-US101|Barra de navegación en landing page|**Como** visitante **quiero** una barra de navegación de landing page **para** tener accesos directos a la información de la aplicación |1|
+| 51      |E1-US102|Sección hero de landing page|**Como** visitante **quiero** visualizar una sección hero en el landing page **para** tener una idea sobre lo que ofrece la aplicación|2|
+| 52      |E1-US103|Sección caracteristicas del producto de landing page|**Como** visitante **quiero** visualizar características de la aplicación en el landing page **para** saber sobre las características que ofrece la aplicación|2|
+| 53      |E1-US104|Sección de testimonios en landing page|**Como** visitante **quiero** visualizar testimonios de usuarios que utilizaron la aplicación **para** saber sobre experiencias reales de usuarios|2|
+| 54      |E1-US105|Sección de planes en landing page|**Como** visitante **quiero** visualizar los planes que ofrece la aplicación **para** considerar adquirir la membresía|2|
+| 55      |E1-US106|Sección de footer a la aplicación en landing page|**Como** visitante **quiero** visualizar la sección de footer **para** acceder a links de la página|2|
+| 56      |E1-US107|Sección para conocer al equipo de trabajo|**Como** visitante **quiero** conocer más sobre el equipo que desarrolla la aplicación **para** adquirir confianza de dicho equipo de trabajo.|2|
+| 57      |E5-US101|Preferencia de idioma|**Como** usuario **quiero**un análisis financiero **para** visualizar la utilidad del trabajo elaborado |2|
+| 58      |E5-US102|Página no encontrada|**Como** usuario **quiero** ser informado de una página no encontrada en la aplicación **para** darme cuenta que estoy en una pagina errónea y volver al inicio|2|
+| 59      |E6-TS101|Crear API Fake|**Como** desarrollador **quiero** crear una API fake **para** poder avanzar el desarrollo de la web app|2|
 
 
 # Capítulo IV: Solucion UI/UX Desing
