@@ -33,9 +33,10 @@ Producto:
 
 </div>
 
-| Versión | Fecha      | Autor   | Descripción de modificaciones         |
-|---------|------------|---------|---------------------------------------|
-| 1.0     | 25/08/2024 | Barrutia Vaez, Ricardo Andree <br>	Espinoza Inoñan, Fabiola Ximena	<br> Holguín Gamarra, Hardie Alfonso 	<br> Ccotarma Ttito, Eduardo Eusebio Sihuar	<br>  | Capítulo I <br> Capítulo II <br> Capítulo III <br> Capítulo IV <br> Capítulo V       |
+| Versión | Fecha      | Autor   | Descripción de modificaciones                                                  |
+|---------|------------|---------|--------------------------------------------------------------------------------|
+| 1.0     | 25/08/2024 | Barrutia Vaez, Ricardo Andree <br>	Espinoza Inoñan, Fabiola Ximena	<br> Holguín Gamarra, Hardie Alfonso 	<br> Ccotarma Ttito, Eduardo Eusebio Sihuar	<br>  | Capítulo I <br> Capítulo II <br> Capítulo III <br> Capítulo IV <br> Capítulo V |
+| 2.0     | 25/08/2024 | Barrutia Vaez, Ricardo Andree <br>	Espinoza Inoñan, Fabiola Ximena	<br> Holguín Gamarra, Hardie Alfonso 	<br> Ccotarma Ttito, Eduardo Eusebio Sihuar	<br>  | Capitulo V, Capítulo VI                                                        |
 
 
 
@@ -89,8 +90,11 @@ Contribuciones del equipo
       <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software</td>
       <td>
         <strong>Ricardo:</strong><br>
-        <em>TB1:</em> El equipo de trabajo colaboró de manera conjunta en el desarrollo del sistema, distribuyendo equitativamente las tareas entre sus miembros. Además, trabajamos juntos en aspectos clave como las entrevistas con los usuarios y el desarrollo de la landing page. Este enfoque integral y colaborativo nos permitió asegurar calidad y eficiencia en todas las fases del proyecto. A través de una comunicación clara y objetiva, compartimos nuestras ideas y resultados con públicos de diversas especialidades y niveles jerárquicos durante el desarrollo del proyecto de ingeniería.<br><br>
-        <strong>Fabiola:</strong><br>
+<em>TB1:</em> El equipo de trabajo colaboró de manera conjunta en el desarrollo del sistema, distribuyendo equitativamente las tareas entre sus miembros. Además, trabajamos juntos en aspectos clave como las entrevistas con los usuarios y el desarrollo de la landing page. Este enfoque integral y colaborativo nos permitió asegurar calidad y eficiencia en todas las fases del proyecto. A través de una comunicación clara y objetiva, compartimos nuestras ideas y resultados con públicos de diversas especialidades y niveles jerárquicos durante el desarrollo del proyecto de ingeniería.<br><br>
+
+<em>TP1:</em> Durante esta primera fase del proyecto, trabajé en la definición del problema, la investigación del usuario y la propuesta inicial de solución. Participé activamente en la planificación del proyecto y realicé diversos commits en GitHub, como la corrección de enlaces, actualización de imágenes, estructura del backlog y ajustes en los mockups y wireframes. Estas contribuciones ayudaron a consolidar la base del proyecto y asegurar una documentación clara y ordenada desde el inicio.<br><br>
+
+<strong>Fabiola:</strong><br>
         <em>TB1:</em> Presenté el análisis competitivo y las estrategias de forma clara, adaptada a diferentes niveles jerárquicos. En las entrevistas, expuse los hallazgos clave de manera concisa para facilitar la comprensión de nuestros segmentos objetivos. Durante la fase de needfinding, comuniqué los resultados del User Journey Mapping y Empathy Mapping, asegurando que todos entendieran los insights esenciales para alinear el proyecto.<br><br>
         <strong>Eduardo:</strong><br>
         <em>TB1:</em> Durante esta entrega, presenté el desarrollo del capítulo 3, donde expliqué de forma clara los escenarios To-Be, el mapeo de impacto y el backlog del producto. También expuse los diagramas C4 del capítulo 4, proporcionando una visión general de la arquitectura propuesta para el backend. Finalmente, detallé los apartados 5.1.1, 5.1.2 y 5.1.3 del capítulo 5, cubriendo la configuración del entorno de desarrollo, la gestión del código fuente y las convenciones de estilo.<br><br>
@@ -2087,6 +2091,66 @@ Visualizamos la estructura de una base de datos, mostrando entidades, atributos 
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/DB%20DIAGRAM.png" style="width: 800px"/>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
+
+### 6.1.2. Source Code Management.
+Para gestionar y organizar los distintos cambios en el proyecto, se utilizó una organización en GitHub, lo que facilitó el control de versiones y la colaboración en el código fuente.
+
+- [**Organización en GitHub**](https://github.com/equipo1-upc202510-366)
+
+- [**Landing Page Repository**](https://github.com/equipo1-upc202510-366/DevDynasty-LandingPage)
+
+- [**Report Repository**](https://github.com/equipo1-upc202510-366/DevDynasty-project-report)
+
+
+Con el fin de optimizar el manejo de ramas y la implementación de modificaciones en el código, se adoptó la metodología GitFlow. Este enfoque estructuró el desarrollo en dos ramas principales:
+
+
+- **Main:** Destinada a albergar las versiones oficiales de nuestro software, es decir, aquellas que están listas para ser implementadas en producción.
+
+
+- **Develop:** Esta rama funciona como el entorno de integración, donde se unifican las funcionalidades en desarrollo. Una vez que el código en esta rama alcanza la estabilidad y es aprobado por el equipo, se fusiona en la rama de lanzamiento.
+
+
+Esta rama es la rama principal donde se integran todas las características. Cuando se completa un feature de un capítulo, se debe fusionar con el 'develop'.
+
+
+**Ramas auxiliares**
+
+- **Feature:** Se usa para desarrollar nuevas funcionalidades o mejoras a partir de la rama develop y luego integrarlas con ella al finalizar el trabajo. Estas ramas permiten trabajar en el código sin comprometer la estabilidad de la rama principal, 'develop', y facilitan la revisión y gestión de las características antes de su integración.
+
+Para las ramas `'features'`, hemos adoptado la siguiente convención de nombres: `'feature/feature-name'`.
+
+Donde:
+
+- Feature: Es el nombre de la rama.
+
+- Feature-name: Es el nombre de la características que se están por desarrollar
+
+Donde:
+
+**type:** Especifica el tipo de cambio introducido en el commit. Los tipos mas comunes son:
+
+- `feat`: Implementación de una nueva característica
+- `fix`: Corrección de errores
+- `chore`: Tareas de mantenimiento
+- `docs`: Actualización de la documentación
+
+
+Ejemplo Report:
+- Se crea una rama de `'feature/chapter-1'` a partir de la rama develop
+
+- Se trabaja en la rama de `'feature/chapter-1'`
+
+- Se hace un merge de la rama de `'feature/chapter-1'` a la rama develop
+
+Ejemplo Landing Page:
+
+- `'feature/html-structure'`. Indicando la sección a implementar.
+
+### 6.1.3. Source Code Style Guide & Conventions.
+
+### 6.1.4. Software Deployment Configuration
+
 ## Software Configuration Management.
 ### Software Development Environment Configuration.
 
