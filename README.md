@@ -2105,6 +2105,78 @@ Visualizamos la estructura de una base de datos, mostrando entidades, atributos 
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/DB%20DIAGRAM.png" style="width: 800px"/>
 
 
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+## Software Configuration Management.
+### Software Development Environment Configuration.
+
+A continuación, daremos a conocer los productos de software que hemos utilizado para el desarrollo de nuestro proyecto.
+
+**Project Management**				
+
+- **Whatsapp:** [https://web.whatsapp.com/](https://web.whatsapp.com/)
+
+    La plataforma de Whatsapp se empleó para realizar la organización de tareas para el equipo, así como también para poder ayudarnos entre nosotros ante cualquier duda que se tuviera en el trabajo.
+- **Discord:** [https://discord.com/](https://discord.com/)
+
+    La plataforma Discord se empleó para poder realizar las reuniones de forma virtual, en dichas reuniones dábamos un reporte sobre el avance de las tareas que se nos habían asignado, así como también se usó para la elaboración de idea de negocio.
+
+**Product UX/UI Design**
+
+- **Miro:** [https://www.miro.com](https://www.miro.com)
+    
+    La plataforma Miro se empleó para el desarrollo del Lean ux canvas, Análisis de competidores,  As-is Scenario mapping, To-be Scenery mapping.
+
+- **Uxpresia:** [https://uxpressia.com/**](https://uxpressia.com/)
+
+    La plataforma Uxpresia se empleó para la elaboración del User Persona, Empathy maps, Journey Maps e Impact maps.
+
+- **Figma:** [https://www.figma.com/](https://www.figma.com/)
+
+    La plataforma figma se empleó para el desarrollo wireframes y mock up del landing page, y para los wireframes, mock up y prototyping del web applications. 
+
+**Software Development**
+
+- **Landing Page**
+
+  Para el desarrollo de nuestro landing page se usará HTML5, CSS y Javascript.
+
+- **Frontend Web Application**
+
+  Se ha utilizado a Kotlin como lenguaje de programación orientado a objetos multiplataforma, estáticamente tipado, de alto nivel y propósito general con inferencia de tipos. 
+
+**Software Testing**
+
+Para la realización de pruebas de testeo de software  que se ha utilizado para el landing page y  la aplicación web hemos empleado las herramientas de desarrollador de los siguientes navegadores web: Google Chrome (<https://www.google.com/chrome/>), Microsoft Edge (<https://www.microsoft.com/en-us/edge>) y Mozilla Firefox (<https://www.mozilla.org/en-US/firefox/browsers/>). Asimismo, dichos navegadores cuentan con aplicaciones desktop y móviles las cuales son totalmente gratuitas y por consiguientes accesible para todas las personas.
+
+**IDE's de desarrollo**
+
+- **Webstorm:** [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
+
+    Webstorm es un IDE enfocado al desarrollo de frontend y posee una gran cantidad de herramientas que pueden agilizar el proceso de desarrollo. Para poder usar Webstorm es necesario tener una licencia
+
+**Software Deployment**
+
+- **Github Pages:** [https://pages.github.com/?(null)](https://pages.github.com/?\(null\))
+
+    La plataforma Github pages se empleó para el deployment del landing page, para ello fue necesario vincular el repositorio de github con github pages. De esta manera, Github Pages se encargará automáticamente del deploy de la página.
+
+**Software Documentation**
+
+- **Github:** [https://github.com/](https://github.com/)
+
+    La plataforma Github se empleó para la creación de documentación de nuestro proyecto, así como del landing page. Se optó por esta plataforma porque permite el desarrollo colaborativo entre desarrolladores. La evidencia de commits demuestra la participación que ha tenido cada uno de los integrantes en el desarrollo del proyecto.
+
+- **Structurizr:** [https://structurizr.com/](https://structurizr.com/)
+
+    La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
+
+- **Vertabelo:** [https://vertabelo.com/](https://vertabelo.com/)
+
+    La plataforma Vertabelo es una aplicación web colaborativa la cual ha sido empleada para la elaboración del diseño de base de datos.
+
+
+
 # Conclusiones  
 
 <p style="text-align: justify">
