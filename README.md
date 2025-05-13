@@ -825,251 +825,6 @@ En esta sección se analizan las características comunes identificadas en las e
 
 * El 100% de los entrevistados percibe que estos canales no son suficientes para gestionar pedidos a gran escala, lo que revela una necesidad de herramientas más robustas y especializadas en coordinación y atención al cliente.
 
-
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.3. Needfinding
-### 2.3.1. User Personas
-En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
-
-**Segmento Productor Agricola:**  
-
-Las User Personas desarrolladas para AgroControl representan los perfiles más relevantes de los usuarios identificados a partir de un exhaustivo análisis de entrevistas y estudios de la competencia. Estas personas capturan las motivaciones, desafíos, y comportamientos de los productores agrícolas y distribuidores, quienes son los usuarios principales de la plataforma.
-
-![User Persona Agricola](assets/img/chapter-2/img-user-persona-1.png)
-
-**Segmento Distribuidor:**  
-
-El perfil de María Rodríguez, una distribuidora, resalta la necesidad de mejorar la gestión de inventarios y la planificación de entregas, motivada por el deseo de incrementar ventas y optimizar su negocio. Por otro lado, Juan Pérez, un productor agrícola, refleja las preocupaciones de los agricultores en la automatización de procesos como riego y fumigación, buscando reducir costos y mejorar la eficiencia operativa. Ambos perfiles fueron construidos para guiar el diseño del sistema, asegurando que la plataforma AgroControl responda adecuadamente a sus necesidades específicas y se alinee con las mejores prácticas del mercado.
-
-![User Persona Distribuidor](assets/img/chapter-2/img-user-persona-2.png)
-
-### 2.3.2. User Task Matrix
-
-En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Personas realizan para cumplir sus objetivos. Se consideran dos segmentos: productores agrícolas y distribuidores. Las tareas identificadas son realizadas independientemente de la existencia de soluciones de software.
-
-| **Task**                                  | **Productor Agrícola** | 	              | **Distribuidor** |                |
-|-------------------------------------------|------------------------|----------------|------------------|----------------|
-|                                           | **Frequency**          | **Importance** | **Frequency**    | **Importance** |
-| Monitorear el clima                       | High                   | High        	  | Medium           | High           |
-| Comunicar con compradores                 | Medium                 | Medium      	  | Medium           | Medium         |
-| Controlar inventario                      | Low                    | High        	  | High             | High           |
-| Planificar la siembra                     | Medium                 | High        	  | Low              | Medium         |
-| Supervisar el crecimiento de los cultivos | High                   | High        	  | Low              | Medium         |
-| Realizar pedidos a proveedores            | -                      | -           	  | Medium           | High           |
-| Registrar gastos e ingresos               | Medium                 | High        	  | High             | High           |
-| Evaluar el rendimiento de los productos   | Medium                 | Medium      	  | Medium           | Medium         |
-| Gestionar relaciones con proveedores      | Low                    | Medium      	  | High             | High           |
-| Analizar tendencias de ventas             | Low                    | Medium      	  | High             | High           |
-
-### Explicación
-
-Al analizar las tareas identificadas en el User Task Matrix, se pueden resaltar varias observaciones significativas sobre los segmentos de productores agrícolas y distribuidores.
-
-#### Tareas con Mayor Frecuencia e Importancia
-
-1. **Controlar inventario**: Esta tarea es crucial para ambos segmentos, ya que los productores deben asegurarse de tener los insumos necesarios, mientras que los distribuidores necesitan mantener un balance adecuado entre oferta y demanda. La alta importancia en ambas partes resalta la necesidad de una gestión eficiente de los recursos.
-
-2. **Registrar gastos e ingresos**: La contabilidad es vital para evaluar la rentabilidad. Ambos segmentos deben llevar un control riguroso de sus finanzas, lo que subraya la necesidad de herramientas que faciliten este proceso.
-
-3. **Monitorear el clima**: Aunque su frecuencia es alta para los productores y media para los distribuidores, ambos segmentos reconocen que el clima afecta directamente sus operaciones. Esto crea una interconexión en la toma de decisiones que influye en la producción y en la logística de distribución.
-
-#### Principales Diferencias
-
-- **Planificar la siembra**: Esta tarea es de alta importancia para los productores, ya que impacta directamente en la cosecha. En contraste, los distribuidores la consideran menos relevante, pues su enfoque se centra en la comercialización de los productos una vez cosechados.
-
-- **Realizar pedidos a proveedores**: Esta actividad es esencial para los distribuidores, pero no se aplica directamente a los productores, quienes se concentran en el manejo de sus cultivos y la relación con los proveedores de insumos.
-
-#### Coincidencias
-
-Ambos segmentos comparten una necesidad de **gestionar relaciones con proveedores** y **evaluar el rendimiento de los productos**. La gestión eficaz de estas relaciones no solo asegura la calidad de los insumos para los productores, sino que también permite a los distribuidores ofrecer productos competitivos en el mercado. Además, tanto productores como distribuidores muestran interés en **analizar tendencias de ventas**, lo que refleja una orientación hacia la adaptación y la mejora continua en sus respectivas estrategias.
-
-Estas coincidencias y diferencias subrayan la interdependencia entre la producción y la distribución en el sector agrícola, destacando la importancia de desarrollar soluciones que aborden las necesidades específicas de cada segmento, al tiempo que facilitan una colaboración efectiva entre ellos.
-
-### 2.3.3. User Journey Mapping
-
-La sección de User Journey Maps muestra el recorrido completo de los usuarios de AgroControl, abarcando desde el primer contacto con la app hasta su abandono. Este mapeo destaca las acciones, metas, emociones, y problemas experimentados por los productores agrícolas y distribuidores, así como oportunidades para mejorar su experiencia.
-
-
-Para los **Productores Agrícolas**, el journey empieza con el descubrimiento de la app a través de marketing o recomendaciones y avanza hasta su uso para gestionar cultivos. Las emociones varían desde la ansiedad inicial hasta la alegría por mejorar su productividad. Los problemas incluyen dudas sobre los costos y dificultades en la personalización de funciones, lo que sugiere oportunidades como ofrecer pruebas gratuitas y mejorar la capacitación.
-
-**Segmento Productor Agricola:**
-
-<img src="https://github.com/W3bW0rks/project-report/blob/55a0dcd17cfdfe2869f23aa351a051a8642b6550/assets/chapter-2-images/JourneyMapUserPersona1.png?raw=true" alt="Segmento Productor Agricola">
-
-
-El journey de los **Distribuidores** inicia al conocer la app en ferias o a través de socios comerciales. Pasan de la aceptación inicial a la satisfacción al mejorar la gestión de inventarios y entregas, pero pueden experimentar frustración por la falta de funciones avanzadas o personalización. Las oportunidades identificadas incluyen asistentes de configuración y características adaptadas a diferentes tamaños de negocios.
-
-
-**Segmento Distribuidor:**
-
-<img src="https://github.com/W3bW0rks/project-report/blob/55a0dcd17cfdfe2869f23aa351a051a8642b6550/assets/chapter-2-images/JourneyMapUserPersona2.png?raw=true" alt="Segmento Distribuidor">
-
-### 2.3.4. Empathy Mapping
-
-En esta sección se presentan los Empathy Maps para cada User Persona, que ayudan a entender sus experiencias y emociones. Se colocó al User Persona en el centro y se recolectaron observaciones del equipo sobre lo que necesita hacer, dice y siente. También se identificaron sus preocupaciones y cómo nuestra solución puede ayudar. A continuación, se incluyen las capturas de los Empathy Maps realizados.
-
-#### **Segmento Productor Agricola:**  
-Juan Pérez es un productor agrícola que ha trabajado en la agricultura toda su vida, heredando el negocio familiar. Aunque cuenta con experiencia en producción, su conocimiento en tecnología es limitado. Sus objetivos incluyen optimizar procesos agrícolas, mantener un registro detallado de costos y aprovechar la tecnología para supervisar actividades de forma remota. Juan busca mejorar la eficiencia de sus cultivos, reducir costos operativos y contar con informes detallados. Se enfrenta a frustraciones como la falta de información actualizada y problemas de planificación.  
-
-<img src="https://github.com/W3bW0rks/project-report/blob/b19d7523cc2561ed74134142440c2b8ca12f87f1/assets/chapter-2-images/EmpathyMapUserPersona1.png?raw=true" alt="Segmento Productor Agricola">
-    
-#### **Segmento Distribuidor:**  
-María Rodríguez es propietaria de una tienda de insumos agrícolas con experiencia en ventas y distribución. Con estudios en administración, su enfoque es utilizar la tecnología para mejorar la eficiencia de su negocio. Sus metas son automatizar la gestión de inventarios, obtener datos para ajustar estrategias y mantener una comunicación eficaz con proveedores. María está motivada por incrementar ventas, mejorar la satisfacción del cliente y expandir su negocio. Enfrenta retos como la pérdida de ventas por errores en inventario y la falta de visibilidad en tiempo real del mercado.  
-
-<img src="https://github.com/W3bW0rks/project-report/blob/b19d7523cc2561ed74134142440c2b8ca12f87f1/assets/chapter-2-images/EmpathyMapUserPersona2.png?raw=true" alt="Segmento Distribuidor"><br/>  
-
-#### **Proceso de Elaboración:**
-
-1. **Preparación y Enfoque en el User Persona**: Cada mapa comenzó con la identificación del User Persona en el centro:
-- **Juan Pérez**: Productor agrícola en Lima, enfocado en mejorar la gestión de su campo y la adopción de nuevas tecnologías.
-- **Carlos Ramírez**: Distribuidor de insumos agrícolas que busca optimizar la logística de su negocio y satisfacer mejor a sus clientes.  
-
-2. **Captura de Observaciones**:  
-   Para cada User Persona, se recopilaron observaciones del equipo en las secciones del Empathy Map:
-
-    - **¿Con quién estamos empatizando?**:  
-      Juan es un agricultor con desafíos en la gestión eficiente del campo, mientras que Carlos se enfoca en la distribución efectiva de productos agrícolas.
-
-    - **¿Qué necesitan hacer?**:
-        - **Juan**: Gestionar eficientemente el campo, controlar los costos y acceder a herramientas para monitorear los cultivos.
-        - **Carlos**: Mantener el control del inventario, coordinar con clientes y programar entregas de manera eficiente.
-
-    - **¿Qué están viendo?**:
-        - **Juan**: Observa un clima impredecible y una competencia que utiliza tecnología avanzada.
-        - **Carlos**: Percibe una creciente demanda de productos y competencia que optimiza la logística.
-
-    - **¿Qué están escuchando?**:
-        - **Juan**: Escucha consejos de otros productores y preocupaciones sobre la planificación de recursos.
-        - **Carlos**: Recibe comentarios de clientes sobre la rapidez de las entregas y sugerencias de su equipo.
-
-    - **¿Qué están diciendo?**:
-        - **Juan**: Expresa dificultades para obtener datos que guíen sus decisiones agrícolas.
-        - **Carlos**: Habla sobre la necesidad de mejorar el control del inventario y la organización de las entregas.
-
-    - **¿Qué están haciendo?**:
-        - **Juan**: Supervisa el campo y busca formas de reducir costos.
-        - **Carlos**: Supervisa la entrada y salida de productos, negociando y ajustando rutas de entrega.
-
-    - **¿Cómo se sienten y qué piensan?**:
-        - **Juan**: Siente la necesidad de innovar para reducir costos, pero enfrenta ansiedad por la adopción de nuevas tecnologías.
-        - **Carlos**: Siente presión por mejorar la eficiencia y teme perder clientes por problemas logísticos.
-
-3. **Identificación de Pains y Gains**:
-    - **Pains**:
-        - **Juan**: Tiempo limitado y dificultad para centralizar información y optimizar procesos.
-        - **Carlos**: Problemas para mantener un control preciso del inventario y gestionar múltiples pedidos.
-
-    - **Gains**:
-        - **Juan**: Incremento de la productividad y mejora en el uso de los recursos.
-        - **Carlos**: Mejor control del inventario y reducción del estrés operativo.
-
-Estos Empathy Maps proporcionan una guía visual y detallada sobre las necesidades y desafíos de los usuarios, ayudando a AgroControl a desarrollar soluciones más alineadas con sus expectativas y mejorar la experiencia del usuario en la plataforma.
-
-
-### 2.3.5. As-is Scenario Mapping
-
-En esta sección se presentan los As-Is Scenario Maps para cada User Persona, que muestran cómo interactúan actualmente con sus procesos. El equipo siguió un proceso que incluyó preparación, lluvia de ideas individual y revisión. Se identificaron las fases del proceso y se etiquetaron áreas donde se necesita aprender más. A continuación, se incluyen las capturas de los As-Is Scenario Maps elaborados.
-
-### **Segmento Productor Agricola:**  
-El productor agrícola realiza la siembra, riego y fumigación con métodos básicos, reflexionando sobre las condiciones del suelo y el clima. Su principal preocupación es lograr una buena cosecha y distribución, enfrentando frustraciones y estrés por la eficiencia y los costos.  
-
-<img src="assets/img/chapter-2/img-as-is-1.PNG" alt="Segmento 1 user persona">
-
-**Positive Points:**
-
-Planificación anticipada para una siembra efectiva: 
-Los agricultores planifican cuidadosamente la siembra, ya sea de forma manual o con maquinaria, lo que demuestra un compromiso con buenas prácticas agrícolas desde el inicio del proceso.
-
-Satisfacción por los resultados de la cosecha: 
-Durante la etapa de recolección, los agricultores sienten satisfacción si la cantidad y calidad de la cosecha cumple con lo esperado, generando una sensación de logro por el trabajo realizado.
-
-Organización en la distribución final: 
-Los productores organizan y ejecutan la distribución a los puntos de venta, lo que refleja eficiencia operativa y una actitud proactiva para cumplir con la demanda del mercado.
-
-
-**Negative Points:**
-
-Frustración si las condiciones del suelo o clima no son ideales: 
-La incertidumbre climática y del terreno genera frustración desde las primeras etapas del cultivo, afectando la motivación del productor.
-
-Ansiedad por el riesgo de exceso o falta de riego: 
-El riego es una de las tareas más delicadas y puede generar ansiedad constante por el impacto que tiene en la salud de los cultivos.
-
-Estrés por asegurar una distribución efectiva: 
-La logística de entrega a los puntos de venta es una fuente de estrés, especialmente cuando se depende de terceros o hay riesgo de retrasos.
-
-
-**Blank Points:**
-
-Clasificación de productos por calidad antes del envío (implícita): 
-Aunque no se menciona explícitamente, hay una oportunidad en mejorar el valor del producto mediante una mejor clasificación antes de la distribución.
-
-Evaluación de métodos alternativos para fertilización: 
-El agricultor se pregunta si los productos químicos están siendo aplicados adecuadamente, lo que abre la posibilidad de explorar opciones más sostenibles o automatizadas.
-
-Análisis del retorno de los puntos de venta: 
-La reflexión sobre eficiencia y costos en la distribución sugiere una oportunidad para integrar herramientas de análisis financiero y de ventas.
-
-
-### **Segmento Distribuidor:**  
-El distribuidor gestiona inventarios y ventas de manera manual, centrando sus esfuerzos en mejorar la eficiencia y satisfacción del cliente. Se enfrenta a desafíos como la rotación de inventario y ajustes en las estrategias de ventas, sintiendo estrés y frustración por la rentabilidad.   
-
-<img src="assets/img/chapter-2/img-as-is-2.PNG" alt="Segmento 2 user persona">
-
-**Positive Points:**
-
-Revisión activa de informes para mejorar el desempeño:
-Refleja una actitud analítica y de mejora continua en las decisiones comerciales.
-
-Motivación al lograr una venta grande o cerrar un trato difícil:
-Este sentimiento impulsa el rendimiento y la persistencia del equipo de ventas.
-
-Alivio cuando el stock coincide con lo esperado tras los conteos:
-Indica que las acciones de control están dando resultado y generan confianza.
-
-
-**Negative Points:**
-
-Estrés por el riesgo de tener exceso o escasez de stock:
-Provoca inseguridad y puede derivar en malas decisiones operativas.
-
-Frustración si las ventas no cumplen con las expectativas:
-Indica un desajuste entre las metas del negocio y su rendimiento real.
-
-Ansiedad sobre la rentabilidad y las decisiones a tomar:
-Muestra una falta de apoyo analítico para tomar decisiones estratégicas.
-
-
-**Blank Points:**
-
-Considera implementar un sistema digital para automatizar la gestión:
-Una idea que aún no se ejecuta, pero puede traer grandes beneficios.
-
-Se plantea si se están aprovechando bien los datos recolectados:
-Refleja una inquietud válida sobre cómo extraer valor de la información.
-
-Se pregunta si el canal de ventas actual es el más eficiente:
-Una duda que abre la puerta a optimizar procesos o cambiar estrategias.
-
-
-### 2.4. Ubiquitous Language.
-
-En esta sección se presenta un glosario de términos utilizados en el dominio agrícola, con definiciones claras y sin ambigüedades. Este glosario facilita la comunicación entre los miembros del equipo y los stakeholders, asegurando un entendimiento común de los conceptos relevantes al problema y la solución.
-
-| **Term (English)**        | **Término (Español)**        | **Definition (Definición en Español)**                                                                  |
-|---------------------------|------------------------------|---------------------------------------------------------------------------------------------------------|
-| **Crop Management**       | **Gestión de Cultivos**      | Conjunto de prácticas para optimizar el crecimiento, riego, y protección de los cultivos.               |
-| **Inventory Control**     | **Control de Inventario**    | Proceso de monitoreo y regulación de los insumos y productos almacenados para la distribución.          |
-| **Supply Chain**          | **Cadena de Suministro**     | Serie de procesos involucrados en la producción y distribución de productos agrícolas.                  |
-| **Yield Analysis**        | **Análisis de Rendimiento**  | Evaluación de la producción obtenida de los cultivos para optimizar las futuras cosechas.               |
-| **Soil Analysis**         | **Análisis de Suelo**        | Estudio de las propiedades del suelo para determinar su fertilidad y necesidad de insumos.              |
-| **Logistics Management**  | **Gestión Logística**        | Organización y control de las rutas de entrega y transporte de productos agrícolas.                     |
-| **Sustainability**        | **Sostenibilidad**           | Prácticas agrícolas enfocadas en minimizar el impacto ambiental y asegurar la viabilidad a largo plazo. |
-| **Resource Optimization** | **Optimización de Recursos** | Uso eficiente de agua, fertilizantes y mano de obra para maximizar la producción agrícola.              |
-| **Pest Control**          | **Control de Plagas**        | Métodos para prevenir o eliminar plagas que afectan los cultivos, garantizando la salud de las plantas. |
-| **Market Trends**         | **Tendencias del Mercado**   | Análisis de los cambios y patrones de demanda en el sector agrícola para ajustar la producción.         |
-
-
 # Capítulo III: Requirements Specification
 Esta sección está diseñada para permitir al equipo formalizar los requisitos de los productos digitales basándose en el análisis de la información recopilada durante las investigaciones previas. Comienza con una introducción general que contextualiza el proceso de especificación y se divide en To-Be Scenario Mapping, User Stories, Impact Map y Product Backlog.
 Cada una de estas subsecciones contribuye a definir los requisitos de manera clara y estructurada, facilitando el desarrollo del producto conforme a las expectativas y objetivos del proyecto.
@@ -1241,12 +996,254 @@ Captura del tablero de Product Backlog en Trello:
 |58|E6-TS133|Renovar suscripción atraves de la APIRESTful|**Como** desarrollador **quiero** renovar la suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
 |59|E6-TS134|Actualizar plan de susbcripcion atraves de la APIRESTful|**Como** desarrollador **quiero** actaulizar el plan de suscripcion atraves de la API **para** mostrar la modificación de datos en la aplicación|3|
 
+# Capítulo IV: Requirements Elicitation & Analysis
+## 2.3. Needfinding
+### 2.3.1. User Personas
+En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
 
-# Capítulo IV: Product Design
-## 4.1. Style Guidelines.
-### 4.1.1. General Style Guidelines.
+**Segmento Productor Agricola:**
+
+Las User Personas desarrolladas para AgroControl representan los perfiles más relevantes de los usuarios identificados a partir de un exhaustivo análisis de entrevistas y estudios de la competencia. Estas personas capturan las motivaciones, desafíos, y comportamientos de los productores agrícolas y distribuidores, quienes son los usuarios principales de la plataforma.
+
+![User Persona Agricola](assets/img/chapter-2/img-user-persona-1.png)
+
+**Segmento Distribuidor:**
+
+El perfil de María Rodríguez, una distribuidora, resalta la necesidad de mejorar la gestión de inventarios y la planificación de entregas, motivada por el deseo de incrementar ventas y optimizar su negocio. Por otro lado, Juan Pérez, un productor agrícola, refleja las preocupaciones de los agricultores en la automatización de procesos como riego y fumigación, buscando reducir costos y mejorar la eficiencia operativa. Ambos perfiles fueron construidos para guiar el diseño del sistema, asegurando que la plataforma AgroControl responda adecuadamente a sus necesidades específicas y se alinee con las mejores prácticas del mercado.
+
+![User Persona Distribuidor](assets/img/chapter-2/img-user-persona-2.png)
+
+### 2.3.2. User Task Matrix
+
+En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Personas realizan para cumplir sus objetivos. Se consideran dos segmentos: productores agrícolas y distribuidores. Las tareas identificadas son realizadas independientemente de la existencia de soluciones de software.
+
+| **Task**                                  | **Productor Agrícola** | 	              | **Distribuidor** |                |
+|-------------------------------------------|------------------------|----------------|------------------|----------------|
+|                                           | **Frequency**          | **Importance** | **Frequency**    | **Importance** |
+| Monitorear el clima                       | High                   | High        	  | Medium           | High           |
+| Comunicar con compradores                 | Medium                 | Medium      	  | Medium           | Medium         |
+| Controlar inventario                      | Low                    | High        	  | High             | High           |
+| Planificar la siembra                     | Medium                 | High        	  | Low              | Medium         |
+| Supervisar el crecimiento de los cultivos | High                   | High        	  | Low              | Medium         |
+| Realizar pedidos a proveedores            | -                      | -           	  | Medium           | High           |
+| Registrar gastos e ingresos               | Medium                 | High        	  | High             | High           |
+| Evaluar el rendimiento de los productos   | Medium                 | Medium      	  | Medium           | Medium         |
+| Gestionar relaciones con proveedores      | Low                    | Medium      	  | High             | High           |
+| Analizar tendencias de ventas             | Low                    | Medium      	  | High             | High           |
+
+### Explicación
+
+Al analizar las tareas identificadas en el User Task Matrix, se pueden resaltar varias observaciones significativas sobre los segmentos de productores agrícolas y distribuidores.
+
+#### Tareas con Mayor Frecuencia e Importancia
+
+1. **Controlar inventario**: Esta tarea es crucial para ambos segmentos, ya que los productores deben asegurarse de tener los insumos necesarios, mientras que los distribuidores necesitan mantener un balance adecuado entre oferta y demanda. La alta importancia en ambas partes resalta la necesidad de una gestión eficiente de los recursos.
+
+2. **Registrar gastos e ingresos**: La contabilidad es vital para evaluar la rentabilidad. Ambos segmentos deben llevar un control riguroso de sus finanzas, lo que subraya la necesidad de herramientas que faciliten este proceso.
+
+3. **Monitorear el clima**: Aunque su frecuencia es alta para los productores y media para los distribuidores, ambos segmentos reconocen que el clima afecta directamente sus operaciones. Esto crea una interconexión en la toma de decisiones que influye en la producción y en la logística de distribución.
+
+#### Principales Diferencias
+
+- **Planificar la siembra**: Esta tarea es de alta importancia para los productores, ya que impacta directamente en la cosecha. En contraste, los distribuidores la consideran menos relevante, pues su enfoque se centra en la comercialización de los productos una vez cosechados.
+
+- **Realizar pedidos a proveedores**: Esta actividad es esencial para los distribuidores, pero no se aplica directamente a los productores, quienes se concentran en el manejo de sus cultivos y la relación con los proveedores de insumos.
+
+#### Coincidencias
+
+Ambos segmentos comparten una necesidad de **gestionar relaciones con proveedores** y **evaluar el rendimiento de los productos**. La gestión eficaz de estas relaciones no solo asegura la calidad de los insumos para los productores, sino que también permite a los distribuidores ofrecer productos competitivos en el mercado. Además, tanto productores como distribuidores muestran interés en **analizar tendencias de ventas**, lo que refleja una orientación hacia la adaptación y la mejora continua en sus respectivas estrategias.
+
+Estas coincidencias y diferencias subrayan la interdependencia entre la producción y la distribución en el sector agrícola, destacando la importancia de desarrollar soluciones que aborden las necesidades específicas de cada segmento, al tiempo que facilitan una colaboración efectiva entre ellos.
+
+### 2.3.3. User Journey Mapping
+
+La sección de User Journey Maps muestra el recorrido completo de los usuarios de AgroControl, abarcando desde el primer contacto con la app hasta su abandono. Este mapeo destaca las acciones, metas, emociones, y problemas experimentados por los productores agrícolas y distribuidores, así como oportunidades para mejorar su experiencia.
+
+
+Para los **Productores Agrícolas**, el journey empieza con el descubrimiento de la app a través de marketing o recomendaciones y avanza hasta su uso para gestionar cultivos. Las emociones varían desde la ansiedad inicial hasta la alegría por mejorar su productividad. Los problemas incluyen dudas sobre los costos y dificultades en la personalización de funciones, lo que sugiere oportunidades como ofrecer pruebas gratuitas y mejorar la capacitación.
+
+**Segmento Productor Agricola:**
+
+<img src="https://github.com/W3bW0rks/project-report/blob/55a0dcd17cfdfe2869f23aa351a051a8642b6550/assets/chapter-2-images/JourneyMapUserPersona1.png?raw=true" alt="Segmento Productor Agricola">
+
+
+El journey de los **Distribuidores** inicia al conocer la app en ferias o a través de socios comerciales. Pasan de la aceptación inicial a la satisfacción al mejorar la gestión de inventarios y entregas, pero pueden experimentar frustración por la falta de funciones avanzadas o personalización. Las oportunidades identificadas incluyen asistentes de configuración y características adaptadas a diferentes tamaños de negocios.
+
+
+**Segmento Distribuidor:**
+
+<img src="https://github.com/W3bW0rks/project-report/blob/55a0dcd17cfdfe2869f23aa351a051a8642b6550/assets/chapter-2-images/JourneyMapUserPersona2.png?raw=true" alt="Segmento Distribuidor">
+
+### 2.3.4. Empathy Mapping
+
+En esta sección se presentan los Empathy Maps para cada User Persona, que ayudan a entender sus experiencias y emociones. Se colocó al User Persona en el centro y se recolectaron observaciones del equipo sobre lo que necesita hacer, dice y siente. También se identificaron sus preocupaciones y cómo nuestra solución puede ayudar. A continuación, se incluyen las capturas de los Empathy Maps realizados.
+
+#### **Segmento Productor Agricola:**
+Juan Pérez es un productor agrícola que ha trabajado en la agricultura toda su vida, heredando el negocio familiar. Aunque cuenta con experiencia en producción, su conocimiento en tecnología es limitado. Sus objetivos incluyen optimizar procesos agrícolas, mantener un registro detallado de costos y aprovechar la tecnología para supervisar actividades de forma remota. Juan busca mejorar la eficiencia de sus cultivos, reducir costos operativos y contar con informes detallados. Se enfrenta a frustraciones como la falta de información actualizada y problemas de planificación.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/b19d7523cc2561ed74134142440c2b8ca12f87f1/assets/chapter-2-images/EmpathyMapUserPersona1.png?raw=true" alt="Segmento Productor Agricola">
+
+#### **Segmento Distribuidor:**
+María Rodríguez es propietaria de una tienda de insumos agrícolas con experiencia en ventas y distribución. Con estudios en administración, su enfoque es utilizar la tecnología para mejorar la eficiencia de su negocio. Sus metas son automatizar la gestión de inventarios, obtener datos para ajustar estrategias y mantener una comunicación eficaz con proveedores. María está motivada por incrementar ventas, mejorar la satisfacción del cliente y expandir su negocio. Enfrenta retos como la pérdida de ventas por errores en inventario y la falta de visibilidad en tiempo real del mercado.
+
+<img src="https://github.com/W3bW0rks/project-report/blob/b19d7523cc2561ed74134142440c2b8ca12f87f1/assets/chapter-2-images/EmpathyMapUserPersona2.png?raw=true" alt="Segmento Distribuidor"><br/>
+
+#### **Proceso de Elaboración:**
+
+1. **Preparación y Enfoque en el User Persona**: Cada mapa comenzó con la identificación del User Persona en el centro:
+- **Juan Pérez**: Productor agrícola en Lima, enfocado en mejorar la gestión de su campo y la adopción de nuevas tecnologías.
+- **Carlos Ramírez**: Distribuidor de insumos agrícolas que busca optimizar la logística de su negocio y satisfacer mejor a sus clientes.
+
+2. **Captura de Observaciones**:  
+   Para cada User Persona, se recopilaron observaciones del equipo en las secciones del Empathy Map:
+
+   - **¿Con quién estamos empatizando?**:  
+     Juan es un agricultor con desafíos en la gestión eficiente del campo, mientras que Carlos se enfoca en la distribución efectiva de productos agrícolas.
+
+   - **¿Qué necesitan hacer?**:
+      - **Juan**: Gestionar eficientemente el campo, controlar los costos y acceder a herramientas para monitorear los cultivos.
+      - **Carlos**: Mantener el control del inventario, coordinar con clientes y programar entregas de manera eficiente.
+
+   - **¿Qué están viendo?**:
+      - **Juan**: Observa un clima impredecible y una competencia que utiliza tecnología avanzada.
+      - **Carlos**: Percibe una creciente demanda de productos y competencia que optimiza la logística.
+
+   - **¿Qué están escuchando?**:
+      - **Juan**: Escucha consejos de otros productores y preocupaciones sobre la planificación de recursos.
+      - **Carlos**: Recibe comentarios de clientes sobre la rapidez de las entregas y sugerencias de su equipo.
+
+   - **¿Qué están diciendo?**:
+      - **Juan**: Expresa dificultades para obtener datos que guíen sus decisiones agrícolas.
+      - **Carlos**: Habla sobre la necesidad de mejorar el control del inventario y la organización de las entregas.
+
+   - **¿Qué están haciendo?**:
+      - **Juan**: Supervisa el campo y busca formas de reducir costos.
+      - **Carlos**: Supervisa la entrada y salida de productos, negociando y ajustando rutas de entrega.
+
+   - **¿Cómo se sienten y qué piensan?**:
+      - **Juan**: Siente la necesidad de innovar para reducir costos, pero enfrenta ansiedad por la adopción de nuevas tecnologías.
+      - **Carlos**: Siente presión por mejorar la eficiencia y teme perder clientes por problemas logísticos.
+
+3. **Identificación de Pains y Gains**:
+   - **Pains**:
+      - **Juan**: Tiempo limitado y dificultad para centralizar información y optimizar procesos.
+      - **Carlos**: Problemas para mantener un control preciso del inventario y gestionar múltiples pedidos.
+
+   - **Gains**:
+      - **Juan**: Incremento de la productividad y mejora en el uso de los recursos.
+      - **Carlos**: Mejor control del inventario y reducción del estrés operativo.
+
+Estos Empathy Maps proporcionan una guía visual y detallada sobre las necesidades y desafíos de los usuarios, ayudando a AgroControl a desarrollar soluciones más alineadas con sus expectativas y mejorar la experiencia del usuario en la plataforma.
+
+
+### 2.3.5. As-is Scenario Mapping
+
+En esta sección se presentan los As-Is Scenario Maps para cada User Persona, que muestran cómo interactúan actualmente con sus procesos. El equipo siguió un proceso que incluyó preparación, lluvia de ideas individual y revisión. Se identificaron las fases del proceso y se etiquetaron áreas donde se necesita aprender más. A continuación, se incluyen las capturas de los As-Is Scenario Maps elaborados.
+
+### **Segmento Productor Agricola:**
+El productor agrícola realiza la siembra, riego y fumigación con métodos básicos, reflexionando sobre las condiciones del suelo y el clima. Su principal preocupación es lograr una buena cosecha y distribución, enfrentando frustraciones y estrés por la eficiencia y los costos.
+
+<img src="assets/img/chapter-2/img-as-is-1.PNG" alt="Segmento 1 user persona">
+
+**Positive Points:**
+
+Planificación anticipada para una siembra efectiva:
+Los agricultores planifican cuidadosamente la siembra, ya sea de forma manual o con maquinaria, lo que demuestra un compromiso con buenas prácticas agrícolas desde el inicio del proceso.
+
+Satisfacción por los resultados de la cosecha:
+Durante la etapa de recolección, los agricultores sienten satisfacción si la cantidad y calidad de la cosecha cumple con lo esperado, generando una sensación de logro por el trabajo realizado.
+
+Organización en la distribución final:
+Los productores organizan y ejecutan la distribución a los puntos de venta, lo que refleja eficiencia operativa y una actitud proactiva para cumplir con la demanda del mercado.
+
+
+**Negative Points:**
+
+Frustración si las condiciones del suelo o clima no son ideales:
+La incertidumbre climática y del terreno genera frustración desde las primeras etapas del cultivo, afectando la motivación del productor.
+
+Ansiedad por el riesgo de exceso o falta de riego:
+El riego es una de las tareas más delicadas y puede generar ansiedad constante por el impacto que tiene en la salud de los cultivos.
+
+Estrés por asegurar una distribución efectiva:
+La logística de entrega a los puntos de venta es una fuente de estrés, especialmente cuando se depende de terceros o hay riesgo de retrasos.
+
+
+**Blank Points:**
+
+Clasificación de productos por calidad antes del envío (implícita):
+Aunque no se menciona explícitamente, hay una oportunidad en mejorar el valor del producto mediante una mejor clasificación antes de la distribución.
+
+Evaluación de métodos alternativos para fertilización:
+El agricultor se pregunta si los productos químicos están siendo aplicados adecuadamente, lo que abre la posibilidad de explorar opciones más sostenibles o automatizadas.
+
+Análisis del retorno de los puntos de venta:
+La reflexión sobre eficiencia y costos en la distribución sugiere una oportunidad para integrar herramientas de análisis financiero y de ventas.
+
+
+### **Segmento Distribuidor:**
+El distribuidor gestiona inventarios y ventas de manera manual, centrando sus esfuerzos en mejorar la eficiencia y satisfacción del cliente. Se enfrenta a desafíos como la rotación de inventario y ajustes en las estrategias de ventas, sintiendo estrés y frustración por la rentabilidad.
+
+<img src="assets/img/chapter-2/img-as-is-2.PNG" alt="Segmento 2 user persona">
+
+**Positive Points:**
+
+Revisión activa de informes para mejorar el desempeño:
+Refleja una actitud analítica y de mejora continua en las decisiones comerciales.
+
+Motivación al lograr una venta grande o cerrar un trato difícil:
+Este sentimiento impulsa el rendimiento y la persistencia del equipo de ventas.
+
+Alivio cuando el stock coincide con lo esperado tras los conteos:
+Indica que las acciones de control están dando resultado y generan confianza.
+
+
+**Negative Points:**
+
+Estrés por el riesgo de tener exceso o escasez de stock:
+Provoca inseguridad y puede derivar en malas decisiones operativas.
+
+Frustración si las ventas no cumplen con las expectativas:
+Indica un desajuste entre las metas del negocio y su rendimiento real.
+
+Ansiedad sobre la rentabilidad y las decisiones a tomar:
+Muestra una falta de apoyo analítico para tomar decisiones estratégicas.
+
+
+**Blank Points:**
+
+Considera implementar un sistema digital para automatizar la gestión:
+Una idea que aún no se ejecuta, pero puede traer grandes beneficios.
+
+Se plantea si se están aprovechando bien los datos recolectados:
+Refleja una inquietud válida sobre cómo extraer valor de la información.
+
+Se pregunta si el canal de ventas actual es el más eficiente:
+Una duda que abre la puerta a optimizar procesos o cambiar estrategias.
+
+
+### 2.4. Ubiquitous Language.
+
+En esta sección se presenta un glosario de términos utilizados en el dominio agrícola, con definiciones claras y sin ambigüedades. Este glosario facilita la comunicación entre los miembros del equipo y los stakeholders, asegurando un entendimiento común de los conceptos relevantes al problema y la solución.
+
+| **Term (English)**        | **Término (Español)**        | **Definition (Definición en Español)**                                                                  |
+|---------------------------|------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Crop Management**       | **Gestión de Cultivos**      | Conjunto de prácticas para optimizar el crecimiento, riego, y protección de los cultivos.               |
+| **Inventory Control**     | **Control de Inventario**    | Proceso de monitoreo y regulación de los insumos y productos almacenados para la distribución.          |
+| **Supply Chain**          | **Cadena de Suministro**     | Serie de procesos involucrados en la producción y distribución de productos agrícolas.                  |
+| **Yield Analysis**        | **Análisis de Rendimiento**  | Evaluación de la producción obtenida de los cultivos para optimizar las futuras cosechas.               |
+| **Soil Analysis**         | **Análisis de Suelo**        | Estudio de las propiedades del suelo para determinar su fertilidad y necesidad de insumos.              |
+| **Logistics Management**  | **Gestión Logística**        | Organización y control de las rutas de entrega y transporte de productos agrícolas.                     |
+| **Sustainability**        | **Sostenibilidad**           | Prácticas agrícolas enfocadas en minimizar el impacto ambiental y asegurar la viabilidad a largo plazo. |
+| **Resource Optimization** | **Optimización de Recursos** | Uso eficiente de agua, fertilizantes y mano de obra para maximizar la producción agrícola.              |
+| **Pest Control**          | **Control de Plagas**        | Métodos para prevenir o eliminar plagas que afectan los cultivos, garantizando la salud de las plantas. |
+| **Market Trends**         | **Tendencias del Mercado**   | Análisis de los cambios y patrones de demanda en el sector agrícola para ajustar la producción.         |
+
+# Capítulo V: Solucion UI/UX Desing
+**5.1 Product Design**
+## 5.1.1. Style Guidelines.
+### 5.1.1.1. General Style Guidelines.
 Descripcion del porque estos elementos seran importantes
-
 ### Colores
 La paleta de colores de **AgroControl** se compone de cuatro colores principales:
 
@@ -1260,7 +1257,6 @@ La paleta de colores de **AgroControl** se compone de cuatro colores principales
 <p align="center">
   <img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/colors.png?raw=true" alt="colors-style-guidelines" style="width: 800px">
 </p>
-
 ### Tipografía
 Se emplean dos fuentes principales en toda la identidad visual de AgroControl:
 
@@ -1273,9 +1269,6 @@ Se emplean dos fuentes principales en toda la identidad visual de AgroControl:
 - **Mulish**: Utilizada para el cuerpo de texto y subtítulos menores.
   - Tamaños utilizados:
     - 16px para el cuerpo del texto y descripciones.
-
-
-
 ### Marca
 El logotipo principal de **AgroControl** está compuesto por las palabras "Agro" y "Control". La palabra "Agro" se muestra en color blanco (#FFFFFF) y la palabra "Control" en color esmeralda (#2FB95D). El logotipo se presenta en dos variaciones principales:
 
@@ -1286,7 +1279,7 @@ El logotipo principal de **AgroControl** está compuesto por las palabras "Agro"
   <img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/logo-agro.png?raw=true" alt="logo-agrocontrol" style="width: 800px">
 </p>
 
-## Background
+### Background
 
 **Fondos Primarios, Secundarios y Terciarios**  
 Utilizamos una combinación de colores para los fondos según el propósito de la sección:
@@ -1295,7 +1288,7 @@ Utilizamos una combinación de colores para los fondos según el propósito de l
 - **Fondo Secundario:** Blanco (#FFFFFF)
 - **Fondo Terciario:** Davy's Gray (#525252)
 
-## Text Styles
+### Text Styles
 
 **Estilos de Texto**  
 Los estilos de texto siguen la jerarquía visual y la tipografía especificada en las pautas generales:
@@ -1309,9 +1302,7 @@ Los estilos de texto siguen la jerarquía visual y la tipografía especificada e
 
 ![Text-styles](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/font-sizes.png?raw=true)
 
-
-
-## Button Styles
+### Button Styles
 
 **Estilos de Botón y Controles**  
 Los botones y otros controles interactivos tienen una apariencia clara y coherente:
@@ -1325,13 +1316,12 @@ Los botones y otros controles interactivos tienen una apariencia clara y coheren
 ![Buttons-1](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/button-style1.png?raw=true)
 ![Buttons-2](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/button-style2.png?raw=true)
 
-
-## Icons
+### Icons
 
 **Iconos**  
 Los iconos utilizados están diseñados para un fondo blanco (#FFFFFF) con acentos en Midnight Green (#043A3A) y esmeralda (#2FB95D).
 
-## Misc
+### Misc
 
 **Componentes Misceláneos**  
 Esta categoría incluye elementos como la barra de navegación, carruseles y otros componentes interactivos.
@@ -1342,13 +1332,13 @@ Esta categoría incluye elementos como la barra de navegación, carruseles y otr
 
 ![Miscellaneos preview web](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/nav-bar-1.png?raw=true)
 
-### 4.1.2. Web Style Guidelines.
+### 5.1.2.1 Web Style Guidelines.
 
 AgroControl ofrece una experiencia coherente, intuitiva y visualmente atractiva, optimizando la interacción en una variedad de dispositivos y tamaños de pantalla.
 El diseño debe ajustarse a diferentes tamaños de pantalla sin sacrificar la funcionalidad o estética. Se ha seleccionado el patrón F como el principal esquema de escaneo visual en nuestras interfaces, alineado con los hábitos naturales de lectura de los usuarios. Esto asegura que los usuarios encuentren rápidamente la información más relevante
 
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
+## 5.1.2. Information Architecture.
+### 5.1.2.1. Organization Systems.
 
 #### Descripción General
 Para garantizar una experiencia de usuario óptima, hemos implementado diferentes sistemas de organización dentro de la interfaz de **AgroControl**. Estos sistemas están diseñados para mejorar la navegabilidad y asegurar que los usuarios encuentren fácilmente la información y las herramientas que necesitan.
@@ -1367,7 +1357,7 @@ Para los usuarios que prefieren una navegación más personalizada, se implement
 #### Aplicación en la Interfaz de AgroControl
 Estos sistemas de organización se combinan de manera efectiva para proporcionar una interfaz intuitiva y accesible. Los usuarios pueden moverse fluidamente por la plataforma, ya sea que estén siguiendo un proceso guiado o explorando el contenido a su manera.
 
-### 4.2.2. Labeling Systems.
+### 5.1.2.2. Labeling Systems.
 
 El sistema de etiquetado tiene como objetivo unificar los datos de manera efectiva, representarlos de forma simple y evitar confusión ante grandes cantidades de información. Una forma ampliamente adoptada para lograr esto es necesario crear etiquetas que representen grandes volúmenes de datos.
 
@@ -1375,7 +1365,7 @@ El sistema de etiquetado tiene como objetivo unificar los datos de manera efecti
 
 ![Icons-Searching Systems](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/labeling-systems-2.png?raw=true)
 
-### 4.2.3. SEO Tags and Meta Tags
+### 5.1.2.3. SEO Tags and Meta Tags
 
 Hemos utilizado palabras claves para optimizar nuestros SEO Tags y Meta Tags para los motores de búsqueda, así mejoraremos la visibilidad de nuestra página y aplicación web.
 
@@ -1410,8 +1400,7 @@ Hemos utilizado palabras claves para optimizar nuestros SEO Tags y Meta Tags par
 
 * meta name="author": Identifica al autor o equipo de desarrollo del sitio web.
 
-
-### 4.2.4. Searching Systems.
+### 5.1.2.4. Searching Systems.
 
 **¿Qué se busca?:**  
 El sistema de búsqueda de **AgroControl** permite a los usuarios buscar información clave relacionada con la gestión agrícola, como guías, artículos de blog, servicios específicos, o detalles sobre cómo usar la aplicación.
@@ -1422,19 +1411,18 @@ Los resultados de la búsqueda incluirán una lista de artículos relevantes, p�
 **Interfaz de búsqueda:**  
 La interfaz de búsqueda de **AgroControl** está diseñada para ser intuitiva y fácil de usar. Un campo de búsqueda prominente se encuentra en la parte superior de la página, permitiendo a los usuarios ingresar términos rápidamente. Mientras el usuario escribe, se despliegan sugerencias automáticas para ayudar a refinar la búsqueda. Los filtros adicionales permiten a los usuarios ordenar los resultados por categoría, fecha o relevancia, asegurando que encuentren exactamente lo que necesitan con el mínimo esfuerzo.
 
+### 5.1.2.5. Navigation Systems.
 
-### 4.2.5. Navigation Systems.
-
-### Hierarchical Navigation System
+#### Hierarchical Navigation System
 El sistema de navegación jerárquico en **AgroControl** organiza la navegación desde la página principal hasta las páginas de destino específicas. Los usuarios pueden comenzar en la página de inicio y desde allí acceder a secciones clave como "Servicios", "Blog", o "Contacto", permitiendo un flujo de navegación claro y estructurado.
 
-### Global Navigation System
+####  Global Navigation System
 Como complemento del sistema jerárquico, **AgroControl** utiliza un sistema de navegación global que facilita el movimiento vertical dentro de una misma página. A través de un menú de navegación fijo, los usuarios pueden desplazarse por las diferentes secciones de la página, manteniendo siempre la opción de regresar a la página principal desde cualquier punto.
 
-### Local Navigation System
+#### Local Navigation System
 El sistema de navegación local se utiliza para permitir a los usuarios moverse entre sub-sitios o páginas secundarias dentro de **AgroControl**. Este sistema complementa la navegación global, proporcionando enlaces directos a otras páginas relevantes, como la página de detalles de un servicio específico o un artículo del blog, asegurando una experiencia de navegación fluida y coherente.
 
-## 4.3. Landing Page UI Design.
+## 5.1.3. Landing Page UI Design.
 Enlace al Landing Page: 
 
 https://equipo1-upc202510-366.github.io/DevDynasty-LandingPage/index.html
@@ -1571,14 +1559,14 @@ El footer incluye enlaces rápidos, información de contacto y otras secciones r
 <img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_footer.png?raw=true" style="width: 800px"/>  
 
 
-## 4.4. Web Applications UX/UI Design.
+## 5.1.4. Web Applications UX/UI Design.
 
 AgroControl es una plataforma de gestión que facilita diversos procesos, como la administración de campos, horarios e inventarios. Su diseño busca ser atractivo y coherente, además de funcional e intuitivo, garantizando que los usuarios puedan interactuar de manera eficiente con las herramientas ofrecidas.
 En cuanto a la experiencia de usuario, se ha priorizado una navegación intuitiva que permite registrar campos, programar plantaciones, riegos, fertilización y fumigación de manera sencilla. Además de controlar y registrar las cosechas y ganancias derivadas de estas.
 Se han empleado elementos visuales claros, como botones, tablas de registro y menús bien definidos, para asegurar que los usuarios puedan realizar sus tareas sin complicaciones. Además, la plataforma proporciona una visualización de datos principal que permite acceder rápidamente a información clave, como la plantación en curso y los horarios de los próximos procesos a realizar.
 
 
-### 4.4.1. Web Applications Wireframes.
+### 5.4.1. Web Applications Wireframes.
 
 Enlace Figma: https://www.figma.com/design/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
 
@@ -1888,18 +1876,18 @@ El formulario permite registrar los siguientes datos básicos de cada trabajador
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/workers.png" style="width: 800px"/>
 
 
-## 4.6. Domain-Driven Software Architecture.
+## 5.6. Domain-Driven Software Architecture.
 La arquitectura de software basada en el dominio, un enfoque que centra el diseño y desarrollo del software en el conocimiento del dominio específico del negocio, se presenta en esta sección. Este método facilita la comunicación entre desarrolladores y expertos del dominio y permite la creación de sistemas más alineados con las necesidades y procesos comerciales. A continuación se presentan los diagramas y contextos delimitados que conforman la arquitectura de software de nuestro proyecto.
 
-### 4.6.1. Software Architecture Context Diagram.  
+### 5.6.1. Software Architecture Context Diagram.  
 El diagrama de contexto del sistema muestra la relación entre el sistema y los actores externos, proporcionando una visión general de la arquitectura del sistema y sus interacciones con el entorno externo.  
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Context%20Diagram.png" style="width: 800px"/>
    
-### 4.6.2. Software Architecture Container Diagrams.
+### 5.6.2. Software Architecture Container Diagrams.
 Las aplicaciones web, las bases de datos, los microservicios y cómo se comunican entre sí se muestran en los diagramas de contenedores. Estos diagramas destacan las responsabilidades y las interacciones de cada contenedor, ofreciendo una visión general de la arquitectura del sistema.  
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Container%20Diagram.png" style="width: 800px"/>
 
-### 4.6.3. Software Architecture Components Diagrams.  
+### 5.6.3. Software Architecture Components Diagrams.  
 Los diagramas de componentes de la arquitectura de software se presentan en esta sección. Estos diagramas muestran los diversos componentes del sistema, sus funciones y cómo interactúan entre sí.
 
 #### IAM Bounded Context
@@ -1931,10 +1919,10 @@ Los diagramas de componentes de la arquitectura de software se presentan en esta
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram%20-%20FinancialContext.png" style="width: 800px">
 
-## 4.7. Software Object-Oriented Design.
+## 5.7. Software Object-Oriented Design.
 El diseño orientado a objetos (OOD) organiza el software en torno a objetos que combinan datos y funciones. Basado en principios como la abstracción, encapsulamiento, herencia y polimorfismo, OOD facilita la creación de sistemas modulares, reutilizables y fáciles de mantener.  
 
-### 4.7.1. Class Diagrams.  
+### 5.7.1. Class Diagrams.  
 Los diagramas de clases representan la estructura de un sistema orientado a objetos, mostrando clases, atributos, métodos y sus relaciones, facilitando la comprensión de la arquitectura del software.  
 
 #### Agricultural Process
@@ -1975,9 +1963,7 @@ Los diagramas de clases representan la estructura de un sistema orientado a obje
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/ClassDiagram.png" style="width: 800px"/>
 
-
-
-### 4.7.2. Class Dictionary.
+### 5.7.2. Class Dictionary.
 
 
 
@@ -2069,11 +2055,8 @@ Clase que representa la cosecha realizada en un campo.
 ##### Offer:
 Clase que representa una oferta especial en la tienda de un distribuidor.
 
-
-
-
-## 4.8. Database Design.  
-### 4.8.1. Database Diagram.  
+## 5.8. Database Design.  
+### 5.8.1. Database Diagram.  
 Visualizamos la estructura de una base de datos, mostrando entidades, atributos y relaciones, lo que ayuda a comprender la organización y el flujo de información en el sistema.  
 
 #### Agricultural Process
@@ -2104,6 +2087,18 @@ Visualizamos la estructura de una base de datos, mostrando entidades, atributos 
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-4-images/Diagrams/DB%20DIAGRAM.png" style="width: 800px"/>
 
+# Capitulo VI: Product Implementation, Validation & Deployment
+
+### 6.2.1.3. Development Evidence for Sprint Review.
+![Development Evidence](assets/img/chapter-4/Deployment_Evidence.png)
+### 6.2.1.4. Execution Evidence for Sprint Review.
+![Excecution Evidence](assets/img/chapter-4/Execution_evidence.jpg)
+### 6.2.1.5. Services Documentation Evidence for Sprint Review.
+![Services Documentation Evidence](assets/img/chapter-4/Documentation.png)
+### 6.2.1.6. Software Deployment Evidence for Sprint Review.
+![Deployment Evidence](assets/img/chapter-4/Sofware_Deployement_Evi.png)
+### 6.2.1.7. Team Collaboration Insights during Sprint.
+![Team Collaboration Insights](assets/img/chapter-4/Insigts.png)
 
 # Conclusiones  
 
@@ -2134,7 +2129,6 @@ AgroControl también promueve prácticas agrícolas y de distribución sostenibl
 <p style="text-align: justify">
 En definitiva, AgroControl se posiciona como una herramienta integral que no solo agiliza las tareas diarias de los agricultores y distribuidores, sino que también les brinda una visión estratégica de sus operaciones, contribuyendo así al crecimiento sostenible y al éxito en el sector agrícola. Al integrar tecnología avanzada, como análisis de datos en tiempo real, y al promover una cultura de optimización constante, AgroControl fomenta la adopción de prácticas agrícolas y de distribución más eficientes y sostenibles. Nuestra visión a largo plazo es convertirnos en un referente en la digitalización del sector agrícola y de distribución, proporcionando una solución accesible y adaptable que permita a los agricultores y distribuidores enfrentar y superar los desafíos de un entorno cada vez más exigente y en constante cambio.
 </p>
-
 
 # Bibliografía
 
