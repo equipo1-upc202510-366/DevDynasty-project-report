@@ -2315,6 +2315,18 @@ Para la realización de pruebas de testeo de software que se ha utilizado para e
 | **Sum of Story Points**         | 8 Story points                                                              |
 
 
+#### 6.2.1.2. Sprint Backlog 1  
+| **User Story**                              | **Work-item/Task**                                | **Description**                                        | **Estimation (Hours)** | **Assigned To**  | **Status**               |
+|---------------------------------------------|---------------------------------------------------|-------------------------------------------------------|------------------------|------------------|--------------------------|
+| E1-US001 Barra de navegación                | W01 Navigation bar on Landing Page                | Implementar una barra de navegación que sea responsive design para las secciones. | 0.5                    | Ricardo          | Done                     |
+| E1-US002 Sección de Introducción            | W02 Introduction section                          | Implementar una sección de introducción.               | 0.5                    | Fabiola          | Done                     |
+| E1-US003 Sección de Funcionalidades         | W03 Functionalities section of the Landing Page      | Implementar sección de funcionalidades.        | 2                      | Hardie            | Done                     |
+| E1-US004 Sección de cómo funciona           | W04 How It Works section of the Landing Page      | Implementar el funcionamiento del aplicativo.          | 1                      | Sihuar           | Done                     |
+| E1-US005 Sección de testimonios             | W05 Testimonials section of the Landing Page      | Implementar testimonios de clientes.                   | 1                      | Ricardo             | Done                     |
+| E1-US006 Sección de contacto                | W06 Contact section of the Landing Page           | Implementar medio de contacto para el usuario.         | 0.5                    | Hardie           | Done                     |
+| E1-US007 Sección de footer                  | W07 Footer section of the Landing Page            | Implementar footer section con sus respectivos enlaces. | 1                      | Fabiola           | Done                     |
+| E1-US008 Cambio de idioma         | W08 Language switch for the Landing Page          | Implementar el botón para la opción de lenguaje.       | 0.5                    | Ricardo          | Done                     |
+
 ### 6.2.1.3. Development Evidence for Sprint Review.
 ![Development Evidence](assets/img/chapter-4/Deployment_Evidence.png)
 ### 6.2.1.4. Execution Evidence for Sprint Review.
