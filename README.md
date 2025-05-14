@@ -2296,7 +2296,7 @@ Para la realización de pruebas de testeo de software que se ha utilizado para e
 ## 6.2. Landing Page, Services & Applications Implementation  
 ### 6.2.1. Sprint 1  
 
-
+![Sprint AgroControl 1](assets/img/chapter-4/img-sprint-agrocontrol-1.jpeg)
 
 #### 6.2.1.1. Sprint Planning 1  
  
