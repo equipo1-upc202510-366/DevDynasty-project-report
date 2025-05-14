@@ -2269,9 +2269,9 @@ Para la realización de pruebas de testeo de software que se ha utilizado para e
 
 **IDE's de desarrollo**
 
-- **Webstorm:** [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
+- **Android Studio:** [https://developer.android.com/studio/]([https://developer.android.com/studio/](https://developer.android.com/studio/)
 
-  Webstorm es un IDE enfocado al desarrollo de frontend y posee una gran cantidad de herramientas que pueden agilizar el proceso de desarrollo. Para poder usar Webstorm es necesario tener una licencia
+  Android Studio es un IDE enfocado al desarrollo de aplicaciones Android y posee una gran cantidad de herramientas que pueden agilizar el proceso de desarrollo. Para poder usar Android Studio no es necesario tener una licencia, ya que es gratuito.
 
 **Software Deployment**
 
