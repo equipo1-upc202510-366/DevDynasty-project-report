@@ -2293,6 +2293,26 @@ Para la realización de pruebas de testeo de software que se ha utilizado para e
 
   La plataforma Vertabelo es una aplicación web colaborativa la cual ha sido empleada para la elaboración del diseño de base de datos.
 
+## 6.2. Landing Page, Services & Applications Implementation  
+### 6.2.1. Sprint 1  
+
+
+
+#### 6.2.1.1. Sprint Planning 1  
+ 
+
+| **Sprint #**                    | Sprint 1                                                                 |
+|---------------------------------|---------------------------------------------------------------------------|
+| **Sprint Planning Date**        | 10/05/2025                                                                |
+| **Time**                        | 17:30 PM                                                                  |
+| **Location**                    | Google Meet                                                               |
+| **Prepared By**                 | Hardie Holguin                                                               |
+| **Attendees**                   | Ricardo Barrutia, Fabiola Espinoza, Sihuar Ccotarma                         |
+| **Sprint Review Summary**       | En esta entrega, no hay un Sprint anterior, por lo tanto, no hay resúmen del Sprint. |
+| **Sprint Retrospective Summary**| En esta entrega, no hay un Sprint anterior, por lo tanto, no hay resúmen del Sprint. |
+| **Sprint Goal**                 | En este sprint se tiene como objetivo el desarrollo de la landing page y el despliegue de la misma. Además, durante las diversas reuniones del equipo se determinó el contenido y diseño de la landing page, el cual fue implementado en Figma. Una vez concluido el sprint, la landing debe estar desplegada en GitHub Pages y los usuarios podrán acceder a la misma a través del link. |
+| **Sprint Velocity**             |    8                                                                       |
+| **Sum of Story Points**         | 8 Story points                                                              |
 
 
 ### 6.2.1.3. Development Evidence for Sprint Review.
