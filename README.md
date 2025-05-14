@@ -1436,48 +1436,49 @@ En esta sección se presentarán los wireframes de la landing page. Estos wirefr
 ## 1. Hero
 El Hero es la sección principal y destacada de la landing page, captando la atención del usuario con un llamado a la acción o una introducción a la aplicación.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Hero.png?raw=true" style="width: 800px"/>
+<img src="assets/img/chapter-5/Hero.png" style="width: 800px"/>
 
 ---
 
 ## 2. Agricultores - Wireframe
 Este wireframe muestra la estructura de la página destinada a los agricultores, incluyendo las secciones y funcionalidades específicas para este grupo de usuarios.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Agricultores%20-%20Wireframe.png?raw=true" style="width: 800px"/>  
+<img src="assets/img/chapter-5/Agricultores-Wireframe.png" style="width: 800px"/>  
+
 ---
 
 ## 3. Distribuidores - Wireframe
 En este wireframe se presenta la página dedicada a los distribuidores, destacando las funcionalidades y el diseño pensado para ellos.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Distribuidores-wireframe.png?raw=true" style="width: 800px"/>
+<img src="assets/img/chapter-5/Distribuidores-wireframe.png" style="width: 800px"/>
 
 ---
 
 ## 4. Gallery
 Aquí se encuentra la sección de galería, donde se mostrarán imágenes relacionadas con la aplicación o los servicios ofrecidos.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Gallery.png?raw=true" style="width: 800px"/>
+<img src="assets/img/chapter-5/Gallery.png" style="width: 800px"/>
 
 ---
 
 ## 5. Plan Agricultor
 Este wireframe ilustra el plan diseñado para los agricultores, detallando precios y características específicas del plan.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Plan%20Agricultor.png?raw=true" style="width: 800px"/>  
+<img src="assets/img/chapter-5/Plan-Agricultor.png" style="width: 800px"/>  
 
 ---
 
 ## 6. Plan Distribuidor
 Similar al plan de agricultores, este wireframe muestra los detalles del plan pensado para los distribuidores, con su propia estructura y características.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Plan%20Distribuidor.png?raw=true" style="width: 800px"/>
+<img src="assets/img/chapter-5/Plan-Distribuidor.png" style="width: 800px"/>
 
 ---
 
 ## 7. Testimonial
 La sección de testimoniales muestra opiniones y comentarios de usuarios satisfechos, proporcionando credibilidad y confianza en la aplicación.  
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Testimonial.png?raw=true" style="width: 800px"/>  
+<img src="assets/img/chapter-5/Testimonial.png" style="width: 800px"/>  
 
 ---
 
@@ -1485,14 +1486,14 @@ La sección de testimoniales muestra opiniones y comentarios de usuarios satisfe
 ## 8. Contact Us
 Este wireframe detalla la página de contacto, donde los usuarios pueden encontrar información para comunicarse con la empresa.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Contact%20Us.png?raw=true" style="width: 800px"/>  
+<img src="assets/img/chapter-5/Contact-Us.png" style="width: 800px"/>  
 
 ---
 
 ## 9. Footer
 El footer incluye enlaces rápidos, información de contacto y otras secciones relevantes para la navegación del usuario en toda la aplicación.
 
-<img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Wireframes/desktop/Footer.png?raw=true" style="width: 800px"/>
+<img src="assets/img/chapter-5/Footer.png" style="width: 800px"/>
 
 ---
 
