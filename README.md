@@ -1242,9 +1242,9 @@ Captura del tablero de Product Backlog en Trello:
 | 59      |E6-TS101|Crear API Fake|**Como** desarrollador **quiero** crear una API fake **para** poder avanzar el desarrollo de la web app|2|
 
 
-# Capítulo IV: Solucion UI/UX Desing
-**4.1 Product Design**
-## 4.1.1. Style Guidelines.
+# Capítulo V: Solution UI/UX Design
+## 5.1 Product Design
+## 5.1.1. Style Guidelines.
 ### 5.1.1.1. General Style Guidelines.
 Descripcion del porque estos elementos seran importantes
 ### Colores
@@ -1335,13 +1335,13 @@ Esta categoría incluye elementos como la barra de navegación, carruseles y otr
 
 ![Miscellaneos preview web](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/nav-bar-1.png?raw=true)
 
-### 4.1.2.1 Web Style Guidelines.
+### 5.1.2.1 Web Style Guidelines.
 
 AgroControl ofrece una experiencia coherente, intuitiva y visualmente atractiva, optimizando la interacción en una variedad de dispositivos y tamaños de pantalla.
 El diseño debe ajustarse a diferentes tamaños de pantalla sin sacrificar la funcionalidad o estética. Se ha seleccionado el patrón F como el principal esquema de escaneo visual en nuestras interfaces, alineado con los hábitos naturales de lectura de los usuarios. Esto asegura que los usuarios encuentren rápidamente la información más relevante
 
-## 4.1.2. Information Architecture.
-### 4.1.2.1. Organization Systems.
+## 5.1.2. Information Architecture.
+### 5.1.2.1. Organization Systems.
 
 #### Descripción General
 Para garantizar una experiencia de usuario óptima, hemos implementado diferentes sistemas de organización dentro de la interfaz de **AgroControl**. Estos sistemas están diseñados para mejorar la navegabilidad y asegurar que los usuarios encuentren fácilmente la información y las herramientas que necesitan.
@@ -1360,7 +1360,7 @@ Para los usuarios que prefieren una navegación más personalizada, se implement
 #### Aplicación en la Interfaz de AgroControl
 Estos sistemas de organización se combinan de manera efectiva para proporcionar una interfaz intuitiva y accesible. Los usuarios pueden moverse fluidamente por la plataforma, ya sea que estén siguiendo un proceso guiado o explorando el contenido a su manera.
 
-### 4.1.2.2. Labeling Systems.
+### 5.1.2.2. Labeling Systems.
 
 El sistema de etiquetado tiene como objetivo unificar los datos de manera efectiva, representarlos de forma simple y evitar confusión ante grandes cantidades de información. Una forma ampliamente adoptada para lograr esto es necesario crear etiquetas que representen grandes volúmenes de datos.
 
@@ -1368,7 +1368,7 @@ El sistema de etiquetado tiene como objetivo unificar los datos de manera efecti
 
 ![Icons-Searching Systems](https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/labeling-systems-2.png?raw=true)
 
-### 4.1.2.3. SEO Tags and Meta Tags
+### 5.1.2.3. SEO Tags and Meta Tags
 
 Hemos utilizado palabras claves para optimizar nuestros SEO Tags y Meta Tags para los motores de búsqueda, así mejoraremos la visibilidad de nuestra página y aplicación web.
 
@@ -1403,7 +1403,7 @@ Hemos utilizado palabras claves para optimizar nuestros SEO Tags y Meta Tags par
 
 * meta name="author": Identifica al autor o equipo de desarrollo del sitio web.
 
-### 4.1.2.4. Searching Systems.
+### 5.1.2.4. Searching Systems.
 
 **¿Qué se busca?:**  
 El sistema de búsqueda de **AgroControl** permite a los usuarios buscar información clave relacionada con la gestión agrícola, como guías, artículos de blog, servicios específicos, o detalles sobre cómo usar la aplicación.
@@ -1414,7 +1414,7 @@ Los resultados de la búsqueda incluirán una lista de artículos relevantes, p�
 **Interfaz de búsqueda:**  
 La interfaz de búsqueda de **AgroControl** está diseñada para ser intuitiva y fácil de usar. Un campo de búsqueda prominente se encuentra en la parte superior de la página, permitiendo a los usuarios ingresar términos rápidamente. Mientras el usuario escribe, se despliegan sugerencias automáticas para ayudar a refinar la búsqueda. Los filtros adicionales permiten a los usuarios ordenar los resultados por categoría, fecha o relevancia, asegurando que encuentren exactamente lo que necesitan con el mínimo esfuerzo.
 
-### 4.1.2.5. Navigation Systems.
+### 5.1.2.5. Navigation Systems.
 
 #### Hierarchical Navigation System
 El sistema de navegación jerárquico en **AgroControl** organiza la navegación desde la página principal hasta las páginas de destino específicas. Los usuarios pueden comenzar en la página de inicio y desde allí acceder a secciones clave como "Servicios", "Blog", o "Contacto", permitiendo un flujo de navegación claro y estructurado.
@@ -1425,12 +1425,12 @@ Como complemento del sistema jerárquico, **AgroControl** utiliza un sistema de 
 #### Local Navigation System
 El sistema de navegación local se utiliza para permitir a los usuarios moverse entre sub-sitios o páginas secundarias dentro de **AgroControl**. Este sistema complementa la navegación global, proporcionando enlaces directos a otras páginas relevantes, como la página de detalles de un servicio específico o un artículo del blog, asegurando una experiencia de navegación fluida y coherente.
 
-## 4.1.3. Landing Page UI Design.
+## 5.1.3. Landing Page UI Design.
 Enlace al Landing Page: 
 
 https://equipo1-upc202510-366.github.io/DevDynasty-LandingPage/index.html
 
-### 4.3.1. Landing Page Wireframe.
+### 5.3.1. Landing Page Wireframe.
 En esta sección se presentarán los wireframes de la landing page. Estos wireframes son esquemas de baja fidelidad que muestran la estructura de la página, sin tener en cuenta la paleta de colores ni las imágenes que se utilizarán.
 
 ## 1. Hero
@@ -1496,7 +1496,7 @@ El footer incluye enlaces rápidos, información de contacto y otras secciones r
 
 ---
 
-### 4.3.2. Landing Page Mock-up.
+### 5.3.2. Landing Page Mock-up.
 Mockup es todo lo relacionado al diseño de la pagina
 
 ## 1. Hero
@@ -1562,7 +1562,7 @@ El footer incluye enlaces rápidos, información de contacto y otras secciones r
 <img src="https://github.com/W3bW0rks/project-report/blob/develop/assets/chapter-4-images/Mockup/desktop/Mockup_footer.png?raw=true" style="width: 800px"/>  
 
 
-## 4.1.4. Web Applications UX/UI Design.
+## 5.1.4. Web Applications UX/UI Design.
 
 AgroControl es una plataforma de gestión que facilita diversos procesos, como la administración de campos, horarios e inventarios. Su diseño busca ser atractivo y coherente, además de funcional e intuitivo, garantizando que los usuarios puedan interactuar de manera eficiente con las herramientas ofrecidas.
 En cuanto a la experiencia de usuario, se ha priorizado una navegación intuitiva que permite registrar campos, programar plantaciones, riegos, fertilización y fumigación de manera sencilla. Además de controlar y registrar las cosechas y ganancias derivadas de estas.
@@ -1640,7 +1640,7 @@ Pantalla de la tienda virtual de la aplicacion AgroControl. Nos muestra los dife
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/344d49bb9e4dc40ee69f94f0b529b05318981346/assets/chapter-4-images/Web%20Application%20Wireframe/Tienda-Agro.png" style="width: 800px"/>
 
 
-### 4.4.2. Web Applications Wireflow Diagrams.
+### 5.4.2. Web Applications Wireflow Diagrams.
 
 Enlace Lucidchart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_loc=-13454%2C-9786%2C39430%2C19324%2C0_0&invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60
 
@@ -1688,7 +1688,7 @@ Funcionalidad de registro de trabajadores relacionados al campo del usuario. En 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/worker-wire.png" style="width: 800px"/>
 
 
-### 4.4.3. Web Applications Mock-ups.
+### 5.4.3. Web Applications Mock-ups.
 
 Link Figma: https://www.figma.com/design/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
 
@@ -1741,7 +1741,7 @@ Pantalla de visualización de trabajadores registrados al Field. Se registra el 
 Pantalla de la tienda interna de los usuarios. En ella podemos ver los productos publicados por Agricultores y Distribuidores, y realizar compras de estos.  
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Mockup/Tienda-Agro.png" style="width: 800px"/>
 
-### 4.4.4. Web Applications User Flow Diagrams.
+### 5.4.4. Web Applications User Flow Diagrams.
 
 Enlace LucidChart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_loc=-13454%2C-9786%2C39430%2C19324%2C0_0&invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60
 
@@ -1773,7 +1773,7 @@ Funcionalidad de agregar y monitorear los procesos de riego planificados para el
 Funcionalidad de registro de trabajadores relacionados al campo del usuario. En el tenemos un control de los trabajadores involucrados en los diferentes procesos del campo, además de contar con sus datos personales. Esto nos permite la facil asignacion de trabajadores a diferentes procesos.  
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/worker-uflow.png" style="width: 800px"/>
 
-## 4.5. Web Applications Prototyping.
+## 5.5. Web Applications Prototyping.
 
 Enlace: https://www.figma.com/proto/oR7tRrIgbO4fZJ2uEbMVIn/AgroControl-Application---MockUp--DevDynasty?node-id=0-1&t=UETJzqG1PMSU6IKz-1
 
@@ -1879,7 +1879,7 @@ El formulario permite registrar los siguientes datos básicos de cada trabajador
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/ba80989bf80107d8f9f6680811cea813a54b5600/assets/chapter-4-images/Web%20Application%20Prototyping/workers.png" style="width: 800px"/>
 
 
-## 4.6. Domain-Driven Software Architecture.
+## 5.6. Domain-Driven Software Architecture.
 La arquitectura de software basada en el dominio, un enfoque que centra el diseño y desarrollo del software en el conocimiento del dominio específico del negocio, se presenta en esta sección. Este método facilita la comunicación entre desarrolladores y expertos del dominio y permite la creación de sistemas más alineados con las necesidades y procesos comerciales. A continuación se presentan los diagramas y contextos delimitados que conforman la arquitectura de software de nuestro proyecto.
 
 ### 5.6.1. Software Architecture Context Diagram.  
@@ -1922,10 +1922,10 @@ Los diagramas de componentes de la arquitectura de software se presentan en esta
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter%204-C4%20model/Component%20Diagram%20-%20FinancialContext.png" style="width: 800px">
 
-## 4.7. Software Object-Oriented Design.
+## 5.7. Software Object-Oriented Design.
 El diseño orientado a objetos (OOD) organiza el software en torno a objetos que combinan datos y funciones. Basado en principios como la abstracción, encapsulamiento, herencia y polimorfismo, OOD facilita la creación de sistemas modulares, reutilizables y fáciles de mantener.  
 
-### 4.7.1. Class Diagrams.  
+### 5.7.1. Class Diagrams.  
 Los diagramas de clases representan la estructura de un sistema orientado a objetos, mostrando clases, atributos, métodos y sus relaciones, facilitando la comprensión de la arquitectura del software.  
 
 #### Agricultural Process
@@ -1966,7 +1966,7 @@ Los diagramas de clases representan la estructura de un sistema orientado a obje
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-4-images/Diagrams/Class%20Diagram/ClassDiagram.png" style="width: 800px"/>
 
-### 4.7.2. Class Dictionary.
+### 5.7.2. Class Dictionary.
 
 
 
@@ -2058,8 +2058,8 @@ Clase que representa la cosecha realizada en un campo.
 ##### Offer:
 Clase que representa una oferta especial en la tienda de un distribuidor.
 
-## 4.8. Database Design.  
-### 4.8.1. Database Diagram.  
+## 5.8. Database Design.  
+### 5.8.1. Database Diagram.  
 Visualizamos la estructura de una base de datos, mostrando entidades, atributos y relaciones, lo que ayuda a comprender la organización y el flujo de información en el sistema.  
 
 #### Agricultural Process
