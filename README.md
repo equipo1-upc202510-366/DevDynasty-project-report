@@ -2328,15 +2328,15 @@ Para la realización de pruebas de testeo de software que se ha utilizado para e
 | E1-US008 Cambio de idioma         | W08 Language switch for the Landing Page          | Implementar el botón para la opción de lenguaje.       | 0.5                    | Ricardo          | Done                     |
 
 ### 6.2.1.3. Development Evidence for Sprint Review.
-![Development Evidence](assets/img/chapter-4/Deployment_Evidence.png)
+![Development Evidence](assets/img/chapter-6/Develop_Evidence.png)
 ### 6.2.1.4. Execution Evidence for Sprint Review.
-![Excecution Evidence](assets/img/chapter-4/Execution_evidence.jpg)
+![Excecution Evidence](assets/img/chapter-6/Execution_Evidence.png)
 ### 6.2.1.5. Services Documentation Evidence for Sprint Review.
-![Services Documentation Evidence](assets/img/chapter-4/Documentation.png)
+![Services Documentation Evidence](assets/img/chapter-6/Service_evidence.png)
 ### 6.2.1.6. Software Deployment Evidence for Sprint Review.
-![Deployment Evidence](assets/img/chapter-4/Sofware_Deployement_Evi.png)
+![Deployment Evidence](assets/img/chapter-6/Deployed_evidence.png)
 ### 6.2.1.7. Team Collaboration Insights during Sprint.
-![Team Collaboration Insights](assets/img/chapter-4/Insigts.png)
+![Team Collaboration Insights](assets/img/chapter-6/Insights.png)
 
 # Conclusiones  
 
