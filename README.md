@@ -1736,7 +1736,7 @@ Pantalla de la tienda interna de los usuarios. En ella podemos ver los productos
 
 ### 5.4.4. Web Applications User Flow Diagrams.
 
-Enlace LucidChart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?viewport_loc=-13454%2C-9786%2C39430%2C19324%2C0_0&invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60
+Enlace LucidChart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746ae18/edit?invitationId=inv_885a5493-b1ac-4bf5-8dc0-79f5b07e0a60&page=0_0#
 
 **Agregar nueva cosecha en tabla "Harvest"**  
 En este flujo especificamos el proceso de agregar los datos de la cosecha realizada en nuestro "Field". Registramos el nombre del producto cosechado, la fecha en que fue realizada, el peso total recogido y el precio por unidad.  
