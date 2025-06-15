@@ -1740,31 +1740,31 @@ Enlace LucidChart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746
 
 **Agregar nueva cosecha en tabla "Harvest"**  
 En este flujo especificamos el proceso de agregar los datos de la cosecha realizada en nuestro "Field". Registramos el nombre del producto cosechado, la fecha en que fue realizada, el peso total recogido y el precio por unidad.  
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/Harvest-uflow.png" style="width: 800px"/>
+<img src="assets/img/chapter-4/Harvest-uflow.jpeg" style="width: 800px"/>
 
 **Crear nueva plantacion en "Planting"**  
 Este flujo muestra el proceso de inicio de una plantacion, que se esta realizando en un "Field". Registramos el producto a plantar y la fecha de inicio del proceso. Por ultimo es mostrado en el Panel principal en una tabla.  
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/Planting-uflow.png" style="width: 800px"/>
+<img src="assets/img/chapter-4/Planting-uflow.jpeg" style="width: 800px"/>
 
 **Crear nuevo "Field"**  
 La primera funcionalidad que interactua el usuario. En este flujo se crea un campo "Field", con los datos del nombre, el tamaño del campo en hectareas y la locacion del campo. Por ultimo se visualizara en el Inicio, los diferentes campos registrados.   
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/field-uflow.png" style="width: 800px"/>
+<img src="assets/img/chapter-4/field-uflow.jpeg" style="width: 800px"/>
 
 **Agregar nuevos datos de finanzas en "Finances"**  
 Funcionalidad de agregar y monitorear las finanzas relacionadas al campo trabajado. Los datos ingresados son la fecha del registro, el costo total, el ingreso total y las ganancias. Estos datos se visualizaran en la tabla "Finances", permitiendo un control sencillo.  
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/finances-uflow.png" style="width: 800px"/>
+<img src="assets/img/chapter-4/finances-uflow.jpeg" style="width: 800px"/>
 
 **Agregar nuevo proceso de fumigacion y fertilizacion en "Fumigation & Fertilization"**  
 Funcionalidad de agregar y monitorear los procesos de fumigacion y fertilizacion realizados en el campo trabajado. Los datos son registrados en la tabla "Fumigation & Fertilization" para un control total. Esto nos permite conocer la fecha en la cual se realizara el proceso, el tipo de proceso "Fumigation" o "Fertilization", las horas trabajadas, los trabajadores involucrados y los productos utilizados.  
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/fum-fer-uflow.png" style="width: 800px"/>
+<img src="assets/img/chapter-4/fum-fer-uflow.jpeg" style="width: 800px"/>
 
 **Agregar nuevo proceso de riego en "Irrigation"**  
 Funcionalidad de agregar y monitorear los procesos de riego planificados para el campo. Se agregan a la tabla "Irrigation" y se muestran los procesos registrados para tener un control total. Los datos solicitados son la fecha programada del proceso, las horas demandadas y los trabajadores involucrados.  
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/irrigation-uflow.png" style="width: 800px"/>
+<img src="assets/img/chapter-4/irrigation-uflow.jpeg" style="width: 800px"/>
 
 **Agregar nuevo trabajador de cultivo en "Workers"**  
 Funcionalidad de registro de trabajadores relacionados al campo del usuario. En el tenemos un control de los trabajadores involucrados en los diferentes procesos del campo, además de contar con sus datos personales. Esto nos permite la facil asignacion de trabajadores a diferentes procesos.  
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Application%20Userflow/worker-uflow.png" style="width: 800px"/>
+<img src="assets/img/chapter-4/worker-uflow.jpeg" style="width: 800px"/>
 
 ## 5.5. Web Applications Prototyping.
 
