@@ -2345,7 +2345,7 @@ En el siguiente apartado, se presentará el sprint planning 2, donde se mostrar�
      </tr>
      <tr>
        <td style="font-weight: bold;"> Date </td>
-       <td> 20/09/2024 </td>
+       <td> 10/06/2025 </td>
      </tr>
      <tr>
        <td style="font-weight: bold;"> Time </td>
@@ -2442,7 +2442,7 @@ Link de Trello: [https://trello.com/b/2UaTw4E8/webworks-sprint-backlog-2](https:
 <tr><td colspan="1" valign="top">T28</td><td colspan="1" valign="top">API fake en pantallas de finanzas</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de finanzas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
 </table>
 
-#### 5.2.2.3. Development Evidence for Sprint Review
+#### 6.2.2.3. Development Evidence for Sprint Review
 
 | Repository                | Branch                            | Commit ID | Commit Message                                             | Commit Message Body | Commited On(Date) |
 |---------------------------|-----------------------------------|-----------|------------------------------------------------------------|---------------------|-------------------|
@@ -2475,12 +2475,12 @@ Verificando carga completa de nuestro proyecto subido a nuestro hosting
 Aplicación Web desplegada luego de ser subida a nuestro hosting  
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/image.png" style="width: 700px;"/>
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
 A continuación, se presenta la documentación de los servicios utilizados. En esta oportunidad se ha usado el api Fake (https://localhost:3000/api/v1) para obtener los datos necesarios para verificar el funcionamiento de la aplicación web.  
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/evidence.png" style="width: 700px;"/>
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
-#### 5.2.2.8. Team Collaboration Insights during Sprint  
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+#### 6.2.2.8. Team Collaboration Insights during Sprint  
 A continuación se mostrarán el gráfico de insights durante el sprint:  
 
 Gráfico que representa la colaboración del equipo en la creación de landing page.  
@@ -2489,8 +2489,8 @@ Gráfico que representa la colaboración del equipo en la creación de landing p
 Gráfico que muestra los insights de colaboración del equipo en el desarrollo del frontend.  
 <img src="./assets/collaboration insights/sprint3/insights-frontend.png" alt="insights-fronted" style="width: 700px;"/>
 
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
 **Preguntas generales:**
 
 1. ¿Cuál es su nombre?
@@ -2515,7 +2515,7 @@ Gráfico que muestra los insights de colaboración del equipo en el desarrollo d
 5. ¿Cómo podríamos mejorar la visibilidad de sus productos y servicios dentro de AgroControl?
 6. ¿Qué mejoras le gustaría ver en la plataforma para optimizar la comunicación y coordinación con los agricultores?
 
-### 5.3.2. Registro de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
 
 **Segmento: Distribuidores**
 
@@ -2587,7 +2587,7 @@ En general, Gabriel expresó una opinión positiva sobre Agrocontrol, resaltando
 </p>
 
 
-### 5.3.3. Evaluaciones según heurísticas.
+### 6.3.3. Evaluaciones según heurísticas.
 
 | HEURÍSTICA                                    | EVALUACIÓN ✅❌ | NOTA                                                                                                                                             |
 |-----------------------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2602,7 +2602,7 @@ En general, Gabriel expresó una opinión positiva sobre Agrocontrol, resaltando
 | Comunicar errores con facilidad               | ❌              | Aunque se mencionaron deseos de comunicación de errores, como alertas automáticas, no se cubrió explícitamente si esto está implementado.        |
 | Ayuda y documentación                         | ❌              | No se discutió si existen recursos de ayuda o documentación accesibles, pero sería beneficioso proveer estos según las necesidades planteadas.   |  
 
-## 5.4. Video About-the-Product.  
+## 6.4. Video About-the-Product.  
 Esta sección se centra en proporcionar un recurso audiovisual que ofrece una visión general del producto. El video está diseñado para mostrar las características clave, beneficios y potenciales usos del producto de manera atractiva y comprensible. A través de imágenes en movimiento y narraciones, el objetivo es captar la atención de la audiencia y servir como una herramienta efectiva para la promoción y educación sobre el producto.  
 
 LINK DEL VIDEO ABOUT-THE-PRODUCT: https://shorturl.at/HQwUM  
