@@ -2511,7 +2511,7 @@ Entrevistas #01: **William Ramos** (**28 años - Miraflores**) - **17 de noviemb
 - TikTok
 - Instagram
 
-<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/interview-heuristics/entrevista-heuristica-william.png" width="800px">
+<img src="assets/img/chapter-6/interview1.png" alt="Evidencia Productor Agricola 2" style="width: 800px"/>
 
 **Registro de entrevista:**  
 <p align="justify">
@@ -2544,7 +2544,7 @@ Entrevistas #02: *Gabriel Bernal* (*25 años - Lima) - **17 de noviembre del 202
 - WhatsApp Web
 - Mozilla Firefox   
 
-<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/interview-heuristics/entrevista-heuristica-bernal.jpg" width="800px">  
+<img src="assets/img/chapter-6/interview1.png" alt="Evidencia Productor Agricola 2" width="800px">  
 
 **Registro de entrevista:**  
 <p align="justify">
