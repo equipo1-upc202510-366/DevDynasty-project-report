@@ -2331,6 +2331,285 @@ Para la realización de pruebas de testeo de software que se ha utilizado para e
 ### 6.2.1.7. Team Collaboration Insights during Sprint.
 ![Team Collaboration Insights](assets/img/chapter-6/Insights.png)
 
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+En el siguiente apartado, se presentará el sprint planning 2, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances del proyecto e insights de colaboración a través de Github.
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 2 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 20/09/2024 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 11:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de la plataforma Discord <td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Webworks <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> Zavala Quedena, Gonzalo Andre
+        <br>
+          Arroyo Ormeño, André Alonso
+           <br>
+          Principe Godoy, Johan
+          <br>
+          Espino Flores, Alejandro
+          <br>
+	        Aiquipa Poma, Sebastian Andres
+         <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+        <td> Se logró implementar el landing page y se desplegó en Vercel<td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+        <td style="text-align: justify"> 
+          En este sprint como equipo logramos desplegar la landing page de forma adecuada  debido a la correcta division de 
+          tareas y el cumplimiento de cada uno. Sin embargo, algunos miembros del equipo tuvieron cierta complicaciones a la hora de hacer merge a la rama develop. Aspecto el cual planeamos mejorar. Como equipo esperamos poder cumplir con
+          los objetivos para el sprint 2.
+        <td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td style="text-align: justify"> 
+            En este sprint se planea desarrollar el web application con el framework Angular, herramienta la cual ha sido usada y enseñada a lo largo del curso. Además, se conversó sobre la distribución de pantallas del web application que desarrolla cada uno de acuerdo al diseño que se ha implementado anteriormente a través de Figma. Al finalizar este sprint, el web application debe estar desplegado en Netlify y cualquier usuario debería poder acceder y visualizar la página a través del link 
+          <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+          <td> 11 <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 30 <td>
+      </tr>
+
+</table>
+
+#### 6.2.2.2. Sprint Backlog 2  
+En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.  
+<img src="https://imgur.com/qDSnzzw.jpg" style="width: 1200px;"/>  
+Link de Trello: [https://trello.com/b/2UaTw4E8/webworks-sprint-backlog-2](https://trello.com/b/2UaTw4E8)  
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
+<tr><td colspan="2" valign="top">USer Story</td><td colspan="6" valign="top">Work-item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-do / in Process / To - Review / (Done) )</td></tr>
+<tr><td colspan="1" valign="top">E2-US102</td><td colspan="1" valign="top">Formulario de login</td><td colspan="1" valign="top">T1</td><td colspan="1" valign="top">Interfaz de usuario del inicio de sesión de cuentas</td><td colspan="1" valign="top">Implementar interfaz de los formularios para inicio de sesión tanto para productores agricolas y distribuidores</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombres</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">E3-US101</td><td colspan="1" rowspan="2" valign="top">Crear campos de cultivo</td><td colspan="1" valign="top">T2</td><td colspan="1" valign="top">Formulario crear campo de cultivo</td><td colspan="1" valign="top">Implementar interfaz del formulario que permita la creación del campo de cultivo</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T3</td><td colspan="1" valign="top">Interfaz del campo de cultivo</td><td colspan="1" valign="top">Implementar interfaz para poder visualizar todos los campos que ha creado el producto agricola</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">E3-US102</td><td colspan="1" valign="top">Barra de navegación del productor agricola</td><td colspan="1" valign="top">T4</td><td colspan="1" valign="top">Toolbar de navegación del productor agricola</td><td colspan="1" valign="top">Implementar una interfaz que permita la navegación dentro del web application para los productores agricolas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p></p><p>E3-US103</p></td><td colspan="1" rowspan="2" valign="top">Pantalla de inicio del proceso agricola</td><td colspan="1" valign="top">T5</td><td colspan="1" valign="top">Pantalla de inicio del proceso agricola</td><td colspan="1" valign="top">Implementar interfaz de la planteacion y procesos agricolas que ha implementado el usuario</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T6</td><td colspan="1" valign="top">Formulario de planteacion</td><td colspan="1" valign="top">Implementar interfaz del formulario para poder registrar la semilla que se siembra</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">E3-US104</td><td colspan="1" rowspan="2" valign="top">Programacion de fecha de riego de cultivos </td><td colspan="1" valign="top">T7</td><td colspan="1" valign="top">Formulario de Riego</td><td colspan="1" valign="top">Implementar una interfaz de formulario que permite crear las fechas de riego</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T8</td><td colspan="1" valign="top">Lista de fechas de riego</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todas las fechas de riego creadas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">E3-US106</td><td colspan="1" rowspan="2" valign="top">Programacion de fechas de tratamiento</td><td colspan="1" valign="top">T9</td><td colspan="1" valign="top">Formulario de Tratamiento</td><td colspan="1" valign="top">Implementar una interfaz de formulario que permita crear fechas de tratamiento</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T10</td><td colspan="1" valign="top">Lista de fechas de tratamiento</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todas las fechas de tratamiento creados</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">E3-US107</td><td colspan="1" rowspan="2" valign="top">Proceso de recolección de la cosecha</td><td colspan="1" valign="top">T11</td><td colspan="1" valign="top">Interfaz de fecha de cosecha</td><td colspan="1" valign="top">Implementar una opción en la lista que permita crear fechas de cosechas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombres</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T12</td><td colspan="1" valign="top">Lista de fechas cosechas</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todas las fechas de cosecha creadas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">E3-US108</td><td colspan="1" rowspan="2" valign="top">Proceso de análisis financiero de los cultivos</td><td colspan="1" valign="top">T13</td><td colspan="1" valign="top">Formulario de finanzas</td><td colspan="1" valign="top">Implementar una opcion en las lista que permita crear datos financieros</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombres</td><td colspan="1" valign="top">estados</td></tr>
+<tr><td colspan="1" valign="top">T14</td><td colspan="1" valign="top">Lista de datos financieros</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todos los datos financieros creados</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">E5-US101</td><td colspan="1" rowspan="6" valign="top">Preferencia de idioma</td><td colspan="1" valign="top">T15</td><td colspan="1" valign="top">Opción Ingles-Español en pantallas de crear campos de cultivos</td><td colspan="1" valign="top">Implementar i18n para las pantallas de la creacion de campos de cultivos</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T16</td><td colspan="1" valign="top">Opcion Ingles-Español en pantalla de inicio de proceso agricolas</td><td colspan="1" valign="top">Implementar i18n para las pantallas de inicio de los proceso agricolas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T17</td><td colspan="1" valign="top">Opcion Ingles-Español en pantallas de programación de fechas de riego</td><td colspan="1" valign="top">Implementar i18n para las pantallas de programación de fechas de riego</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T18</td><td colspan="1" valign="top">Opcion Ingles-Español en pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">Implementar i18n para las pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T19</td><td colspan="1" valign="top">Opcion Ingles-Español en pantallas de programación de finanzas</td><td colspan="1" valign="top">Implementar i18n para las pantallas de finanzas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T20</td><td colspan="1" valign="top">Opcion Ingles-Español en la barra de navegación de los productores agricolas</td><td colspan="1" valign="top">Implementar i18n para la barra de navegacion de los productores agricolas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">E5-US102</td><td colspan="1" rowspan="1" valign="top">Página no encontrada</td><td colspan="1" valign="top">T21</td><td colspan="1" valign="top">Interfaz de error 404</td><td colspan="1" valign="top">Implementar una interfaz de error 404 cuando se accede a un link inexistente o incorrecto</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" rowspan="7"  valign="top">E6-US101</td><td colspan="1" rowspan="7" valign="top">Crear API Fake</td><td colspan="1" valign="top">T22</td><td colspan="1" valign="top">Informacion del API Fake</td><td colspan="1" valign="top">Implementar en la API fake informacion que se adecue a la base de datos</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T23</td><td colspan="1" valign="top">API fake en pantallas de crear campos de cultivos</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de crear campos de cultivos</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T24</td><td colspan="1" valign="top">API fake en pantallas de inicio del proceso agricola</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de inicio del proceso agricola</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T25</td><td colspan="1" valign="top">API fake en pantallas de programacion de fechas de riego</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de programacion de fechas de riego</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T26</td><td colspan="1" valign="top">API fake en pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T27</td><td colspan="1" valign="top">API fake en pantallas de programación de fechas de cultivo</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de programación de fechas de cultivo</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr><td colspan="1" valign="top">T28</td><td colspan="1" valign="top">API fake en pantallas de finanzas</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de finanzas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+</table>
+
+#### 5.2.2.3. Development Evidence for Sprint Review
+
+| Repository                | Branch                            | Commit ID | Commit Message                                             | Commit Message Body | Commited On(Date) |
+|---------------------------|-----------------------------------|-----------|------------------------------------------------------------|---------------------|-------------------|
+| agrocontrol-front-end     | feature/crop-treatment-form       | 1f5b64e   | refactor: improve styles for responsiveness                | -                   | 05/09/2024        |
+| agrocontrol-front-end     | feature/crop-treatment-table      | 7fea01d   | refactor(fields): changes.                                 | -                   | 05/09/2024        |
+| agrocontrol-front-end     | feature/fields-form               | 7fea01d   | feat(main): add routing to main component.                 | -                   | 05/09/2024        |
+| agrocontrol-front-end     | feature/harvest-scheduler         | 7fea01d   | feat(agricultural-process): add harvest service            | -                   | 05/09/2024        |
+| agrocontrol-front-end     | feature/home-agricultural-process | 1f5b64e   | feat: update some of information of app archives           | -                   | 05/09/2024        |
+| agrocontrol-front-end     | feature/irrigation-form           | 84ed335   | feat(main): add routing to main component.                 | -                   | 05/09/2024        |
+| agrocontrol-front-end     | feature/login                     | 7fea01d   | feat(main): add login to routing.                          | -                   | 05/09/2024        |
+| agrocontrol-front-end     | feature/pop-up-irrigation         | 01d4b8c   | Merge branch 'develop' into feature/crop-treatments-table  | -                   | 03/09/2024        |
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web como primera instancia, por lo que no se evidencia de testing.
+
+#### 6.2.2.5. Execution Evidence for Sprint Review  
+
+Despliegue de aplicación Angular generando carpeta <b>dlist</b> en directorio browser.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/serverDeployed.png" style="width: 500px;"/>
+
+Generando la carpeta <b>dlist</b> para posteriormente el despliegue.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/image2.png" style="width: 500px;"/>
+
+Subiendo el archivo deploy a nuestro hosting  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/netlify.png" style="width: 500px;"/>
+
+Verificando carga completa de nuestro proyecto subido a nuestro hosting  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/webApplicationInNetlify.png" style="width: 700px;"/>
+
+Aplicación Web desplegada luego de ser subida a nuestro hosting  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/image.png" style="width: 700px;"/>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+A continuación, se presenta la documentación de los servicios utilizados. En esta oportunidad se ha usado el api Fake (https://localhost:3000/api/v1) para obtener los datos necesarios para verificar el funcionamiento de la aplicación web.  
+<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/evidence.png" style="width: 700px;"/>
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+#### 5.2.2.8. Team Collaboration Insights during Sprint  
+A continuación se mostrarán el gráfico de insights durante el sprint:  
+
+Gráfico que representa la colaboración del equipo en la creación de landing page.  
+<img src="./assets/collaboration insights/sprint3/insights-landing.png" alt="insights-landing" style="width: 700px;"/>  
+
+Gráfico que muestra los insights de colaboración del equipo en el desarrollo del frontend.  
+<img src="./assets/collaboration insights/sprint3/insights-frontend.png" alt="insights-fronted" style="width: 700px;"/>
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+**Preguntas generales:**
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
+4. ¿Qué le parece la propuesta de AgroControl para la gestión agrícola y logística en el sector?
+
+**Entrevistas segmento Agricultor**
+1. ¿Qué funcionalidades de AgroControl le resultan más útiles para gestionar su operación agrícola? ¿Por qué?
+2. ¿Cómo organiza actualmente sus actividades diarias y recursos en el ciclo agrícola? ¿Utiliza alguna herramienta en particular?
+3. ¿Qué opina sobre la funcionalidad de monitoreo financiero para visualizar ingresos y gastos en cada ciclo agrícola?
+4. ¿Le resulta útil el calendario integrado para planificar sus actividades agrícolas? ¿Qué tipo de actividades organizaría en él?
+5. ¿Considera que la interfaz de AgroControl es intuitiva y fácil de usar? ¿Qué aspectos mejoraría?
+6. ¿Encuentra clara y precisa la información proporcionada sobre el estado de su inventario? ¿Qué sugerencias tiene para mejorarla?
+7. ¿Confía en tomar decisiones basadas en los datos que ofrece AgroControl? ¿Por qué o por qué no?
+
+**Entrevistas segmento Distribuidor**
+1. ¿Qué funcionalidades de AgroControl considera más útiles para mejorar la relación con sus clientes agricultores?
+2. ¿Cómo realiza actualmente el seguimiento de las solicitudes y las entregas de productos a los agricultores? ¿Qué aspectos mejoraría con AgroControl?
+3. ¿Le resulta útil contar con datos financieros y de rendimiento para planificar mejor sus envíos y pedidos?
+4. ¿Siente que la plataforma le proporciona información suficiente para anticiparse a las necesidades de sus clientes?
+5. ¿Cómo podríamos mejorar la visibilidad de sus productos y servicios dentro de AgroControl?
+6. ¿Qué mejoras le gustaría ver en la plataforma para optimizar la comunicación y coordinación con los agricultores?
+
+### 5.3.2. Registro de Entrevistas.
+
+**Segmento: Distribuidores**
+
+Entrevistas #01: **William Ramos** (**28 años - Miraflores**) - **17 de noviembre del 2024**  
+
+**Servicios:** 
+- Google Chrome
+- TikTok
+- Instagram
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/interview-heuristics/entrevista-heuristica-william.png" width="800px">
+
+**Registro de entrevista:**  
+<p align="justify">
+Durante la entrevista con William Ramos Vicente, un distribuidor de 28 años que reside en el distrito de Miraflores, se obtuvieron valiosos insights sobre su experiencia utilizando Agrocontrol. La conversación permitió identificar las áreas donde la plataforma aporta mayor valor y las oportunidades de mejora para ajustarse mejor a las necesidades de los distribuidores y sus clientes.
+</p>
+
+<p align="justify">
+William destacó desde el inicio que Agrocontrol es una herramienta prometedora, especialmente porque automatiza procesos clave como la creación de inventarios en línea y los análisis financieros. Estas funciones no solo le ahorran tiempo, sino que también eliminan la necesidad de realizar cálculos manuales, algo que antes manejaba en papel o con Excel. Según su experiencia, estas características le permiten tener un control más preciso sobre las ganancias y la gestión de su tienda, algo que consideró muy valioso.
+</p>
+
+<p align="justify">
+Cuando se le preguntó sobre las funcionalidades más útiles para mejorar la relación con sus clientes agricultores, William señaló que un sistema que conecte de manera fluida a los distribuidores con los clientes sería crucial. En su opinión, la posibilidad de mostrar información clave como precios, disponibilidad de productos y otros detalles en tiempo real facilita la transparencia y la toma de decisiones. Además, comentó que un dashboard con datos consolidados sobre ganancias, pérdidas y estadísticas clave es esencial para mantener todo bien organizado y mapeado.
+</p>
+
+<p align="justify">
+Actualmente, William realiza el seguimiento de solicitudes y entregas mediante Excel, un método que considera eficiente pero ya anticuado y propenso a errores. Explicó que este sistema, aunque funcional, ha causado problemas en la actualización de inventarios. Relató un caso concreto donde la falta de sincronización en sus registros resultó en una pérdida de tiempo y dinero al aceptar pedidos para productos que ya no estaban en stock. Según William, Agrocontrol resuelve este problema al mantener un historial de ventas e inventarios actualizado y accesible en todo momento, lo que describe como un gran alivio para su trabajo diario.
+</p>
+
+<p align="justify">
+En cuanto a las áreas de mejora para la plataforma, William sugirió incorporar un apartado que permita vincular redes sociales como Facebook, Instagram y TikTok. Consideró que esta funcionalidad ayudaría a aumentar la visibilidad de los productos y servicios de los distribuidores, ofreciendo así una herramienta adicional para captar clientes y fortalecer la relación con ellos. También mencionó que, aunque la plataforma es bastante intuitiva, sería útil ajustar ciertos términos en la interfaz. Específicamente, propuso cambiar "cantidad" por "stock" en algunas secciones, ya que esto evitaría confusiones para usuarios menos experimentados.
+</p>
+
+<p align="justify">
+En términos generales, William expresó una opinión muy positiva sobre Agrocontrol. Valora la plataforma como una herramienta eficiente y bien diseñada que optimiza significativamente la gestión de su negocio. A pesar de las pequeñas áreas de mejora mencionadas, considera que Agrocontrol está en una posición excelente para resolver los desafíos cotidianos de los distribuidores y fortalecer la conexión con sus clientes agricultores. La claridad y precisión en el manejo de inventarios, junto con la automatización de procesos financieros, son aspectos que él destaca como fundamentales para recomendar la plataforma a otros usuarios.
+</p>
+
+Entrevistas #02: *Gabriel Bernal* (*25 años - Lima) - **17 de noviembre del 2024*
+
+**Servicios:** 
+- WhatsApp Web
+- Mozilla Firefox   
+
+<img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/interview-heuristics/entrevista-heuristica-bernal.jpg" width="800px">  
+
+**Registro de entrevista:**  
+<p align="justify">
+En la entrevista con Gabriel Bernal, un distribuidor de 25 años residente en Lima, se obtuvieron perspectivas clave sobre su experiencia con la plataforma Agrocontrol. La conversación permitió identificar las funcionalidades más valoradas, los beneficios observados, y las mejoras potenciales que podrían optimizar aún más el uso de la plataforma para distribuidores.
+</p>
+
+<p align="justify">
+Gabriel destacó que una de las funcionalidades más útiles de Agrocontrol es la capacidad de gestionar y visualizar detalles específicos como el precio por unidad y el stock disponible de los productos. Según él, estas herramientas simplifican la gestión diaria al eliminar procesos manuales y ofrecer información precisa que facilita el control del inventario y el cálculo de ganancias. Esto representa un gran avance frente a los métodos tradicionales que emplea actualmente, como el uso de hojas de cálculo manuales. Gabriel mencionó que este sistema manual puede generar retrasos y falta de claridad en la información, lo que Agrocontrol podría resolver al centralizar y automatizar los datos relacionados con las solicitudes y entregas.
+</p>
+
+<p align="justify">
+Entre las áreas de mejora, Gabriel sugirió que Agrocontrol incorpore métricas más avanzadas y herramientas basadas en inteligencia artificial. Estas podrían incluir guías generativas o análisis predictivos que ayuden a los distribuidores a tomar decisiones más informadas, como anticiparse a las tendencias de consumo o recibir alertas automáticas basadas en patrones de compra. También señaló que contar con datos financieros detallados y métricas de rendimiento es esencial para optimizar recursos y planificar envíos y pedidos de manera más efectiva.
+</p>
+
+<p align="justify">
+Sobre la visibilidad de sus productos, Gabriel propuso que la plataforma integre opciones como promociones destacadas, catálogos personalizados y herramientas para campañas de marketing digital dirigidas específicamente a agricultores. Estas funcionalidades ayudarían a fortalecer la relación con los clientes y a captar nuevos mercados de manera más eficiente.
+</p>
+
+<p align="justify">
+En cuanto a la comunicación y coordinación con los agricultores, Gabriel destacó la necesidad de implementar un sistema de chat directo o mensajería en la plataforma. Además, consideró valioso incluir notificaciones automáticas sobre pedidos y la capacidad de programar reuniones o visitas directamente desde la aplicación. Estas mejoras, según él, añadirían un valor significativo a la experiencia del usuario y mejorarían la relación entre distribuidores y agricultores.
+</p>
+
+<p align="justify">
+En general, Gabriel expresó una opinión positiva sobre Agrocontrol, resaltando su potencial para transformar los procesos de gestión en el sector agrícola. Aunque mencionó algunas áreas de mejora, consideró que la plataforma ya proporciona una base sólida y eficiente para distribuidores, especialmente en lo relacionado con la gestión de inventarios y la planificación financiera. Sus sugerencias apuntan a convertir a Agrocontrol en una herramienta aún más robusta y adaptada a las necesidades del mercado.
+</p>
+
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+| HEURÍSTICA                                    | EVALUACIÓN ✅❌ | NOTA                                                                                                                                             |
+|-----------------------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Visibilidad del estado del sistema            | ✅              | Agrocontrol permite ver detalles específicos como stock y precios en tiempo real, proporcionando claridad sobre el estado actual de inventarios. |
+| Coincidencia entre el sistema y el mundo real | ✅              | La plataforma usa una terminología cercana al usuario, aunque se sugirió cambiar "cantidad" por "stock" para evitar confusiones.                 |
+| Control y libertad del usuario                | ✅              | El sistema permite gestionar inventarios y visualizar datos financieros, proporcionando control sobre las operaciones.                           |
+| Consistencia y estándares                     | ✅              | Los usuarios destacan la interfaz intuitiva, aunque con sugerencias menores para mejorar la consistencia de términos.                            |
+| Prevención de errores                         | ✅              | La actualización en tiempo real de datos reduce el riesgo de errores en la gestión de inventarios, según lo observado por los usuarios.          |
+| Mostrar antes que recordar                    | ✅              | La automatización de procesos y visualización directa de datos permite al usuario no depender de la memoria para tareas clave.                   |
+| Flexibilidad y eficiencia de uso              | ✅              | Los usuarios son favorecidos con la capacidad de manejar tanto inventarios como análisis financieros desde una única plataforma.                 |
+| Diseño estético y minimalista                 | ✅              | No se mencionaron preocupaciones específicas sobre la estética; sin embargo, la interfaz parece ser suficiente para una gestión eficiente.       |
+| Comunicar errores con facilidad               | ❌              | Aunque se mencionaron deseos de comunicación de errores, como alertas automáticas, no se cubrió explícitamente si esto está implementado.        |
+| Ayuda y documentación                         | ❌              | No se discutió si existen recursos de ayuda o documentación accesibles, pero sería beneficioso proveer estos según las necesidades planteadas.   |  
+
+## 5.4. Video About-the-Product.  
+Esta sección se centra en proporcionar un recurso audiovisual que ofrece una visión general del producto. El video está diseñado para mostrar las características clave, beneficios y potenciales usos del producto de manera atractiva y comprensible. A través de imágenes en movimiento y narraciones, el objetivo es captar la atención de la audiencia y servir como una herramienta efectiva para la promoción y educación sobre el producto.  
+
+LINK DEL VIDEO ABOUT-THE-PRODUCT: https://shorturl.at/HQwUM  
+
+<img src ="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-5-images/abouttheproduct.jpeg" width="700px" height="300px"/>
+
+
 # Conclusiones  
 
 <p style="text-align: justify">
