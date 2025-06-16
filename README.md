@@ -2590,7 +2590,7 @@ En general, Gabriel expresó una opinión positiva sobre Agrocontrol, resaltando
 ## 6.4. Video About-the-Product.  
 Esta sección se centra en proporcionar un recurso audiovisual que ofrece una visión general del producto. El video está diseñado para mostrar las características clave, beneficios y potenciales usos del producto de manera atractiva y comprensible. A través de imágenes en movimiento y narraciones, el objetivo es captar la atención de la audiencia y servir como una herramienta efectiva para la promoción y educación sobre el producto.  
 
-LINK DEL VIDEO ABOUT-THE-PRODUCT: https://shorturl.at/HQwUM  
+LINK DEL VIDEO ABOUT-THE-PRODUCT: https://www.youtube.com/watch?v=LwAOLcqldXI
 
 <img src ="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-5-images/abouttheproduct.jpeg" width="700px" height="300px"/>
 
