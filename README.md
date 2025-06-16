@@ -1640,43 +1640,43 @@ Enlace Lucidchart: https://lucid.app/lucidchart/b9cc8653-84cb-4155-a473-cefeb746
 
 **Agregar nueva cosecha en tabla "Harvest"**
 
-En este flujo especificamos el proceso de agregar los datos de la cosecha realizada en nuestro "Field". Registramos el nombre del producto cosechado, la fecha en que fue realizada, el peso total recogido y el precio por unidad.
+Como agricultor, quiero agregar los datos de una nueva cosecha (producto, fecha, peso y precio) para mantener un registro detallado de la producción de mi campo.
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Harvest-wire.png" style="width: 800px"/>
 
 **Crear nueva plantacion en "Planting"**
 
-Este flujo muestra el proceso de inicio de una plantacion, que se esta realizando en un "Field". Registramos el producto a plantar y la fecha de inicio del proceso. Por ultimo es mostrado en el Panel principal en una tabla.
+Como agricultor, quiero registrar el inicio de una nueva plantación con el producto y la fecha para poder darle seguimiento en el panel principal.
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Planting-wire.png" style="width: 800px"/>
 
 **Crear nuevo "Field"**
 
-La primera funcionalidad que interactua el usuario. En este flujo se crea un campo "Field", con los datos del nombre, el tamaño del campo en hectareas y la locacion del campo. Por ultimo se visualizara en el Inicio, los diferentes campos registrados.
+Como usuario nuevo, quiero crear un campo ("Field") ingresando su nombre, tamaño y ubicación para comenzar a gestionar mis operaciones agrícolas en la plataforma.
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Field-wire.png" style="width: 800px"/>
 
 **Agregar nuevos datos de finanzas en "Finances"**
 
-Funcionalidad de agregar y monitorear las finanzas relacionadas al campo trabajado. Los datos ingresados son la fecha del registro, el costo total, el ingreso total y las ganancias. Estos datos se visualizaran en la tabla "Finances", permitiendo un control sencillo.
+Como administrador, quiero agregar registros financieros (costos, ingresos, ganancias) para monitorear la rentabilidad del campo de forma sencilla.
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Finances-wire.png" style="width: 800px"/>
 
 **Agregar nuevo proceso de fumigacion y fertilizacion en "Fumigation & Fertilization"**
 
-Funcionalidad de agregar y monitorear los procesos de fumigacion y fertilizacion realizados en el campo trabajado. Los datos son registrados en la tabla "Fumigation & Fertilization" para un control total. Esto nos permite conocer la fecha en la cual se realizara el proceso, el tipo de proceso "Fumigation" o "Fertilization", las horas trabajadas, los trabajadores involucrados y los productos utilizados.
+Como gestor del campo, quiero registrar un proceso de fumigación o fertilización para llevar un control total sobre los tratamientos aplicados al cultivo.
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/Fum-Fert.png" style="width: 800px"/>
 
 **Agregar nuevo proceso de riego en "Irrigation"**
 
-Funcionalidad de agregar y monitorear los procesos de riego planificados para el campo. Se agregan a la tabla "Irrigation" y se muestran los procesos registrados para tener un control total. Los datos solicitados son la fecha programada del proceso, las horas demandadas y los trabajadores involucrados.
+Como gestor del campo, quiero registrar un nuevo proceso de riego con su fecha, horas y personal para tener un control total de la planificación.
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/irrigation-wire.png" style="width: 800px"/>
 
 **Agregar nuevo trabajador de cultivo en "Workers"**
 
-Funcionalidad de registro de trabajadores relacionados al campo del usuario. En el tenemos un control de los trabajadores involucrados en los diferentes procesos del campo, además de contar con sus datos personales. Esto nos permite la facil asignacion de trabajadores a diferentes procesos.
+Como administrador, quiero registrar un nuevo trabajador con sus datos personales para controlar mi personal y asignarlo fácilmente a diferentes tareas.
 
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/9b51cc4cf35477c3392a697c19f3193db85e49e8/assets/chapter-4-images/Web%20Applications%20Wireflow%20Diagrams/worker-wire.png" style="width: 800px"/>
 
