@@ -2357,19 +2357,17 @@ En el siguiente apartado, se presentará el sprint planning 2, donde se mostrar�
      </tr>
       <tr>
         <td style="font-weight: bold;"> Prepared By </td>
-        <td> Webworks <td>
+        <td> DevDynasty <td>
      </tr>
         <tr>
         <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
-        <td> Zavala Quedena, Gonzalo Andre
+        <td> Barrutia Vaez, Ricardo Andree
         <br>
-          Arroyo Ormeño, André Alonso
+          Espinoza Inoñan, Fabiola Ximena
            <br>
-          Principe Godoy, Johan
+          Holguín Gamarra, Hardie Alfonso
           <br>
-          Espino Flores, Alejandro
-          <br>
-	        Aiquipa Poma, Sebastian Andres
+          Ccotarma Ttito, Eduardo Eusebio Sihuar
          <td>
      </tr>
      <tr>
@@ -2390,7 +2388,7 @@ En el siguiente apartado, se presentará el sprint planning 2, donde se mostrar�
        <tr>
           <td style="font-weight: bold;"> Sprint 2 Goal</td>
           <td style="text-align: justify"> 
-            En este sprint se planea desarrollar el web application con el framework Angular, herramienta la cual ha sido usada y enseñada a lo largo del curso. Además, se conversó sobre la distribución de pantallas del web application que desarrolla cada uno de acuerdo al diseño que se ha implementado anteriormente a través de Figma. Al finalizar este sprint, el web application debe estar desplegado en Netlify y cualquier usuario debería poder acceder y visualizar la página a través del link 
+            En este sprint se planea desarrollar el web application con el framework Flutter y Kotlin, herramienta la cual ha sido usada y enseñada a lo largo del curso. Además, se conversó sobre la distribución de pantallas del web application que desarrolla cada uno de acuerdo al diseño que se ha implementado anteriormente a través de Figma. Al finalizar este sprint, el web application debe estar desplegado en Netlify y cualquier usuario debería poder acceder y visualizar la página a través del link 
           <td>
       </tr>
        <tr>
@@ -2426,20 +2424,8 @@ Link de Trello: [https://trello.com/b/2UaTw4E8/webworks-sprint-backlog-2](https:
 <tr><td colspan="1" valign="top">T12</td><td colspan="1" valign="top">Lista de fechas cosechas</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todas las fechas de cosecha creadas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">E3-US108</td><td colspan="1" rowspan="2" valign="top">Proceso de análisis financiero de los cultivos</td><td colspan="1" valign="top">T13</td><td colspan="1" valign="top">Formulario de finanzas</td><td colspan="1" valign="top">Implementar una opcion en las lista que permita crear datos financieros</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombres</td><td colspan="1" valign="top">estados</td></tr>
 <tr><td colspan="1" valign="top">T14</td><td colspan="1" valign="top">Lista de datos financieros</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todos los datos financieros creados</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="6" valign="top">E5-US101</td><td colspan="1" rowspan="6" valign="top">Preferencia de idioma</td><td colspan="1" valign="top">T15</td><td colspan="1" valign="top">Opción Ingles-Español en pantallas de crear campos de cultivos</td><td colspan="1" valign="top">Implementar i18n para las pantallas de la creacion de campos de cultivos</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T16</td><td colspan="1" valign="top">Opcion Ingles-Español en pantalla de inicio de proceso agricolas</td><td colspan="1" valign="top">Implementar i18n para las pantallas de inicio de los proceso agricolas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T17</td><td colspan="1" valign="top">Opcion Ingles-Español en pantallas de programación de fechas de riego</td><td colspan="1" valign="top">Implementar i18n para las pantallas de programación de fechas de riego</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T18</td><td colspan="1" valign="top">Opcion Ingles-Español en pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">Implementar i18n para las pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T19</td><td colspan="1" valign="top">Opcion Ingles-Español en pantallas de programación de finanzas</td><td colspan="1" valign="top">Implementar i18n para las pantallas de finanzas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T20</td><td colspan="1" valign="top">Opcion Ingles-Español en la barra de navegación de los productores agricolas</td><td colspan="1" valign="top">Implementar i18n para la barra de navegacion de los productores agricolas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="1" valign="top">E5-US102</td><td colspan="1" rowspan="1" valign="top">Página no encontrada</td><td colspan="1" valign="top">T21</td><td colspan="1" valign="top">Interfaz de error 404</td><td colspan="1" valign="top">Implementar una interfaz de error 404 cuando se accede a un link inexistente o incorrecto</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="7"  valign="top">E6-US101</td><td colspan="1" rowspan="7" valign="top">Crear API Fake</td><td colspan="1" valign="top">T22</td><td colspan="1" valign="top">Informacion del API Fake</td><td colspan="1" valign="top">Implementar en la API fake informacion que se adecue a la base de datos</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T23</td><td colspan="1" valign="top">API fake en pantallas de crear campos de cultivos</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de crear campos de cultivos</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T24</td><td colspan="1" valign="top">API fake en pantallas de inicio del proceso agricola</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de inicio del proceso agricola</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T25</td><td colspan="1" valign="top">API fake en pantallas de programacion de fechas de riego</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de programacion de fechas de riego</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T26</td><td colspan="1" valign="top">API fake en pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de programación de fechas de tratamiento</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T27</td><td colspan="1" valign="top">API fake en pantallas de programación de fechas de cultivo</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de programación de fechas de cultivo</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T28</td><td colspan="1" valign="top">API fake en pantallas de finanzas</td><td colspan="1" valign="top">Conectar la API fake con las pantallas de finanzas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<td colspan="1" rowspan="1" valign="top">E5-US102</td><td colspan="1" rowspan="1" valign="top">Página no encontrada</td><td colspan="1" valign="top">T21</td><td colspan="1" valign="top">Interfaz de error 404</td><td colspan="1" valign="top">Implementar una interfaz de error 404 cuando se accede a un link inexistente o incorrecto</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
+<tr></tr>
 </table>
 
 #### 6.2.2.3. Development Evidence for Sprint Review
@@ -2460,8 +2446,7 @@ En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web
 
 #### 6.2.2.5. Execution Evidence for Sprint Review  
 
-Despliegue de aplicación Angular generando carpeta <b>dlist</b> en directorio browser.  
-<img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/serverDeployed.png" style="width: 500px;"/>
+
 
 Generando la carpeta <b>dlist</b> para posteriormente el despliegue.  
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/image2.png" style="width: 500px;"/>
@@ -2653,7 +2638,6 @@ Retrieved from https://bit.ly/3NKKdTW
 Conventional Commits. (n.d.). The Conventional Commits Specification. Licensed under Creative Commons - 
 CC BY 3.0. Retrieved from https://www.conventionalcommits.org/en/v1.0.0/  
 
-Angular. (n.d.). Angular Documentation. Retrieved from https://angular.dev/  
 
 TypeScript. (n.d.). TypeScript: Typed JavaScript at Any Scale. Retrieved from https://www.typescriptlang.org/  
 
