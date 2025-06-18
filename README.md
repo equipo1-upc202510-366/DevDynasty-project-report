@@ -2548,7 +2548,12 @@ Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](ht
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
+En este sprint, se ha desarrollado la API de la aplicación web, utilizando las siguientes herramientas. No obstante, el despliegue de la API no está incluido en el alcance de este sprint.
 
+Git: Sistema de control de versiones que utilizamos para colaborar y rastrear las versiones de la aplicación web en un repositorio remoto.
+Gitflow: Proceso de trabajo colaborativo que nos permitió organizar el trabajo en ramas dentro de nuestro repositorio, facilitando así la colaboración en el desarrollo.
+GitHub: Plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
+Swagger Ui: Herramienta destinada a probar y documentar nuestra API.
 
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 
