@@ -2407,39 +2407,37 @@ En esta sección se muestran los tasks que se realizaron en el presente sprint y
 <img src="https://imgur.com/qDSnzzw.jpg" style="width: 1200px;"/>  
 Link de Trello: [https://trello.com/b/2UaTw4E8/webworks-sprint-backlog-2](https://trello.com/b/2UaTw4E8)  
 
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
-<tr><td colspan="2" valign="top">USer Story</td><td colspan="6" valign="top">Work-item / Task</td></tr>
-<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation (Hours)</td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-do / in Process / To - Review / (Done) )</td></tr>
-<tr><td colspan="1" valign="top">E2-US102</td><td colspan="1" valign="top">Formulario de login</td><td colspan="1" valign="top">T1</td><td colspan="1" valign="top">Interfaz de usuario del inicio de sesión de cuentas</td><td colspan="1" valign="top">Implementar interfaz de los formularios para inicio de sesión tanto para productores agricolas y distribuidores</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombres</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">E3-US101</td><td colspan="1" rowspan="2" valign="top">Crear campos de cultivo</td><td colspan="1" valign="top">T2</td><td colspan="1" valign="top">Formulario crear campo de cultivo</td><td colspan="1" valign="top">Implementar interfaz del formulario que permita la creación del campo de cultivo</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T3</td><td colspan="1" valign="top">Interfaz del campo de cultivo</td><td colspan="1" valign="top">Implementar interfaz para poder visualizar todos los campos que ha creado el producto agricola</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">E3-US102</td><td colspan="1" valign="top">Barra de navegación del productor agricola</td><td colspan="1" valign="top">T4</td><td colspan="1" valign="top">Toolbar de navegación del productor agricola</td><td colspan="1" valign="top">Implementar una interfaz que permita la navegación dentro del web application para los productores agricolas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top"><p></p><p>E3-US103</p></td><td colspan="1" rowspan="2" valign="top">Pantalla de inicio del proceso agricola</td><td colspan="1" valign="top">T5</td><td colspan="1" valign="top">Pantalla de inicio del proceso agricola</td><td colspan="1" valign="top">Implementar interfaz de la planteacion y procesos agricolas que ha implementado el usuario</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T6</td><td colspan="1" valign="top">Formulario de planteacion</td><td colspan="1" valign="top">Implementar interfaz del formulario para poder registrar la semilla que se siembra</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">E3-US104</td><td colspan="1" rowspan="2" valign="top">Programacion de fecha de riego de cultivos </td><td colspan="1" valign="top">T7</td><td colspan="1" valign="top">Formulario de Riego</td><td colspan="1" valign="top">Implementar una interfaz de formulario que permite crear las fechas de riego</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T8</td><td colspan="1" valign="top">Lista de fechas de riego</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todas las fechas de riego creadas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">E3-US106</td><td colspan="1" rowspan="2" valign="top">Programacion de fechas de tratamiento</td><td colspan="1" valign="top">T9</td><td colspan="1" valign="top">Formulario de Tratamiento</td><td colspan="1" valign="top">Implementar una interfaz de formulario que permita crear fechas de tratamiento</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T10</td><td colspan="1" valign="top">Lista de fechas de tratamiento</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todas las fechas de tratamiento creados</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">E3-US107</td><td colspan="1" rowspan="2" valign="top">Proceso de recolección de la cosecha</td><td colspan="1" valign="top">T11</td><td colspan="1" valign="top">Interfaz de fecha de cosecha</td><td colspan="1" valign="top">Implementar una opción en la lista que permita crear fechas de cosechas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombres</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" valign="top">T12</td><td colspan="1" valign="top">Lista de fechas cosechas</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todas las fechas de cosecha creadas</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">E3-US108</td><td colspan="1" rowspan="2" valign="top">Proceso de análisis financiero de los cultivos</td><td colspan="1" valign="top">T13</td><td colspan="1" valign="top">Formulario de finanzas</td><td colspan="1" valign="top">Implementar una opcion en las lista que permita crear datos financieros</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombres</td><td colspan="1" valign="top">estados</td></tr>
-<tr><td colspan="1" valign="top">T14</td><td colspan="1" valign="top">Lista de datos financieros</td><td colspan="1" valign="top">Implementar una lista que permita visualizar todos los datos financieros creados</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<td colspan="1" rowspan="1" valign="top">E5-US102</td><td colspan="1" rowspan="1" valign="top">Página no encontrada</td><td colspan="1" valign="top">T21</td><td colspan="1" valign="top">Interfaz de error 404</td><td colspan="1" valign="top">Implementar una interfaz de error 404 cuando se accede a un link inexistente o incorrecto</td><td colspan="1" valign="top">horas</td><td colspan="1" valign="top">nombre</td><td colspan="1" valign="top">estado</td></tr>
-<tr></tr>
-</table>
+| Sprint # | User Story | Work-item / Task | Description                                         | Estimation (Hours) | Assigned To | Status |
+| -------- | ---------- | ---------------- | --------------------------------------------------- | ------------------ | ----------- | ------ |
+| Sprint 2 | E2-US102   | T1               | Interfaz de usuario del inicio de sesión de cuentas | 4                  | Fabiola     | Done   |
+| Sprint 2 | E3-US101   | T2               | Formulario crear campo de cultivo                   | 4                  | Ricardo     | Done   |
+| Sprint 2 | E3-US101   | T3               | Interfaz del campo de cultivo                       | 4                  | Sihuar      | Done   |
+| Sprint 2 | E3-US102   | T4               | Toolbar de navegación del productor agrícola        | 3                  | Hardie      | Done   |
+| Sprint 2 | E3-US103   | T5               | Pantalla de inicio del proceso agrícola             | 5                  | Fabiola     | Done   |
+| Sprint 2 | E3-US103   | T6               | Formulario de planteación                           | 4                  | Ricardo     | Done   |
+| Sprint 2 | E3-US104   | T7               | Formulario de Riego                                 | 4                  | Sihuar      | Done   |
+| Sprint 2 | E3-US104   | T8               | Lista de fechas de riego                            | 4                  | Hardie      | Done   |
+| Sprint 2 | E3-US106   | T9               | Formulario de Tratamiento                           | 4                  | Fabiola     | Done   |
+| Sprint 2 | E3-US106   | T10              | Lista de fechas de tratamiento                      | 3                  | Ricardo     | Done   |
+| Sprint 2 | E3-US107   | T11              | Interfaz de fecha de cosecha                        | 4                  | Sihuar      | Done   |
+| Sprint 2 | E3-US107   | T12              | Lista de fechas cosechas                            | 3                  | Hardie      | Done   |
+| Sprint 2 | E3-US108   | T13              | Formulario de finanzas                              | 4                  | Fabiola     | Done   |
+| Sprint 2 | E3-US108   | T14              | Lista de datos financieros                          | 3                  | Ricardo     | Done   |
+| Sprint 2 | E5-US102   | T21              | Interfaz de error 404                               | 3                  | Sihuar      | Done   |
+
 
 #### 6.2.2.3. Development Evidence for Sprint Review
 
-| Repository                | Branch                            | Commit ID | Commit Message                                             | Commit Message Body | Commited On(Date) |
-|---------------------------|-----------------------------------|-----------|------------------------------------------------------------|---------------------|-------------------|
-| agrocontrol-front-end     | feature/crop-treatment-form       | 1f5b64e   | refactor: improve styles for responsiveness                | -                   | 05/09/2024        |
-| agrocontrol-front-end     | feature/crop-treatment-table      | 7fea01d   | refactor(fields): changes.                                 | -                   | 05/09/2024        |
-| agrocontrol-front-end     | feature/fields-form               | 7fea01d   | feat(main): add routing to main component.                 | -                   | 05/09/2024        |
-| agrocontrol-front-end     | feature/harvest-scheduler         | 7fea01d   | feat(agricultural-process): add harvest service            | -                   | 05/09/2024        |
-| agrocontrol-front-end     | feature/home-agricultural-process | 1f5b64e   | feat: update some of information of app archives           | -                   | 05/09/2024        |
-| agrocontrol-front-end     | feature/irrigation-form           | 84ed335   | feat(main): add routing to main component.                 | -                   | 05/09/2024        |
-| agrocontrol-front-end     | feature/login                     | 7fea01d   | feat(main): add login to routing.                          | -                   | 05/09/2024        |
-| agrocontrol-front-end     | feature/pop-up-irrigation         | 01d4b8c   | Merge branch 'develop' into feature/crop-treatments-table  | -                   | 03/09/2024        |
+| Repository                | Branch                            | Commit ID | Commit Message                                             | Commited On(Date) |
+|---------------------------|-----------------------------------|-----------|------------------------------------------------------------|-------------------|
+| agrocontrol-front-end     | feature/crop-treatment-form       | 1f5b64e   | refactor: improve styles for responsiveness                | 05/09/2024        |
+| agrocontrol-front-end     | feature/crop-treatment-table      | 7fea01d   | refactor(fields): changes.                                 | 05/09/2024        |
+| agrocontrol-front-end     | feature/fields-form               | 7fea01d   | feat(main): add routing to main component.                 | 05/09/2024        |
+| agrocontrol-front-end     | feature/harvest-scheduler         | 7fea01d   | feat(agricultural-process): add harvest service            | 05/09/2024        |
+| agrocontrol-front-end     | feature/home-agricultural-process | 1f5b64e   | feat: update some of information of app archives           | 05/09/2024        |
+| agrocontrol-front-end     | feature/irrigation-form           | 84ed335   | feat(main): add routing to main component.                 | 05/09/2024        |
+| agrocontrol-front-end     | feature/login                     | 7fea01d   | feat(main): add login to routing.                          | 05/09/2024        |
+| agrocontrol-front-end     | feature/pop-up-irrigation         | 01d4b8c   | Merge branch 'develop' into feature/crop-treatments-table  | 03/09/2024        |
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
 En el alcance del sprint 2 se ha desarrollado el front end de la aplicación web como primera instancia, por lo que no se evidencia de testing.
@@ -2465,6 +2463,8 @@ A continuación, se presenta la documentación de los servicios utilizados. En e
 <img src="https://raw.githubusercontent.com/W3bW0rks/project-report/refs/heads/develop/assets/chapter-5-images/sprint2/evidence.png" style="width: 700px;"/>
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+
 #### 6.2.2.8. Team Collaboration Insights during Sprint  
 A continuación se mostrarán el gráfico de insights durante el sprint:  
 
@@ -2473,6 +2473,31 @@ Gráfico que representa la colaboración del equipo en la creación de landing p
 
 Gráfico que muestra los insights de colaboración del equipo en el desarrollo del frontend.  
 <img src="./assets/collaboration insights/sprint3/insights-frontend.png" alt="insights-fronted" style="width: 700px;"/>
+
+
+
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+En el siguiente apartado, se presentará el sprint planning 3, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances del proyecto e insights de colaboración a través de Github.
+
+#### 6.2.3.2. Sprint Backlog 3
+En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.
+
+Link de Trello:
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint
+
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
