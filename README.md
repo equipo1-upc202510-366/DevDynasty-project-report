@@ -2501,6 +2501,33 @@ En esta sección se muestran los tasks que se realizaron en el presente sprint y
 
 Link de Trello:
 
+| Sprint # | User Story | Work-item / Task                        | Description                                                      | Estimation (Hours) | Assigned To | Status |
+| -------- | ---------- | --------------------------------------- | ---------------------------------------------------------------- | ------------------ | ----------- | ------ |
+| Sprint 3 | E6-US02    | Register User                           | Implementar registro de usuario a través del API                 | 4                  | Fabiola     | Done   |
+| Sprint 3 | E6-US03    | User Login                              | Crear funcionalidad de inicio de sesión mediante el API          | 3                  | Ricardo     | Done   |
+| Sprint 3 | E6-US04    | Get User Information                    | Implementar endpoint para obtener información del usuario        | 3                  | Sihuar      | Done   |
+| Sprint 3 | E6-US05    | Create Planting Record                  | Crear registro de plantación a través de API                     | 5                  | Fabiola     | Done   |
+| Sprint 3 | E6-US06    | Get Plantation Registration Information | Implementar endpoint para obtener información de plantación      | 4                  | Ricardo     | Done   |
+| Sprint 3 | E6-US07    | End Planting Cycle                      | Función para finalizar ciclo de plantación                       | 6                  | Sihuar      | Done   |
+| Sprint 3 | E6-US08    | Add Worker Record                       | Crear registro de trabajador a través del API                    | 3                  | Hardie      | Done   |
+| Sprint 3 | E6-US09    | Get Worker Registration                 | Obtener información de registro de trabajadores                  | 3                  | Fabiola     | Done   |
+| Sprint 3 | E6-US10    | Delete Worker Record                    | Eliminar registro de trabajador a través del API                 | 4                  | Ricardo     | Done   |
+| Sprint 3 | E6-US11    | Edit Worker Record                      | Implementar edición de registro de trabajador                    | 4                  | Sihuar      | Done   |
+| Sprint 3 | E6-US12    | Create Irrigation Dates                 | Crear fechas de irrigación mediante el API                       | 5                  | Hardie      | Done   |
+| Sprint 3 | E6-US13    | Get Irrigation Dates                    | Obtener fechas de irrigación de un campo                         | 3                  | Fabiola     | Done   |
+| Sprint 3 | E6-US14    | Delete Irrigation                       | Función para eliminar registros de irrigación                    | 4                  | Ricardo     | Done   |
+| Sprint 3 | E6-US15    | Add Treatment                           | Crear registro de tratamiento para los cultivos                  | 6                  | Sihuar      | Done   |
+| Sprint 3 | E6-US16    | Get Treatment                           | Obtener información de tratamientos aplicados                    | 3                  | Hardie      | Done   |
+| Sprint 3 | E6-US17    | Delete Treatment                        | Función para eliminar tratamientos de cultivos                   | 4                  | Fabiola     | Done   |
+| Sprint 3 | E6-US18    | Create Harvest                          | Implementar registro de cosecha a través del API                 | 6                  | Ricardo     | Done   |
+| Sprint 3 | E6-US19    | Get Harvest                             | Obtener información de cosechas registradas                      | 3                  | Sihuar      | Done   |
+| Sprint 3 | E6-US20    | Delete Harvest                          | Eliminar registros de cosechas                                   | 4                  | Hardie      | Done   |
+| Sprint 3 | E6-US21    | Create Financing                        | Crear registro de financiamiento a través del API                | 5                  | Fabiola     | Done   |
+| Sprint 3 | E6-US22    | Get Financing                           | Obtener información de financiamiento                            | 3                  | Ricardo     | Done   |
+| Sprint 3 | E6-US23    | Delete Financing                        | Función para eliminar registros de financiamiento                | 4                  | Sihuar      | Done   |
+| Sprint 3 | E6-US24    | Process Payment Subscription            | Implementar el procesamiento de pagos internamente en el sistema | 7                  | Hardie      | Done   |
+
+
 #### 6.2.3.3. Development Evidence for Sprint Review
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
