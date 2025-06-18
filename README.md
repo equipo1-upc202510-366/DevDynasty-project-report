@@ -2533,8 +2533,11 @@ Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](ht
 
 #### 6.2.3.3. Development Evidence for Sprint Review
 
+![Development Evidence](assets/img/chapter-6/img-sprint3-develop-evidence.png)
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
