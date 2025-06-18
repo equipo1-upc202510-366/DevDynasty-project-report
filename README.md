@@ -2478,6 +2478,8 @@ Gráfico que muestra los insights de colaboración del equipo en el desarrollo d
 
 ### 6.2.3. Sprint 3
 
+![Sprint AgroControl 1](assets/img/chapter-4/img-sprint-agrocontrol-3.png)
+
 #### 6.2.3.1. Sprint Planning 3
 En el siguiente apartado, se presentará el sprint planning 3, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances del proyecto e insights de colaboración a través de Github.
 
@@ -2499,7 +2501,8 @@ En el siguiente apartado, se presentará el sprint planning 3, donde se mostrar�
 #### 6.2.3.2. Sprint Backlog 3
 En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.
 
-Link de Trello:
+Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](https://trello.com/b/XXOkZKCL)  
+
 
 | Sprint # | User Story | Work-item / Task                        | Description                                                      | Estimation (Hours) | Assigned To | Status |
 | -------- | ---------- | --------------------------------------- | ---------------------------------------------------------------- | ------------------ | ----------- | ------ |
@@ -2529,6 +2532,7 @@ Link de Trello:
 
 
 #### 6.2.3.3. Development Evidence for Sprint Review
+
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
 
