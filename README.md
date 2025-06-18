@@ -2537,7 +2537,7 @@ Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](ht
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
 
-
+![Development Evidence](assets/img/chapter-6/img-sprint-3-testing.png)
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
