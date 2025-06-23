@@ -2475,10 +2475,10 @@ A continuación, se presenta la documentación de los servicios utilizados. En e
 A continuación se mostrarán el gráfico de insights durante el sprint:  
 
 Gráfico que representa la colaboración del equipo en la creación de landing page.  
-<img src="./assets/collaboration insights/sprint3/insights-landing.png" alt="insights-landing" style="width: 700px;"/>  
+![Team Collaboration Insights](assets/img/chapter-6/Insights.png)
 
 Gráfico que muestra los insights de colaboración del equipo en el desarrollo del frontend.  
-<img src="./assets/collaboration insights/sprint3/insights-frontend.png" alt="insights-fronted" style="width: 700px;"/>
+![Team Collaboration Insights](assets/img/chapter-6/Insights.png)
 
 
 
@@ -2744,7 +2744,7 @@ En general, Gabriel expresó una opinión positiva sobre Agrocontrol, resaltando
 ## 6.4. Video About-the-Product.  
 Esta sección se centra en proporcionar un recurso audiovisual que ofrece una visión general del producto. El video está diseñado para mostrar las características clave, beneficios y potenciales usos del producto de manera atractiva y comprensible. A través de imágenes en movimiento y narraciones, el objetivo es captar la atención de la audiencia y servir como una herramienta efectiva para la promoción y educación sobre el producto.  
 
-LINK DEL VIDEO ABOUT-THE-PRODUCT: https://www.youtube.com/watch?v=LwAOLcqldXI
+LINK DEL VIDEO ABOUT-THE-PRODUCT: https://www.youtube.com/watch?v=xJRlaHrNt9k
 
 <img src ="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/chapter-5-images/abouttheproduct.jpeg" width="700px" height="300px"/>
 
