@@ -2842,6 +2842,7 @@ Entrevistas #02: *Gabriel Bernal* (*25 años - Lima) - **17 de noviembre del 202
 - Mozilla Firefox   
 
 <img src="assets/img/chapter-6/interview1.png" alt="Evidencia Productor Agricola 2" width="800px">  
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220250_upc_edu_pe/EbAFJ_6np2lElYe8sPeLYoABSVtyaxnG_RTFRfbMSvE6yQ?e=dy1NhC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D	
 
 **Registro de entrevista:**  
 <p align="justify">
