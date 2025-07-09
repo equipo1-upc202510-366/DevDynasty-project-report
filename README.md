@@ -2484,46 +2484,60 @@ Gráfico que muestra los insights de colaboración del equipo en el desarrollo d
 
 
 
-### 6.2.4. Sprint 4
+### 6.2.3. Sprint 3
 
-![Sprint AgroControl 1](assets/img/chapter-4/img-sprint4.png)
+![Sprint AgroControl 1](assets/img/chapter-4/img-sprint-agrocontrol-3.png)
 
-#### 6.2.4.1. Sprint Planning 4
-En el siguiente apartado, se presentará el sprint planning 4, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances finales del proyecto e insights de colaboración a través de Github.
+#### 6.2.3.1. Sprint Planning 3
+En el siguiente apartado, se presentará el sprint planning 3, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances del proyecto e insights de colaboración a través de Github.
 
 
-| **Sprint #**                     | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Sprint #**                     | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | -------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Date**         | 08/07/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Time**                         | 6:00 horas (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint Planning Date**         | 16/10/2024                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Time**                         | 11:00 horas (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Location**                     | Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Prepared By**                  | Hardie Holguin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Attendees**                    | Fabiola Espinoza, Ricardo Barrutia, Eduardo Sihuar                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Sprint Review Summary**        | En este sprint se han realizado mejoras en el Product Backlog, se agrego el último sprint y el avance final de los videos de About th Team, About the Product y Validation. Se han corregido algunos problemas en el Sprint 3 y se ha progresado con el diseño e implementación de nuevas vistas.                                                                                                                                                                                                       |
+| **Sprint Review Summary**        | En este sprint se han realizado mejoras en el Product Backlog, se han ajustado los User Flows y se han mejorado los Call to Action en la landing page. Además, avanzamos en el desarrollo de las pantallas en Kotlin y Flutter. Se han corregido algunos problemas en el Sprint 2 y se ha progresado con el diseño e implementación de nuevas vistas.                                                                                                                                                   |
 | **Sprint Retrospective Summary** | El equipo ha trabajado de manera colaborativa, enfocándose en las mejoras del flujo de trabajo y corrigiendo los puntos débiles del sprint anterior. Algunos miembros del equipo contribuyeron de manera destacada en el avance de las pantallas en Kotlin. Se identificarán y abordarán los problemas que surgieron al integrar los componentes en Flutter.                                                                                                                                            |
 | **Sprint Goal**                  | En este sprint, el objetivo principal es optimizar la interfaz y la interacción con los usuarios, consolidando las mejoras del Product Backlog y avanzando con el desarrollo de las pantallas en Kotlin. Además, se implementarán nuevas funcionalidades en Flutter para completar las pantallas de la aplicación. Se busca integrar y probar las funcionalidades de la plataforma agrícola, incluyendo la visualización de datos y la integración de calendarios para la planificación de actividades. |
 | **Sprint Velocity**              | 28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Sum of Story Points**          | 30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 
-#### 6.2.4.2. Sprint Backlog 4
+#### 6.2.3.2. Sprint Backlog 3
 En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.
 
-Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](https://trello.com/invite/b/686dda0d92140fe61783e121/ATTIb9a4a0e856f2d08e2a106c67b9d6edd29BF45650/sprint4)  
+Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](https://trello.com/b/XXOkZKCL)
 
 
-| Sprint # | User Story | Work-item / Task                                 | Description                                                                | Estimation (Hours) | Assigned To | Status |
-|----------|------------|--------------------------------------------------|----------------------------------------------------------------------------| ------------------ | ----------- | ------ |
-| Sprint 4 | E6-US25    | Crear suscripcion                                | Crear suscripción a través de la API para registrarla en la base de datos. | 4                  | Fabiola     | Done   |
-| Sprint 4 | E6-US26    | Obtener suscripcion                              | Obtener información de la suscripción a través de la API.                  | 3                  | Ricardo     | Done   |
-| Sprint 4 | E6-US27    | Renovar suscripcion                              | Renovar la suscripción a través de la API.                                 | 3                  | Sihuar      | Done   |
-| Sprint 4 | E6-US28    | Backend API Deployment                           | Desplego de la app movil.                                                  | 5                  | Fabiola     | Done   |
-| Sprint 4 | E6-US29    | Connect plan view to API                         | Despliego de la platalla de planes.                                        | 4                  | Ricardo     | Done   |
-| Sprint 4 | E6-US30    | Update message of successful-registration-dialog | Actualizacion del mensaje de registro                                      | 6                  | Sihuar      | Done   |
-| Sprint 4 | E6-US31    | Frontend Page Deployment                         | Frontend desplegado                                                        | 3                  | Hardie      | Done   |
-| Sprint 4 | E6-US32    | Payment View Development                         | Despliego de la pantalla de pagos.                                         | 3                  | Fabiola     | Done   |
-| Sprint 4 | E6-US33    | Actualizar plan de suscripción                   | Actualizar el plan de suscripción a través de la API.                      | 4                  | Ricardo     | Done   |
-| Sprint 4 | E6-US34    | Connect plan view to API                         | Conectar pantalla de plan con el api.                                      | 4                  | Sihuar      | Done   |
+
+| Sprint # | User Story | Work-item / Task                        | Description                                                      | Estimation (Hours) | Assigned To | Status |
+| -------- | ---------- |-----------------------------------------| ---------------------------------------------------------------- | ------------------ | ----------- | ------ |
+| Sprint 3 | E6-US25    | Crear Registro                          | Implementar registro de usuario a través del API                 | 4                  | Fabiola     | Done   |
+| Sprint 3 | E6-US26    | User Login                              | Crear funcionalidad de inicio de sesión mediante el API          | 3                  | Ricardo     | Done   |
+| Sprint 3 | E6-US27    | Get User Information                    | Implementar endpoint para obtener información del usuario        | 3                  | Sihuar      | Done   |
+| Sprint 3 | E6-US28    | Create Planting Record                  | Crear registro de plantación a través de API                     | 5                  | Fabiola     | Done   |
+| Sprint 3 | E6-US29    | Get Plantation Registration Information | Implementar endpoint para obtener información de plantación      | 4                  | Ricardo     | Done   |
+| Sprint 3 | E6-US07    | End Planting Cycle                      | Función para finalizar ciclo de plantación                       | 6                  | Sihuar      | Done   |
+| Sprint 3 | E6-US08    | Add Worker Record                       | Crear registro de trabajador a través del API                    | 3                  | Hardie      | Done   |
+| Sprint 3 | E6-US09    | Get Worker Registration                 | Obtener información de registro de trabajadores                  | 3                  | Fabiola     | Done   |
+| Sprint 3 | E6-US10    | Delete Worker Record                    | Eliminar registro de trabajador a través del API                 | 4                  | Ricardo     | Done   |
+| Sprint 3 | E6-US11    | Edit Worker Record                      | Implementar edición de registro de trabajador                    | 4                  | Sihuar      | Done   |
+| Sprint 3 | E6-US12    | Create Irrigation Dates                 | Crear fechas de irrigación mediante el API                       | 5                  | Hardie      | Done   |
+| Sprint 3 | E6-US13    | Get Irrigation Dates                    | Obtener fechas de irrigación de un campo                         | 3                  | Fabiola     | Done   |
+| Sprint 3 | E6-US14    | Delete Irrigation                       | Función para eliminar registros de irrigación                    | 4                  | Ricardo     | Done   |
+| Sprint 3 | E6-US15    | Add Treatment                           | Crear registro de tratamiento para los cultivos                  | 6                  | Sihuar      | Done   |
+| Sprint 3 | E6-US16    | Get Treatment                           | Obtener información de tratamientos aplicados                    | 3                  | Hardie      | Done   |
+| Sprint 3 | E6-US17    | Delete Treatment                        | Función para eliminar tratamientos de cultivos                   | 4                  | Fabiola     | Done   |
+| Sprint 3 | E6-US18    | Create Harvest                          | Implementar registro de cosecha a través del API                 | 6                  | Ricardo     | Done   |
+| Sprint 3 | E6-US19    | Get Harvest                             | Obtener información de cosechas registradas                      | 3                  | Sihuar      | Done   |
+| Sprint 3 | E6-US20    | Delete Harvest                          | Eliminar registros de cosechas                                   | 4                  | Hardie      | Done   |
+| Sprint 3 | E6-US21    | Create Financing                        | Crear registro de financiamiento a través del API                | 5                  | Fabiola     | Done   |
+| Sprint 3 | E6-US22    | Get Financing                           | Obtener información de financiamiento                            | 3                  | Ricardo     | Done   |
+| Sprint 3 | E6-US23    | Delete Financing                        | Función para eliminar registros de financiamiento                | 4                  | Sihuar      | Done   |
+| Sprint 3 | E6-US24    | Process Payment Subscription            | Implementar el procesamiento de pagos internamente en el sistema | 7                  | Hardie      | Done   |
 
 
 #### 6.2.3.3. Development Evidence for Sprint Review
@@ -2617,32 +2631,141 @@ Swagger Ui: Herramienta destinada a probar y documentar nuestra API.
 ![Team Collaboration Insights](assets/img/chapter-6/img-sprint3-insights.jpeg)
 
 
-### 6.2.3. Sprint 3
-
-![Sprint AgroControl 1](assets/img/chapter-4/img-sprint-agrocontrol-3.png)
-
-#### 6.2.3.1. Sprint Planning 3
-En el siguiente apartado, se presentará el sprint planning 3, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances del proyecto e insights de colaboración a través de Github.
 
 
-| **Sprint #**                     | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+### 6.2.4. Sprint 4
+
+![Sprint AgroControl 1](assets/img/chapter-4/img-sprint4.png)
+
+#### 6.2.4.1. Sprint Planning 4
+En el siguiente apartado, se presentará el sprint planning 4, donde se mostrará la planificación e implementación del web application. Asimismo, se mostrarán los avances finales del proyecto e insights de colaboración a través de Github.
+
+
+| **Sprint #**                     | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | -------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Date**         | 16/10/2024                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Time**                         | 11:00 horas (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sprint Planning Date**         | 08/07/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Time**                         | 6:00 horas (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Location**                     | Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Prepared By**                  | Hardie Holguin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Attendees**                    | Fabiola Espinoza, Ricardo Barrutia, Eduardo Sihuar                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Sprint Review Summary**        | En este sprint se han realizado mejoras en el Product Backlog, se han ajustado los User Flows y se han mejorado los Call to Action en la landing page. Además, avanzamos en el desarrollo de las pantallas en Kotlin y Flutter. Se han corregido algunos problemas en el Sprint 2 y se ha progresado con el diseño e implementación de nuevas vistas.                                                                                                                                                   |
+| **Sprint Review Summary**        | En este sprint se han realizado mejoras en el Product Backlog, se agrego el último sprint y el avance final de los videos de About th Team, About the Product y Validation. Se han corregido algunos problemas en el Sprint 3 y se ha progresado con el diseño e implementación de nuevas vistas.                                                                                                                                                                                                       |
 | **Sprint Retrospective Summary** | El equipo ha trabajado de manera colaborativa, enfocándose en las mejoras del flujo de trabajo y corrigiendo los puntos débiles del sprint anterior. Algunos miembros del equipo contribuyeron de manera destacada en el avance de las pantallas en Kotlin. Se identificarán y abordarán los problemas que surgieron al integrar los componentes en Flutter.                                                                                                                                            |
 | **Sprint Goal**                  | En este sprint, el objetivo principal es optimizar la interfaz y la interacción con los usuarios, consolidando las mejoras del Product Backlog y avanzando con el desarrollo de las pantallas en Kotlin. Además, se implementarán nuevas funcionalidades en Flutter para completar las pantallas de la aplicación. Se busca integrar y probar las funcionalidades de la plataforma agrícola, incluyendo la visualización de datos y la integración de calendarios para la planificación de actividades. |
 | **Sprint Velocity**              | 28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Sum of Story Points**          | 30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 
-#### 6.2.3.2. Sprint Backlog 3
+#### 6.2.4.2. Sprint Backlog 4
 En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.
 
-Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](https://trello.com/b/XXOkZKCL)
+Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](https://trello.com/invite/b/686dda0d92140fe61783e121/ATTIb9a4a0e856f2d08e2a106c67b9d6edd29BF45650/sprint4)
+
+
+| Sprint # | User Story | Work-item / Task                                 | Description                                                                | Estimation (Hours) | Assigned To | Status |
+|----------|------------|--------------------------------------------------|----------------------------------------------------------------------------| ------------------ | ----------- | ------ |
+| Sprint 4 | E6-US25    | Crear suscripcion                                | Crear suscripción a través de la API para registrarla en la base de datos. | 4                  | Fabiola     | Done   |
+| Sprint 4 | E6-US26    | Obtener suscripcion                              | Obtener información de la suscripción a través de la API.                  | 3                  | Ricardo     | Done   |
+| Sprint 4 | E6-US27    | Renovar suscripcion                              | Renovar la suscripción a través de la API.                                 | 3                  | Sihuar      | Done   |
+| Sprint 4 | E6-US28    | Backend API Deployment                           | Desplego de la app movil.                                                  | 5                  | Fabiola     | Done   |
+| Sprint 4 | E6-US29    | Connect plan view to API                         | Despliego de la platalla de planes.                                        | 4                  | Ricardo     | Done   |
+| Sprint 4 | E6-US30    | Update message of successful-registration-dialog | Actualizacion del mensaje de registro                                      | 6                  | Sihuar      | Done   |
+| Sprint 4 | E6-US31    | Frontend Page Deployment                         | Frontend desplegado                                                        | 3                  | Hardie      | Done   |
+| Sprint 4 | E6-US32    | Payment View Development                         | Despliego de la pantalla de pagos.                                         | 3                  | Fabiola     | Done   |
+| Sprint 4 | E6-US33    | Actualizar plan de suscripción                   | Actualizar el plan de suscripción a través de la API.                      | 4                  | Ricardo     | Done   |
+| Sprint 4 | E6-US34    | Connect plan view to API                         | Conectar pantalla de plan con el api.                                      | 4                  | Sihuar      | Done   |
+
+
+#### 6.2.4.3. Development Evidence for Sprint Review
+
+![Development Evidence](assets/img/chapter-6/img-development-evidence-sprint4.png)
+
+#### 6.2.4.4. Testing Suite Evidence for Sprint Review
+
+![Testing Evidence](assets/img/chapter-6/img-testing-suite-evidence-sprint4.png)
+
+#### 6.2.4.5. Execution Evidence for Sprint Review
+
+![Execution Evidence](assets/img/chapter-6/img-execution-evidence-sprint4.png)
+
+#### 6.2.4.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se mostrarán los endpoints creados durante el sprint actual, junto con capturas de pantalla de las acciones CRUD y otros métodos implementados. En el alcance del sprint, se han desarrollado los bounded contexts de monetización, colaboración, usuario y contenido.
+
+
+Se adjunta el link del repositorio back-end GitHub: https://github.com/W3bW0rks/Agrocontrol-backend
+
+<table>
+  <tr>
+   <th style="text-align:center;"><strong> Bounded Context </strong> </th>
+    <th colspan="2" style="text-align:center;">   </th>
+  </tr>
+
+  <tr>
+   <th style="text-align:center;"> <strong> Entity </strong> </th>
+    <th style="text-align:center;"> <strong> Enpoint Url </strong> </th>
+    <th style="text-align:center;"> <strong> Swagger </strong> </th>
+  </tr>
+
+  <tr>
+   <th style="text-align:center;"> <strong> agriculturalProcess Bounded Context </strong> </th>
+    <th> <strong> /api/v1/agricultural-processes </strong> </th>
+    <th> <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/76e7ad49cd4ad9c0781c102e3203901a6f8701c8/assets/chapter-5-images/sprint3/agricultural-process.png"> </th>
+  </tr>
+
+
+  <tr>
+   <th> <strong> fields Bounded Context </strong> </th>
+    <th> <strong> /api/v1/fields | /api/v1/workers </strong> </th>
+    <th> <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/76e7ad49cd4ad9c0781c102e3203901a6f8701c8/assets/chapter-5-images/sprint3/fields.png"> </th>
+  </tr>
+
+  <tr>
+   <th> <strong> finances Bounded Context </strong> </th>
+    <th> <strong> /api/v1/finances </strong> </th>
+    <th> <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/76e7ad49cd4ad9c0781c102e3203901a6f8701c8/assets/chapter-5-images/sprint3/finances.png"> </th>
+  </tr>
+
+  <tr>
+   <th> <strong> iam Bounded Context </strong> </th>
+    <th> <strong> /api/v1/users | /api/v1/roles | /api/v1/authentication </strong> </th>
+    <th> <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/76e7ad49cd4ad9c0781c102e3203901a6f8701c8/assets/chapter-5-images/sprint3/Authentication.png"> </th>
+  </tr>
+
+<tr>
+   <th> <strong> payments Bounded Context </strong> </th>
+    <th> <strong> /api/v1/payments </strong> </th>
+    <th> <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/76e7ad49cd4ad9c0781c102e3203901a6f8701c8/assets/chapter-5-images/sprint3/Payments.png"> </th>
+  </tr>
+
+  <tr>
+   <th> <strong> profiles Bounded Context </strong> </th>
+    <th> <strong> /api/v1/profiles </strong> </th>
+    <th> <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/76e7ad49cd4ad9c0781c102e3203901a6f8701c8/assets/chapter-5-images/sprint3/PROFILES.png"> </th>
+  </tr>
+
+  <tr>
+   <th> <strong> store Bounded Context </strong> </th>
+    <th> <strong> /api/v1/products </strong> </th>
+    <th> <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/develop/assets/chapter-5-images/sprint3/products.png"> </th>
+  </tr>
+
+</table>
+
+
+#### 6.2.4.7. Software Deployment Evidence for Sprint Review
+
+En este sprint, se ha desarrollado la API de la aplicación web, utilizando las siguientes herramientas. No obstante, el despliegue de la API no está incluido en el alcance de este sprint.
+
+Git: Sistema de control de versiones que utilizamos para colaborar y rastrear las versiones de la aplicación web en un repositorio remoto.
+Gitflow: Proceso de trabajo colaborativo que nos permitió organizar el trabajo en ramas dentro de nuestro repositorio, facilitando así la colaboración en el desarrollo.
+GitHub: Plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto.
+Swagger Ui: Herramienta destinada a probar y documentar nuestra API.
+
+#### 6.2.4.8. Team Collaboration Insights during Sprint
+
+![Team Collaboration Insights](assets/img/chapter-6/img-inshigt-collaboration.png)
+
+
 
 
 ## 6.3. Validation Interviews.
