@@ -2798,7 +2798,7 @@ Swagger Ui: Herramienta destinada a probar y documentar nuestra API.
 
 **Segmento: Distribuidores**
 
-Entrevistas #01: **William Ramos** (**28 años - Miraflores**) - **17 de noviembre del 2024**  
+Entrevistas #01: **Stephano Espinoza** (**25 años - Miraflores**) - **01 de Julio del 2025**  
 
 **Servicios:** 
 - Google Chrome
@@ -2809,11 +2809,11 @@ Entrevistas #01: **William Ramos** (**28 años - Miraflores**) - **17 de noviemb
 
 **Registro de entrevista:**  
 <p align="justify">
-Durante la entrevista con William Ramos Vicente, un distribuidor de 28 años que reside en el distrito de Miraflores, se obtuvieron valiosos insights sobre su experiencia utilizando Agrocontrol. La conversación permitió identificar las áreas donde la plataforma aporta mayor valor y las oportunidades de mejora para ajustarse mejor a las necesidades de los distribuidores y sus clientes.
+Durante la entrevista con Stephano Espinoza, un distribuidor de 25 años que reside en el distrito de Miraflores, se obtuvieron valiosos insights sobre su experiencia utilizando Agrocontrol. La conversación permitió identificar las áreas donde la plataforma aporta mayor valor y las oportunidades de mejora para ajustarse mejor a las necesidades de los distribuidores y sus clientes.
 </p>
 
 <p align="justify">
-William destacó desde el inicio que Agrocontrol es una herramienta prometedora, especialmente porque automatiza procesos clave como la creación de inventarios en línea y los análisis financieros. Estas funciones no solo le ahorran tiempo, sino que también eliminan la necesidad de realizar cálculos manuales, algo que antes manejaba en papel o con Excel. Según su experiencia, estas características le permiten tener un control más preciso sobre las ganancias y la gestión de su tienda, algo que consideró muy valioso.
+Stephano destacó desde el inicio que Agrocontrol es una herramienta prometedora, especialmente porque automatiza procesos clave como la creación de inventarios en línea y los análisis financieros. Estas funciones no solo le ahorran tiempo, sino que también eliminan la necesidad de realizar cálculos manuales, algo que antes manejaba en papel o con Excel. Según su experiencia, estas características le permiten tener un control más preciso sobre las ganancias y la gestión de su tienda, algo que consideró muy valioso.
 </p>
 
 <p align="justify">
@@ -2821,15 +2821,15 @@ Cuando se le preguntó sobre las funcionalidades más útiles para mejorar la re
 </p>
 
 <p align="justify">
-Actualmente, William realiza el seguimiento de solicitudes y entregas mediante Excel, un método que considera eficiente pero ya anticuado y propenso a errores. Explicó que este sistema, aunque funcional, ha causado problemas en la actualización de inventarios. Relató un caso concreto donde la falta de sincronización en sus registros resultó en una pérdida de tiempo y dinero al aceptar pedidos para productos que ya no estaban en stock. Según William, Agrocontrol resuelve este problema al mantener un historial de ventas e inventarios actualizado y accesible en todo momento, lo que describe como un gran alivio para su trabajo diario.
+Actualmente, Stephano realiza el seguimiento de solicitudes y entregas mediante Excel, un método que considera eficiente pero ya anticuado y propenso a errores. Explicó que este sistema, aunque funcional, ha causado problemas en la actualización de inventarios. Relató un caso concreto donde la falta de sincronización en sus registros resultó en una pérdida de tiempo y dinero al aceptar pedidos para productos que ya no estaban en stock. Según Stephano, Agrocontrol resuelve este problema al mantener un historial de ventas e inventarios actualizado y accesible en todo momento, lo que describe como un gran alivio para su trabajo diario.
 </p>
 
 <p align="justify">
-En cuanto a las áreas de mejora para la plataforma, William sugirió incorporar un apartado que permita vincular redes sociales como Facebook, Instagram y TikTok. Consideró que esta funcionalidad ayudaría a aumentar la visibilidad de los productos y servicios de los distribuidores, ofreciendo así una herramienta adicional para captar clientes y fortalecer la relación con ellos. También mencionó que, aunque la plataforma es bastante intuitiva, sería útil ajustar ciertos términos en la interfaz. Específicamente, propuso cambiar "cantidad" por "stock" en algunas secciones, ya que esto evitaría confusiones para usuarios menos experimentados.
+En cuanto a las áreas de mejora para la plataforma, Stephano sugirió incorporar un apartado que permita vincular redes sociales como Facebook, Instagram y TikTok. Consideró que esta funcionalidad ayudaría a aumentar la visibilidad de los productos y servicios de los distribuidores, ofreciendo así una herramienta adicional para captar clientes y fortalecer la relación con ellos. También mencionó que, aunque la plataforma es bastante intuitiva, sería útil ajustar ciertos términos en la interfaz. Específicamente, propuso cambiar "cantidad" por "stock" en algunas secciones, ya que esto evitaría confusiones para usuarios menos experimentados.
 </p>
 
 <p align="justify">
-En términos generales, William expresó una opinión muy positiva sobre Agrocontrol. Valora la plataforma como una herramienta eficiente y bien diseñada que optimiza significativamente la gestión de su negocio. A pesar de las pequeñas áreas de mejora mencionadas, considera que Agrocontrol está en una posición excelente para resolver los desafíos cotidianos de los distribuidores y fortalecer la conexión con sus clientes agricultores. La claridad y precisión en el manejo de inventarios, junto con la automatización de procesos financieros, son aspectos que él destaca como fundamentales para recomendar la plataforma a otros usuarios.
+En términos generales, Stephano expresó una opinión muy positiva sobre Agrocontrol. Valora la plataforma como una herramienta eficiente y bien diseñada que optimiza significativamente la gestión de su negocio. A pesar de las pequeñas áreas de mejora mencionadas, considera que Agrocontrol está en una posición excelente para resolver los desafíos cotidianos de los distribuidores y fortalecer la conexión con sus clientes agricultores. La claridad y precisión en el manejo de inventarios, junto con la automatización de procesos financieros, son aspectos que él destaca como fundamentales para recomendar la plataforma a otros usuarios.
 </p>
 
 Entrevistas #02: *Gabriel Bernal* (*25 años - Lima) - **17 de noviembre del 2024*
