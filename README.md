@@ -2507,7 +2507,7 @@ En el siguiente apartado, se presentará el sprint planning 4, donde se mostrar�
 #### 6.2.4.2. Sprint Backlog 4
 En esta sección se muestran los tasks que se realizaron en el presente sprint y se adjunta una captura del tablero y el link en Trello.
 
-Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](https://trello.com/b/XXOkZKCL)  
+Link de Trello: [https://trello.com/b/XXOkZKCL/devdynasty-product-backlog-tp](https://trello.com/invite/b/686dda0d92140fe61783e121/ATTIb9a4a0e856f2d08e2a106c67b9d6edd29BF45650/sprint4)  
 
 
 | Sprint # | User Story | Work-item / Task                        | Description                                                      | Estimation (Hours) | Assigned To | Status |
